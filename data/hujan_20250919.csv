@@ -1,879 +1,129 @@
-0,1,2,3,4,5,6,7,8,9,10,11,12,state
-1,0010571RF,Wang Kelian (F2),Padang Besar,19/09/2025 18:30:00,0.0,0.0,0.5,1.0,6.5,8.0,9.5,0.0,Perlis
-2,0010461RF,Lubuk Sireh (F2),Padang Besar,19/09/2025 18:30:00,0.5,1.0,0.5,0.5,0.5,1.0,0.0,0.0,Perlis
-3,6602002,Kaki Bukit,Padang Besar,19/09/2025 18:00:00,5.0,1.0,19.0,0.0,4.0,5.0,0.0,0.0,Perlis
-4,6603002,Padang Besar,Padang Besar,19/09/2025 18:00:00,10.0,0.0,12.0,0.0,0.0,13.0,0.0,0.0,Perlis
-5,6602003,Padang Besar di Perlis (RHN),Padang Besar,19/09/2025 18:15:00,11.0,0.0,12.0,0.0,0.0,13.5,0.0,0.0,Perlis
-6,6602006,Kg. Chantik,Padang Besar,19/09/2025 18:00:00,4.0,0.0,21.0,0.0,1.0,8.0,0.0,0.0,Perlis
-7,0010421RF,Kg. Masjid (F2),Padang Besar,19/09/2025 18:30:00,2.5,0.0,17.5,0.0,1.5,9.5,0.0,0.0,Perlis
-8,6602004,Kg. Masjid,Padang Besar,19/09/2025 18:15:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Perlis
-9,6502011,Empangan Timah Tasuh,Padang Besar,19/09/2025 18:30:00,3.0,1.0,20.0,0.0,0.0,9.0,0.0,0.0,Perlis
-10,0010621RF,Kolam Sg. Buloh (F2),Padang Besar,19/09/2025 18:30:00,6.5,0.5,9.0,0.0,0.0,0.0,1.0,0.0,Perlis
-11,0010681RF,Ladang Perlis (F2),Arau,19/09/2025 18:30:00,4.5,0.0,14.0,0.0,0.0,0.5,0.0,0.0,Perlis
-12,6502012,Kg. Batu Bertangkup,Arau,19/09/2025 18:00:00,4.0,0.0,9.0,0.0,0.0,1.0,0.0,0.0,Perlis
-13,0000000RF,Kolam Sg. Serai 2 (N),Arau,19/09/2025 18:15:00,-9999.0,-9999.0,-9999.0,-9999.0,0.5,1.5,0.0,0.0,Perlis
-14,0010541RF,Tok Biduk (F2),Arau,19/09/2025 17:30:00,7.0,0.0,8.5,8.5,1.0,2.5,0.0,0.0,Perlis
-15,0010631RF,Kolam Sg. Jernih (F2),Arau,19/09/2025 18:30:00,4.5,0.0,12.5,0.0,0.0,2.5,0.0,0.0,Perlis
-16,0010491RF,Balik Guar (F2),Arau,19/09/2025 18:30:00,6.5,0.5,13.0,0.0,0.0,14.5,0.0,0.0,Perlis
-17,0010611RF,Kg. Gial (RHN),Arau,19/09/2025 18:15:00,5.0,0.5,13.5,0.0,0.0,47.5,0.0,0.0,Perlis
-18,6402009,Kg. Kuala Tunggang,Arau,19/09/2025 18:00:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Perlis
-19,6402007,Arau di Perlis (RHN),Arau,19/09/2025 18:15:00,6.0,0.5,10.5,0.0,1.0,9.5,0.0,0.0,Perlis
-20,0010271RF,Ulu Pauh (F2),Arau,19/09/2025 18:30:00,12.0,0.5,11.0,0.0,0.0,27.0,0.0,0.0,Perlis
-21,6403001,Ulu Pauh,Arau,19/09/2025 18:30:00,10.0,0.0,9.0,0.0,0.0,25.0,0.0,0.0,Perlis
-22,6302022,Changkat Jawi di Perlis (RHN),Arau,19/09/2025 18:15:00,14.0,0.5,14.0,0.0,0.5,1.0,1.5,0.0,Perlis
-23,0010511RF,Genting Kabu (F2),Kangar,19/09/2025 18:30:00,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,Perlis
-24,6501005,Abi Kg. Baru (RHN),Kangar,19/09/2025 18:15:00,4.0,0.5,22.5,0.0,3.5,5.0,0.0,0.0,Perlis
-25,6402010,Kg. Bakau,Kangar,19/09/2025 18:00:00,4.0,0.0,13.0,0.0,0.0,7.0,0.0,0.0,Perlis
-26,0010671RF,Tebing Tinggi (F2),Kangar,19/09/2025 18:30:00,3.5,0.5,23.5,23.5,1.0,5.5,1.0,0.0,Perlis
-27,6301001,Kg. Behor Lateh di Perlis (RHN),Kangar,19/09/2025 18:15:00,5.5,0.5,15.0,0.0,0.0,35.5,3.0,0.0,Perlis
-28,6401000,Kuala Perlis di Perlis (RHN),Kangar,19/09/2025 18:15:00,3.0,0.0,51.5,0.0,1.5,26.5,7.5,0.0,Perlis
-29,0010581RF,Simpang Ampat (F2),Kangar,19/09/2025 18:30:00,44.5,0.0,20.0,0.0,4.0,26.5,0.5,0.0,Perlis
-1,,Sek.Men.Keb. Bakai (F2),Baling,19/09/2025 18:30:00,9.5,0.5,25.5,0.0,0.0,0.0,0.0,0.0,Kedah
-2,,Gunung Mat Chinchang (F2),Pulau Langkawi,19/09/2025 18:30:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Kedah
-3,0050391RF,Ladang Henrietta (F2),Kulim,19/09/2025 18:30:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Kedah
-4,,Ulu Legong (F2),Baling,19/09/2025 10:30:00,27.5,0.0,4.0,0.0,0.0,0.0,0.0,0.0,Kedah
-5,1900151RF,Kg. Mawar (F2),Langkawi,19/09/2025 18:30:00,12.5,0.0,35.0,0.0,0.0,31.0,0.0,0.0,Kedah
-6,0020511RF,Kg. Paya Mat Inson (F2),Pendang,19/09/2025 18:30:00,5.5,0.0,18.5,0.0,0.5,0.0,0.0,0.0,Kedah
-7,0020601RF,Felda Sg. Tiang (F2),Pendang,19/09/2025 18:30:00,11.5,0.0,16.0,0.0,0.5,0.0,0.0,0.0,Kedah
-8,1900161RF,Hulu Empangan Saga (F2),Langkawi,19/09/2025 18:30:00,17.5,0.5,29.0,0.0,0.5,6.0,0.0,0.0,Kedah
-9,,Kg. Kontan (F2),Pokok Sena,19/09/2025 09:45:00,0.0,0.0,0.0,0.0,-9999.0,0.0,0.0,0.0,Kedah
-10,0050511RF,Kg. Iboi Kupang (F2),Baling,19/09/2025 18:30:00,18.5,4.5,4.5,0.5,0.0,0.0,0.0,0.0,Kedah
-11,,Sek.Keb. Sg. Tengas (F2),Bandar Baharu,19/09/2025 18:30:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Kedah
-12,,Masjid Intan Safinaz Lanai (F2),Baling,19/09/2025 18:30:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Kedah
-13,0090441RF,Sek.Keb. Sg. Kechil Hilir (F2),Bandar Baharu,19/09/2025 18:30:00,14.5,0.0,53.0,0.0,0.0,0.0,0.0,0.0,Kedah
-14,,Junjong (F2),Kulim,19/09/2025 18:30:00,9.5,0.0,50.5,0.0,0.0,0.0,0.0,0.0,Kedah
-15,,Kulim Hi-Tech (F2),Kulim,19/09/2025 18:30:00,8.0,0.0,43.5,0.0,0.0,0.0,0.0,0.0,Kedah
-16,,Terap (F2),Kulim,19/09/2025 18:15:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Kedah
-17,,Sek. Keb. Felda Bukit Tangga (F2),Kubang Pasu,19/09/2025 18:15:00,21.0,0.0,5.5,0.0,0.0,6.0,0.0,0.0,Kedah
-18,0020401RF,UUM Sintok (F2),Kubang Pasu,19/09/2025 18:15:00,23.0,0.0,7.0,0.0,0.0,20.5,0.0,0.0,Kedah
-19,,Felda Teloi Kanan (F2),Baling,19/09/2025 18:30:00,2.5,0.0,23.0,0.0,0.0,0.0,0.0,0.0,Kedah
-20,0050351RF,Kg. Baru (F2),Baling,19/09/2025 18:30:00,37.5,0.5,11.0,0.0,0.0,0.0,0.0,0.0,Kedah
-21,0050321RF,Kg. Sedim (F2),Baling,19/09/2025 18:15:00,14.0,0.0,27.5,5.5,0.0,0.0,0.0,0.0,Kedah
-22,0050551RF,Kg. Padang Pulai (F2),Baling,19/09/2025 18:30:00,44.5,10.5,2.5,9.0,1.5,0.0,0.0,0.0,Kedah
-23,,Kg. Rambong (F2),Baling,19/09/2025 18:30:00,-9999.0,-9999.0,-9999.0,-9999.0,-9999.0,0.0,0.0,0.0,Kedah
-24,0090431RF,Sek.Keb. Permatang Kerat Telunjuk (F2),Bandar Baharu,19/09/2025 18:30:00,5.5,0.0,41.5,0.0,0.0,0.0,0.0,0.0,Kedah
-25,,Wang Tepus (F2),Padang Terap,19/09/2025 18:15:00,9.0,0.5,17.0,0.0,0.0,2.5,0.0,0.0,Kedah
-26,0020521RF,Sek. Keb. Lamdin (F2),Padang Terap,19/09/2025 18:30:00,15.0,0.0,15.5,0.0,0.0,0.0,0.0,0.0,Kedah
-27,,Sek. Keb. Kampung Bukit (F2),Pokok Sena,19/09/2025 18:30:00,7.5,0.5,14.0,0.0,17.0,0.0,0.0,0.0,Kedah
-28,0050331RF,Gunung Raya (F2),Pulau Langkawi,19/09/2025 18:15:00,0.5,6.0,0.0,0.0,0.0,14.0,0.0,0.0,Kedah
-29,,Padang Matsirat (F2),Langkawi,19/09/2025 18:30:00,8.5,0.5,25.5,0.0,2.5,33.0,0.0,0.0,Kedah
-30,1900181RF,Kuah (F2),Langkawi,19/09/2025 18:15:00,12.5,0.0,33.5,0.0,0.0,18.5,0.0,0.0,Kedah
-31,0020541RF,Kg. Padang Pasir (F2),Kubang Pasu,19/09/2025 18:30:00,25.5,0.5,9.0,0.0,0.0,11.0,0.0,0.0,Kedah
-32,0020531RF,Kepala Batas (F2),Kubang Pasu,19/09/2025 18:30:00,4.5,0.0,7.5,0.0,0.0,7.5,0.0,0.0,Kedah
-33,0020491RF,Kilang Gula Pdg Terap (F2),Padang Terap,19/09/2025 18:30:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Kedah
-34,0020411RF,Jambatan Syed Omar (F2),Kuala Muda,19/09/2025 18:30:00,2.0,0.0,41.5,0.0,0.0,0.0,0.0,0.0,Kedah
-35,,Felcra Bukit Tampoi (F2),Pokok Sena,19/09/2025 18:30:00,9.5,0.0,11.0,0.0,7.0,0.0,0.0,0.0,Kedah
-36,0050721RF,Ampang Jajar PLSM (F2),Kota Setar,19/09/2025 18:15:00,4.0,0.0,32.5,0.0,0.0,0.0,0.0,0.0,Kedah
-37,0090401RF,Kg. Permatang Durian (F2),Kulim,19/09/2025 18:30:00,3.0,0.0,63.5,0.0,0.0,0.0,0.0,0.0,Kedah
-38,,Kg. Baru (F2),Kulim,19/09/2025 18:30:00,29.5,0.0,17.5,0.0,0.0,0.0,0.0,0.0,Kedah
-39,5305001,Kg Dusun (F2),Kulim,19/09/2025 18:30:00,23.5,0.0,70.0,0.0,0.5,0.0,0.0,0.0,Kedah
-40,0060161RF,JPS Kulim (F2),Kulim,19/09/2025 18:30:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Kedah
-41,,Kg. Air Merah (F2),Kulim,19/09/2025 18:30:00,10.0,0.0,76.5,0.0,0.0,0.0,0.0,0.0,Kedah
-42,0060321RF,Ladang Sg. Ular (F2),Kulim,19/09/2025 18:30:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Kedah
-43,,Kompleks Empangan Muda (F2),Sik,19/09/2025 18:30:00,12.0,0.5,1.5,0.0,0.0,0.0,0.0,0.0,Kedah
-44,0050541RF,Titi Nami (F2),Sik,19/09/2025 18:30:00,10.0,0.0,15.0,0.0,0.0,0.0,0.0,0.0,Kedah
-45,0050801RF,Kg. Lubuk Pusing (F2),Sik,19/09/2025 18:30:00,7.5,0.0,9.5,0.0,0.0,0.0,0.0,0.0,Kedah
-46,,Titi Pekan Sik (F2),Sik,19/09/2025 18:30:00,42.5,0.0,14.0,0.0,0.0,0.0,0.0,0.0,Kedah
-47,,Sek. Keb. Sg. Menghulu (F2),Langkawi,19/09/2025 18:30:00,9.5,0.0,45.5,0.0,0.5,25.5,0.0,0.0,Kedah
-48,,Ladang Dublin (F2),Kulim,19/09/2025 18:15:00,17.0,0.5,26.0,0.0,0.5,0.0,0.0,0.0,Kedah
-49,0020441RF,Pekan Pendang (F2),Pendang,19/09/2025 18:15:00,-9999.0,-9999.0,-9999.0,-9999.0,-9999.0,0.0,0.0,0.0,Kedah
-50,0050481RF,Bukit Kemboja (F2),Langkawi,19/09/2025 18:30:00,8.5,0.0,26.0,0.0,0.5,29.0,0.0,0.0,Kedah
-51,0050771RF,Kg.Padang Meha (F2),Kulim,19/09/2025 18:15:00,2.0,0.5,40.5,0.0,0.0,0.0,0.0,0.0,Kedah
-52,0090411RF,Sek.Keb. Relau (F2),Bandar Baharu,19/09/2025 18:15:00,2.5,0.0,-9999.0,-9999.0,0.0,0.0,0.0,0.0,Kedah
-53,,Kg. Pokok Sena Lama (F2),Pokok Sena,19/09/2025 18:30:00,6.5,0.0,16.0,0.0,10.0,0.0,0.0,0.0,Kedah
-54,,Rumah Pam Bandar Baharu (F2),Bandar Baharu,19/09/2025 18:30:00,1.5,0.0,55.0,0.0,0.5,0.0,0.0,0.0,Kedah
-55,6398141,Gunung Raya,Langkawi,19/09/2025 18:15:00,9.0,6.0,40.5,0.0,0.0,17.0,0.0,0.0,Kedah
-56,6397116,Hulu Empangan Saga,Langkawi,19/09/2025 18:00:00,14.0,0.0,28.5,0.0,0.5,6.0,0.0,0.0,Kedah
-57,6397112,Empangan Padang Saga,Langkawi,19/09/2025 18:15:00,9.0,0.5,29.0,0.0,1.0,11.0,0.0,0.0,Kedah
-58,1900171RF,Empangan Padang Saga (RHN),Langkawi,19/09/2025 18:15:00,12.5,0.0,30.5,0.0,1.0,13.0,0.0,0.0,Kedah
-59,6397113,Bukit Kemboja,Langkawi,19/09/2025 18:15:00,9.0,0.5,27.0,0.0,1.0,33.0,0.0,0.0,Kedah
-60,6397111,Padang Matsirat,Langkawi,19/09/2025 18:15:00,9.0,0.5,24.0,0.0,2.5,30.5,0.0,0.0,Kedah
-61,6398131,Ldg. Sungai Raya di Kedah (RHN),Langkawi,19/09/2025 18:15:00,26.5,6.0,35.0,0.5,0.0,22.5,0.0,0.0,Kedah
-62,6504180,Bukit Kayu Hitam,Kubang Pasu,19/09/2025 18:00:00,9.0,0.0,12.0,0.0,0.0,17.0,0.0,0.0,Kedah
-63,K000005,Sek. Keb. Felda Bukit Tangga,Kubang Pasu,19/09/2025 18:15:00,22.5,0.5,5.5,0.0,0.0,6.0,0.0,0.0,Kedah
-64,6404010,Kg. Padang Pasir,Kubang Pasu,19/09/2025 18:00:00,24.0,0.0,8.5,0.0,0.0,10.5,0.0,0.0,Kedah
-65,6204180,Kg. Bata,Kubang Pasu,19/09/2025 18:00:00,68.0,0.0,3.0,0.0,0.0,15.0,0.0,0.0,Kedah
-66,6204004,Kepala Batas,Kubang Pasu,19/09/2025 18:15:00,5.0,0.0,8.0,0.0,0.5,8.0,0.0,0.0,Kedah
-67,K000001,Felcra Sebapin,Padang Terap,19/09/2025 18:00:00,17.0,0.0,12.0,0.0,0.0,35.5,0.5,0.0,Kedah
-68,K000006,Kota Putra,Padang Terap,19/09/2025 18:15:00,8.0,0.5,6.5,0.0,0.0,9.5,0.0,0.0,Kedah
-69,0020691RF,Empangan Ah Ning (RHN),Padang Terap,19/09/2025 18:15:00,13.5,0.0,5.0,0.0,0.0,9.0,0.0,0.0,Kedah
-70,6205181,Kg. Kubu,Padang Terap,19/09/2025 18:00:00,28.0,0.0,21.0,0.0,0.0,1.0,0.0,0.0,Kedah
-71,6306036,Padang Sanai,Padang Terap,19/09/2025 08:30:00,16.5,0.5,15.5,0.0,0.0,8.5,0.0,0.0,Kedah
-72,6306180,Pdg. Sanai,Padang Terap,19/09/2025 18:00:00,19.0,0.0,16.0,0.0,0.0,9.0,0.0,0.0,Kedah
-73,K000007,Kilang Gula Padang Terap,Padang Terap,19/09/2025 18:15:00,17.5,0.0,25.5,0.0,0.0,13.5,0.0,0.0,Kedah
-74,MADA0063,Tunnel Outfall,Padang Terap,19/09/2025 18:15:00,24.0,24.0,1.0,1.0,0.0,0.0,0.0,0.0,Kedah
-75,6207180,Empangan Pedu,Padang Terap,19/09/2025 16:00:00,24.0,0.0,5.0,0.0,6.0,0.0,0.0,0.0,Kedah
-76,6106180,Naka,Padang Terap,19/09/2025 18:00:00,6.0,0.0,23.0,0.0,3.0,0.0,0.0,0.0,Kedah
-77,6205180,Kuala Nerang (F2),Padang Terap,19/09/2025 18:15:00,6.5,0.0,17.5,0.0,1.5,1.0,0.0,0.0,Kedah
-78,6205181,Jabi,Pokok Sena,19/09/2025 18:00:00,12.0,0.0,20.0,0.0,11.0,0.0,0.0,0.0,Kedah
-79,No Data,Taman Aman,Kota Setar,18/09/2025 22:00:00,13.5,0.5,8.5,0.5,0.5,14.0,14.0,0.0,Kedah
-80,6103147,Rumah Pam Sg. Raja,Kota Setar,19/09/2025 18:00:00,1.0,0.0,13.0,0.0,6.5,6.5,0.0,0.0,Kedah
-81,6201166,Kubur Panjang,Pendang,19/09/2025 18:00:00,4.0,0.0,18.0,0.0,6.5,0.0,0.0,0.0,Kedah
-82,5905181,Pondok Chegar,Pendang,19/09/2025 18:00:00,15.0,1.0,20.0,0.0,3.0,0.0,0.0,0.0,Kedah
-83,MADA0072,Kuala Teliang,Sik,19/09/2025 18:00:00,24.0,8.0,3.0,0.0,0.0,0.0,0.0,0.0,Kedah
-84,6108001,Kompleks Empangan Muda,Sik,19/09/2025 18:00:00,14.5,1.0,2.0,0.0,0.0,0.0,0.0,0.0,Kedah
-85,6007064,Titi Nami,Sik,19/09/2025 18:00:00,10.5,0.0,16.0,0.0,0.5,0.0,0.0,0.0,Kedah
-86,6006001,SK Sg. Siput,Sik,19/09/2025 18:00:00,7.5,0.0,18.5,0.0,0.0,0.0,0.0,0.0,Kedah
-87,6008001,SK Gulau,Sik,19/09/2025 18:00:00,36.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,Kedah
-88,5908001,Batu Seketul,Sik,19/09/2025 18:00:00,27.0,0.5,11.5,1.0,0.0,0.0,0.0,0.0,Kedah
-89,5900088,Empangan Beris (State),Sik,19/09/2025 18:00:00,6.5,0.5,14.0,14.0,0.0,0.0,0.0,0.0,Kedah
-90,0050831RF,Empangan Beris (RHN),Sik,19/09/2025 18:15:00,5.0,0.0,13.0,0.0,0.0,0.0,0.0,0.0,Kedah
-91,5806065,Kg. Gajah Puteh,Sik,19/09/2025 18:30:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Kedah
-92,5808071,Bendang Man,Sik,19/09/2025 17:00:00,41.0,-9999.0,-9999.0,-9999.0,-9999.0,0.0,0.0,0.0,Kedah
-93,5706002,Bt. 5 Sik,Sik,19/09/2025 18:00:00,30.0,0.0,11.0,0.0,0.0,0.0,0.0,0.0,Kedah
-94,5706001,Felda Teloi Kanan,Baling,19/09/2025 18:00:00,6.0,0.0,28.0,0.0,0.0,0.0,0.0,0.0,Kedah
-95,6368743,Tanjung Pari,Baling,19/09/2025 18:00:00,18.0,0.0,8.0,0.0,0.0,0.0,0.0,0.0,Kedah
-96,5809001,Pusat Rekreasi Ulu Legong,Baling,19/09/2025 18:00:00,47.5,0.0,9.5,0.0,0.0,0.0,0.0,0.0,Kedah
-97,5708001,Kg. Baru,Baling,19/09/2025 18:00:00,36.5,0.5,10.5,0.0,0.0,0.0,0.0,0.0,Kedah
-98,5508001,Kg. Iboi Kupang,Baling,19/09/2025 18:00:00,19.0,5.0,4.0,1.0,0.0,0.0,0.0,0.0,Kedah
-99,5608073,Kuala Pegang,Baling,19/09/2025 18:15:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Kedah
-100,5607002,Kg. Padang Pulai,Baling,19/09/2025 18:00:00,7.0,-9999.0,19.5,0.0,0.0,0.0,0.0,0.0,Kedah
-101,5407081,Hutan Lipur Rekreasi Sg. Sedim (F2),Kulim,19/09/2025 18:15:00,-9999.0,0.5,23.5,3.5,7.0,5.0,4.0,0.0,Kedah
-102,5606001,Kg. Sedim,Baling,19/09/2025 18:15:00,11.5,0.5,22.5,4.5,0.0,0.0,0.0,0.0,Kedah
-103,5606076,Jambatan Syed Omar,Kuala Muda,19/09/2025 18:15:00,14.5,0.0,43.0,0.5,0.0,0.0,0.0,0.0,Kedah
-104,5505085,SK Sri Pinang,Kuala Muda,19/09/2025 18:00:00,2.5,0.0,34.0,0.0,0.0,0.0,0.0,0.0,Kedah
-105,5604002,Workshop Sg. Petani,Kuala Muda,19/09/2025 18:00:00,8.0,0.0,28.0,0.0,0.0,0.0,0.0,0.0,Kedah
-106,5604002,Workshop Sg. Petani (RHN),Kuala Muda,19/09/2025 18:15:00,8.0,0.0,26.5,0.0,0.0,0.0,0.0,0.0,Kedah
-107,5604005,RCC Sg. Petani,Kuala Muda,19/09/2025 18:00:00,25.0,0.0,31.5,0.0,0.0,0.0,0.0,0.0,Kedah
-108,5704057,Ibu Bekalan Tupah di Kedah (RHN),Kuala Muda,19/09/2025 11:15:00,3.0,-9999.0,-9999.0,0.0,0.5,0.0,0.0,0.0,Kedah
-109,5704058,Semeling di Kedah (RHN),Kuala Muda,19/09/2025 18:15:00,22.0,0.0,22.5,0.0,2.0,0.0,0.0,0.0,Kedah
-110,MADA0083,Sg. Gurun Upper,Kuala Muda,19/09/2025 18:00:00,43.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,Kedah
-111,5704055,Gunung Jerai,Yan,19/09/2025 18:00:00,19.5,0.0,19.5,0.0,0.5,0.0,0.0,0.0,Kedah
-112,5704055,Kedah Peak di Kedah (RHN),Yan,19/09/2025 18:15:00,23.5,0.0,26.5,0.0,0.5,0.0,0.0,0.0,Kedah
-113,5406078,Ulu Paip,Kulim,19/09/2025 18:30:00,20.0,0.0,25.0,19.5,0.0,0.0,0.0,0.0,Kedah
-114,5406081,Ldg. Bagan Sena di Kedah (RHN),Kulim,19/09/2025 18:15:00,12.5,0.0,40.0,0.0,0.0,0.0,0.0,0.0,Kedah
-115,5305093,Sg. Ular,Kulim,19/09/2025 18:15:00,3.5,0.5,60.5,0.0,0.0,0.0,0.0,0.0,Kedah
-116,5305002,Sg. Wang Pinang,Kulim,19/09/2025 18:15:00,22.0,0.0,65.0,0.0,0.0,0.0,0.0,0.0,Kedah
-117,5305091,JPS Kulim,Kulim,19/09/2025 18:00:00,22.5,0.0,79.0,0.0,0.0,0.0,0.0,0.0,Kedah
-118,5206105,Pekan Serdang,Bandar Baharu,19/09/2025 18:00:00,2.5,0.0,36.0,0.5,0.0,0.0,0.0,0.0,Kedah
-119,0020391RF,Kg. Jeragan (F2),Kubang Pasu,19/09/2025 18:15:00,17.5,0.0,4.0,0.0,0.0,33.0,0.0,0.0,Kedah
-120,0020381RF,Sek.Keb Malau (F2),Kubang Pasu,19/09/2025 18:30:00,67.0,0.0,3.0,0.0,0.0,10.5,0.0,0.0,Kedah
-121,,Kg. Padang Panjang (F2),Kubang Pasu,19/09/2025 18:30:00,77.0,0.0,8.0,0.0,0.0,11.0,0.0,0.0,Kedah
-122,,Kg. Pasir (F2),Kubang Pasu,19/09/2025 18:15:00,6.0,0.5,11.5,0.0,0.0,13.5,0.0,0.0,Kedah
-123,,Masjid Bukit Kayu Hitam (F2),Kubang Pasu,19/09/2025 18:30:00,8.0,0.0,12.5,0.0,0.0,15.5,0.0,0.0,Kedah
-124,0020631RF,Kg. Changkat Setol (F2),Kubang Pasu,19/09/2025 18:30:00,25.5,0.0,7.5,0.0,0.0,14.0,0.0,0.0,Kedah
-125,0020371RF,Tg. Pauh (F2),Kubang Pasu,19/09/2025 18:15:00,7.0,0.0,4.0,0.0,0.0,10.0,0.0,0.0,Kedah
-126,0020461RF,Akademi Binaan Malaysia (ABM) (F2),Kubang Pasu,19/09/2025 18:30:00,23.5,0.0,4.0,0.0,0.0,28.0,0.5,0.0,Kedah
-127,,Kg. Pinang (F2),Padang Terap,19/09/2025 18:30:00,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.0,Kedah
-128,,Jambatan Bukit Buloh (F2),Padang Terap,19/09/2025 18:30:00,12.5,0.5,11.0,0.0,23.5,0.0,0.0,0.0,Kedah
-129,,Ladang Sebapin (F2),Padang Terap,19/09/2025 18:30:00,17.5,0.0,12.5,0.0,0.0,36.0,0.0,0.0,Kedah
-130,0020601RF,Rumah Pam Sg. Raja (F2),Kota Setar,19/09/2025 18:30:00,9.5,0.5,12.0,0.0,6.0,6.0,0.0,0.0,Kedah
-131,0020431RF,Padang Sanai (F2),Padang Terap,19/09/2025 18:30:00,19.0,0.0,16.0,0.0,0.0,8.5,0.0,0.0,Kedah
-132,0020651RF,Kg. Sg. Baru (F2),Kota Setar,19/09/2025 18:30:00,16.0,0.0,7.0,0.0,0.0,17.0,0.0,0.0,Kedah
-133,,Sek.Keb. Seri Pantai (F2),Kota Setar,19/09/2025 18:15:00,10.5,0.5,13.0,0.5,0.5,23.5,0.0,0.0,Kedah
-134,,Hospital Sultanah Bahiyah (F2),Kota Setar,19/09/2025 18:15:00,16.5,0.5,14.5,0.0,0.0,4.5,0.0,0.0,Kedah
-135,,Sek. Men. Keb. Muadzam Shah (F2),Kota Setar,19/09/2025 18:30:00,8.0,0.0,14.0,0.0,16.5,0.5,0.0,0.0,Kedah
-136,0020501RF,Kubur Panjang (F2),Pendang,19/09/2025 18:30:00,4.0,0.0,17.5,0.0,6.0,0.0,0.0,0.0,Kedah
-137,0050581RF,Sek.Keb. Gulau (F2),Sik,19/09/2025 18:30:00,29.5,0.0,3.0,0.0,0.0,0.0,0.0,0.0,Kedah
-138,0050521RF,Klinik Desa Kg. Chong (F2),Sik,19/09/2025 18:15:00,8.5,0.5,17.0,0.0,0.0,0.0,0.0,0.0,Kedah
-139,0050811WL,Sek. Keb. Sri Ampang (F2),Sik,19/09/2025 18:15:00,29.0,0.0,4.5,0.0,0.0,0.0,0.0,0.0,Kedah
-140,0050461RF,Tanjung Pari (F2),Baling,19/09/2025 18:30:00,17.0,0.0,0.5,0.0,0.0,0.0,0.0,0.0,Kedah
-141,,Sek.Keb. Bandar Baru Sg. Lalang (F2),Kuala Muda,19/09/2025 18:30:00,10.5,0.5,13.0,0.0,0.0,0.0,0.0,0.0,Kedah
-142,,Rumah Pam Pinang Tunggal (F2),Kuala Muda,19/09/2025 18:30:00,2.0,0.0,30.0,0.0,0.0,0.0,0.0,0.0,Kedah
-143,,Sek.Keb. Sri Gedong (F2),Kuala Muda,19/09/2025 18:30:00,2.5,0.0,27.5,0.0,0.0,0.0,0.0,0.0,Kedah
-144,0090331RF,Sg. Kerian di Mahang (F2),Kulim,19/09/2025 18:30:00,33.5,0.0,24.5,2.0,0.5,0.0,0.0,0.0,Kedah
-1,1910131RF,Lorong Batu Lanchang (F2),Timur Laut Pulau Pinang,19/09/2025 18:30:00,16.5,0.0,58.5,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-2,1910111RF,Kolam Bersih (F2),Timur Laut Pulau Pinang,19/09/2025 18:30:00,1.0,0.0,3.5,0.0,0.0,0.0,21.5,0.0,Pulau Pinang
-3,1910091RF,Jalan P.Ramlee (F2),Timur Laut Pulau Pinang,19/09/2025 18:30:00,9.5,0.0,55.0,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-4,1910181RF,Muara Sg. Pinang S18 (F2),Timur Laut Pulau Pinang,19/09/2025 18:30:00,5.0,0.0,57.5,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-5,0060221RF,Kompleks Perai (F2),Seberang Perai Tengah,19/09/2025 18:30:00,2.0,0.0,49.5,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-6,0000000RF,Pejabat Pertanian Cherok Tok Kun (F2),Seberang Perai Tengah,19/09/2025 02:00:00,8.5,0.0,39.0,39.0,0.0,0.0,0.0,0.0,Pulau Pinang
-7,0070061RF,Pusat Kesihatan Bukit Berapit (F2),Seberang Perai Tengah,19/09/2025 18:30:00,9.0,0.0,69.0,1.0,0.0,0.0,0.0,0.0,Pulau Pinang
-8,0070071RF,JPS SPT (F2),Seberang Perai Tengah,19/09/2025 18:30:00,1.5,0.0,78.0,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-9,0080071RF,Simpang Ampat (F2),Seberang Perai Tengah,19/09/2025 18:30:00,1.0,0.0,86.5,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-10,0060201RF,Sek. Keb. Bakap Indah (F2),Seberang Perai Selatan,19/09/2025 18:30:00,2.5,0.5,19.5,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-11,0080081RF,Kg. Sethu (F2),Seberang Perai Selatan,19/09/2025 18:30:00,17.0,0.0,96.0,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-12,0060211RF,Kuarters Penjara Sg. Duri (F2),Seberang Perai Selatan,19/09/2025 18:30:00,10.5,0.0,83.0,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-13,0050591RF,Lahar Ikan Mati (F2),Seberang Perai Utara,19/09/2025 18:30:00,2.0,0.0,30.0,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-14,0060351RF,Kg. Pokok Machang (F2),Seberang Perai Utara,19/09/2025 18:30:00,9.0,0.5,31.0,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-15,0050521RF,Bakar Kapor (F2),Seberang Perai Utara,19/09/2025 18:30:00,2.0,0.0,55.0,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-16,0050441RF,Rumah Pam Pinang Tunggal (F2),Seberang Perai Utara,19/09/2025 18:30:00,2.5,0.0,38.0,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-17,0050611RF,Permatang Binjai (F2),Seberang Perai Utara,19/09/2025 17:15:00,3.0,0.0,44.0,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-18,0060151RF,Ara Kuda (F2),Seberang Perai Utara,19/09/2025 18:30:00,15.5,0.0,53.0,27.5,1.0,0.0,0.0,0.0,Pulau Pinang
-19,0050351RF,Permatang Pak Elong (F2),Seberang Perai Utara,19/09/2025 18:30:00,5.5,0.5,38.5,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-20,0050601RF,Pajak Song (F2),Seberang Perai Utara,19/09/2025 18:30:00,2.5,0.5,30.0,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-21,0050581RF,Guar Kepayang (F2),Seberang Perai Utara,19/09/2025 18:30:00,0.5,0.0,55.0,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-22,0060361RF,Permatang Tok Jaya (F2),Seberang Perai Utara,19/09/2025 18:30:00,0.5,0.0,0.0,0.5,0.0,0.0,0.5,0.0,Pulau Pinang
-23,0050391RF,Bumbung Lima (F2),Seberang Perai Utara,19/09/2025 18:30:00,3.0,0.5,35.0,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-24,0060371RF,Desa Murni Sg.Dua (F2),Seberang Perai Utara,19/09/2025 18:30:00,1.0,0.0,37.0,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-25,0000000RF,Pejabat JPS SPU (F2),Seberang Perai Utara,19/09/2025 18:30:00,2.0,0.0,28.5,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-26,0050381RF,Ladang Victoria (F2),Seberang Perai Utara,19/09/2025 18:30:00,3.5,0.5,37.0,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-27,1910271RF,Bayan Lepas (F2),Barat Daya Pulau Pinang,19/09/2025 18:30:00,39.0,0.0,65.0,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-28,1910151RF,Empangan Teluk Bahang (F2),Barat Daya Pulau Pinang,19/09/2025 18:30:00,7.5,0.0,99.5,0.0,2.5,0.0,0.0,0.0,Pulau Pinang
-29,0090601RF,Kg. Kebun Baru (F2),Seberang Perai Selatan,19/09/2025 18:15:00,4.0,0.0,83.5,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-30,0060161RF,Kg. Machang Bubuk (F2),Seberang Perai Tengah,19/09/2025 16:15:00,11.5,0.0,60.0,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-31,5505033,Rumah Pam Pinang Tunggal,Seberang Perai Utara,19/09/2025 15:30:00,2.5,0.5,64.5,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-32,5504036,Sg.Muda di Bumbung Lima,Seberang Perai Utara,19/09/2025 15:00:00,3.0,0.0,32.5,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-33,5504032,Rumah Pam Bumbung Lima,Seberang Perai Utara,19/09/2025 15:15:00,3.5,0.5,43.0,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-34,5504035,Lahar Ikan Mati,Seberang Perai Utara,19/09/2025 15:15:00,2.0,0.0,30.5,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-35,5503042,Bakar Kapor,Seberang Perai Utara,18/09/2025 20:45:00,0.5,0.0,50.5,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-36,5404045,Pajak Song,Seberang Perai Utara,19/09/2025 15:15:00,3.0,0.5,30.5,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-37,5504036,Permatang Pak Elong,Seberang Perai Utara,19/09/2025 15:15:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-38,,Permatang Tok Jaya,Seberang Perai Utara,19/09/2025 15:15:00,1.5,0.0,39.5,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-39,5404044,Guar Kepayang,Seberang Perai Utara,19/09/2025 15:15:00,0.5,0.0,7.5,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-40,5405001,Ara Kuda,Seberang Perai Tengah,19/09/2025 15:15:00,14.5,0.0,51.5,20.0,0.5,0.0,0.0,0.0,Pulau Pinang
-41,5404043,Ibu Bekalan Sg. Kulim,Seberang Perai Tengah,19/09/2025 15:15:00,27.0,0.5,46.5,62.5,0.0,0.0,0.0,0.0,Pulau Pinang
-42,5303053,Kompleks Perai,Seberang Perai Tengah,19/09/2025 15:15:00,2.0,0.0,49.5,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-43,5304047,Kolam Air Chrk. To' Kun di P.Pinang (RHN),Seberang Perai Tengah,19/09/2025 18:15:00,2.0,0.0,73.5,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-44,5403001,Pusat Pertanian Cerok Tok Kun,Seberang Perai Tengah,19/09/2025 15:15:00,3.5,0.0,118.0,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-45,5304044,Empangan Juru,Seberang Perai Tengah,19/09/2025 15:15:00,1.5,0.0,70.5,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-46,5305056,Macang Bubuk,Seberang Perai Tengah,19/09/2025 15:15:00,-9999.0,-9999.0,-9999.0,-9999.0,-9999.0,-9999.0,0.0,0.0,Pulau Pinang
-47,5204049,Ldg. Batu Kawan di P.Pinang (RHN),Seberang Perai Selatan,19/09/2025 18:15:00,4.5,0.0,84.0,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-48,5205054,SK Bakap Indah,Seberang Perai Selatan,19/09/2025 15:15:00,2.5,0.5,90.5,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-49,5204424,Sg. Jawi di Jln. Sg. Jawi,Seberang Perai Selatan,19/09/2025 15:15:00,16.0,0.0,96.5,0.0,0.0,0.5,0.0,0.0,Pulau Pinang
-50,5205052,Bagan Buaya,Seberang Perai Selatan,19/09/2025 15:00:00,23.5,0.0,123.0,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-51,5205052,Bagan Buaya di P. Pinang (RHN),Seberang Perai Selatan,19/09/2025 18:15:00,22.5,0.5,117.5,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-52,5105053,Sungai Duri Kerian,Seberang Perai Selatan,19/09/2025 15:00:00,14.5,0.0,123.5,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-53,5105051,Kolam Takongan di Bkt. Panchor P. Pinang (RHN),Seberang Perai Selatan,19/09/2025 18:15:00,18.0,0.0,60.5,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-54,5105051,Kolam Takungan Bukit Panchor,Seberang Perai Selatan,19/09/2025 15:15:00,18.0,0.5,61.0,0.0,0.0,1.0,0.0,0.0,Pulau Pinang
-55,5105459,Sg. Kecil,Seberang Perai Selatan,19/09/2025 15:00:00,40.5,1.0,109.0,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-56,No Data,"Lengkok Sg. Emas, Batu Feringghi",Timur Laut Pulau Pinang,19/09/2025 15:00:00,3.0,0.0,59.5,0.0,1.0,0.0,0.0,0.0,Pulau Pinang
-57,5402002,Kolam Bersih,Timur Laut Pulau Pinang,19/09/2025 15:15:00,10.0,0.0,85.0,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-58,5402001,Klinik Bkt. Bendera di P. Pinang (RHN),Timur Laut Pulau Pinang,19/09/2025 18:15:00,8.5,0.5,69.5,0.0,4.5,0.0,0.0,0.0,Pulau Pinang
-59,5302003,Kolam Air Itam,Timur Laut Pulau Pinang,19/09/2025 15:15:00,11.5,0.0,64.0,0.0,0.5,0.0,0.0,0.0,Pulau Pinang
-60,5403405,Kolam Sg. Dondang,Timur Laut Pulau Pinang,19/09/2025 15:00:00,7.0,0.0,62.0,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-61,5403001,Lorong Batu Lanchang,Timur Laut Pulau Pinang,19/09/2025 13:00:00,23.0,0.0,80.0,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-62,,Jalan Scotland,Timur Laut Pulau Pinang,19/09/2025 18:15:00,9.0,0.0,50.5,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-63,5403043,Jalan P. Ramlee,Timur Laut Pulau Pinang,19/09/2025 15:00:00,8.5,0.0,45.0,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-64,5302405,Jalan Gangsa,Timur Laut Pulau Pinang,19/09/2025 15:00:00,14.5,0.0,60.5,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-65,5303403,Kg. Dua Bukit,Timur Laut Pulau Pinang,19/09/2025 14:45:00,6.5,0.0,70.5,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-66,5302407,Sg. Ara,Barat Daya Pulau Pinang,19/09/2025 15:30:00,40.5,0.0,63.0,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-67,5302001,Tali Air Besar Sg. Pinang,Barat Daya Pulau Pinang,19/09/2025 15:30:00,27.0,0.0,63.0,0.0,2.0,0.0,0.0,0.0,Pulau Pinang
-68,5302002,Pintu Air Bagan Air Itam,Barat Daya Pulau Pinang,19/09/2025 15:30:00,28.5,0.0,74.0,1.5,2.0,0.0,0.0,0.0,Pulau Pinang
-69,No Data,Politeknik Balik Pulau,Barat Daya Pulau Pinang,19/09/2025 15:15:00,21.0,0.0,81.5,2.0,1.0,0.0,0.0,0.0,Pulau Pinang
-70,0000291RF,Kg. Seronok (RHN),Barat Daya Pulau Pinang,19/09/2025 18:15:00,6.0,0.0,67.0,0.0,0.5,0.0,0.0,0.0,Pulau Pinang
-71,0050481RF,Pinang Tunggal (F2),Seberang Perai Utara,19/09/2025 18:30:00,2.0,0.5,35.0,0.0,0.0,0.0,0.0,0.0,Pulau Pinang
-1,5207004,Kg. Sg. Rambutan,Larut Matang dan Selama,19/09/2025 17:45:00,42.0,0.0,16.0,0.0,0.5,0.0,0.0,0.0,Perak
-2,5207002,Ladang Selding,Larut Matang dan Selama,19/09/2025 17:15:00,17.5,0.0,18.5,0.0,0.5,0.0,0.0,0.0,Perak
-3,5108005,Selama,Larut Matang dan Selama,19/09/2025 17:45:00,2.5,0.0,16.0,0.0,0.5,0.0,0.0,0.0,Perak
-4,5108006,Kelian Gunung Ijok,Larut Matang dan Selama,19/09/2025 17:45:00,57.0,0.0,30.0,0.0,0.0,0.0,33.5,33.5,Perak
-5,5108005,Bekalan Ijok,Larut Matang dan Selama,19/09/2025 18:15:00,41.5,0.0,11.5,0.5,0.0,0.0,0.0,0.0,Perak
-6,5107007,Felda Ijok,Larut Matang dan Selama,19/09/2025 18:00:00,5.5,0.0,16.5,0.0,0.0,0.0,0.0,0.0,Perak
-7,5008001,Kg. Pantai Besar,Larut Matang dan Selama,19/09/2025 17:45:00,27.0,0.5,32.5,0.5,1.0,0.0,0.0,0.0,Perak
-8,4907020,Bt. 14 Batu Kurau,Larut Matang dan Selama,19/09/2025 18:15:00,-9999.0,-9999.0,-9999.0,-9999.0,-9999.0,-9999.0,0.0,-9999.0,Perak
-9,5003028,Tanjung Piandang,Kerian,19/09/2025 18:15:00,10.0,0.0,123.0,0.0,1.0,0.0,0.0,0.0,Perak
-10,5006021,Bukit Merah,Kerian,19/09/2025 07:30:00,6.0,0.0,26.0,0.0,0.5,0.0,0.0,-9999.0,Perak
-11,5207005,Rumah JPS Alor Pongsu,Kerian,19/09/2025 10:00:00,0.5,0.0,30.0,0.0,0.5,0.0,0.0,0.0,Perak
-12,5411066,Kuala Kenderong,Hulu Perak,19/09/2025 18:15:00,12.0,16.0,26.5,0.5,0.5,0.0,0.0,0.0,Perak
-13,4911077,Kg. Lintang,Kuala Kangsar,19/09/2025 18:15:00,3.0,0.0,26.5,5.5,3.0,0.0,0.0,0.0,Perak
-14,4809001,Jam. Iskandar,Kuala Kangsar,19/09/2025 18:30:00,14.0,0.0,45.5,2.0,9.0,0.0,0.0,0.0,Perak
-15,4708082,Ldg. Bkt. Berapit di Perak (RHN),Kuala Kangsar,19/09/2025 18:15:00,1.0,4.5,49.5,1.0,9.5,0.0,0.0,0.0,Perak
-16,0181371RF,Pekan Manong (RHN),Kuala Kangsar,19/09/2025 18:15:00,0.0,0.0,34.5,0.5,9.0,0.0,0.0,0.0,Perak
-17,4511111,Politeknik Ungku Omar,Kinta,19/09/2025 18:15:00,0.0,0.0,6.0,2.0,0.0,0.0,5.0,0.0,Perak
-18,4610118,Kuala Pari,Kinta,19/09/2025 18:15:00,0.0,0.0,13.0,4.5,10.5,0.0,0.0,0.0,Perak
-19,4511468,Keramat Pulai,Kinta,19/09/2025 17:45:00,0.5,0.0,9.5,3.0,6.5,0.0,0.0,0.0,Perak
-20,0181341RF,Kg. Baru Kuala Dipang (RHN),Kampar,19/09/2025 18:15:00,7.0,0.0,16.5,0.0,8.0,0.0,0.5,0.0,Perak
-21,4409092,Parit,Perak Tengah,19/09/2025 18:15:00,0.0,0.0,10.5,0.5,18.5,0.0,6.5,0.0,Perak
-22,4209093,Teluk Sena,Perak Tengah,19/09/2025 18:15:00,4.0,0.0,8.0,0.5,17.5,0.0,2.0,0.0,Perak
-23,4109094,Kg. Gajah,Perak Tengah,19/09/2025 18:15:00,0.5,0.0,9.0,3.5,38.0,0.0,0.0,0.0,Perak
-24,4011144,Rumah JPS Chui Chak,Hilir Perak,19/09/2025 18:15:00,2.0,0.0,36.0,5.0,41.5,0.0,17.5,0.0,Perak
-25,4011139,Sg. Mengkuang,Hilir Perak,19/09/2025 18:15:00,1.5,0.0,40.5,8.0,23.0,0.0,1.0,0.0,Perak
-26,3901001,Changkat Jong,Hilir Perak,19/09/2025 18:15:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Perak
-27,3909104,Stor JPS Telok Intan (RHN),Hilir Perak,19/09/2025 18:15:00,0.0,0.5,24.0,5.5,11.5,0.0,0.0,0.0,Perak
-28,3814160,Ulu Slim,Muallim,19/09/2025 18:15:00,0.5,1.0,81.0,0.0,1.5,0.0,0.0,0.0,Perak
-29,3814159,Slim River,Muallim,19/09/2025 18:30:00,0.5,17.0,78.5,0.0,2.0,0.0,0.0,0.0,Perak
-1,0010571RF,Wang Kelian (F2),Padang Besar,19/09/2025 18:30:00,0.0,0.0,0.5,1.0,6.5,8.0,9.5,0.0,Selangor
-2,0010461RF,Lubuk Sireh (F2),Padang Besar,19/09/2025 18:30:00,0.5,1.0,0.5,0.5,0.5,1.0,0.0,0.0,Selangor
-3,6602002,Kaki Bukit,Padang Besar,19/09/2025 18:00:00,5.0,1.0,19.0,0.0,4.0,5.0,0.0,0.0,Selangor
-4,6603002,Padang Besar,Padang Besar,19/09/2025 18:00:00,10.0,0.0,12.0,0.0,0.0,13.0,0.0,0.0,Selangor
-5,6602003,Padang Besar di Perlis (RHN),Padang Besar,19/09/2025 18:15:00,11.0,0.0,12.0,0.0,0.0,13.5,0.0,0.0,Selangor
-6,6602006,Kg. Chantik,Padang Besar,19/09/2025 18:00:00,4.0,0.0,21.0,0.0,1.0,8.0,0.0,0.0,Selangor
-7,0010421RF,Kg. Masjid (F2),Padang Besar,19/09/2025 18:30:00,2.5,0.0,17.5,0.0,1.5,9.5,0.0,0.0,Selangor
-8,6602004,Kg. Masjid,Padang Besar,19/09/2025 18:15:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Selangor
-9,6502011,Empangan Timah Tasuh,Padang Besar,19/09/2025 18:30:00,3.0,1.0,20.0,0.0,0.0,9.0,0.0,0.0,Selangor
-10,0010621RF,Kolam Sg. Buloh (F2),Padang Besar,19/09/2025 18:30:00,6.5,0.5,9.0,0.0,0.0,0.0,1.0,0.0,Selangor
-11,0010681RF,Ladang Perlis (F2),Arau,19/09/2025 18:30:00,4.5,0.0,14.0,0.0,0.0,0.5,0.0,0.0,Selangor
-12,6502012,Kg. Batu Bertangkup,Arau,19/09/2025 18:00:00,4.0,0.0,9.0,0.0,0.0,1.0,0.0,0.0,Selangor
-13,0000000RF,Kolam Sg. Serai 2 (N),Arau,19/09/2025 18:15:00,-9999.0,-9999.0,-9999.0,-9999.0,0.5,1.5,0.0,0.0,Selangor
-14,0010541RF,Tok Biduk (F2),Arau,19/09/2025 17:30:00,7.0,0.0,8.5,8.5,1.0,2.5,0.0,0.0,Selangor
-15,0010631RF,Kolam Sg. Jernih (F2),Arau,19/09/2025 18:30:00,4.5,0.0,12.5,0.0,0.0,2.5,0.0,0.0,Selangor
-16,0010491RF,Balik Guar (F2),Arau,19/09/2025 18:30:00,6.5,0.5,13.0,0.0,0.0,14.5,0.0,0.0,Selangor
-17,0010611RF,Kg. Gial (RHN),Arau,19/09/2025 18:15:00,5.0,0.5,13.5,0.0,0.0,47.5,0.0,0.0,Selangor
-18,6402009,Kg. Kuala Tunggang,Arau,19/09/2025 18:00:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Selangor
-19,6402007,Arau di Perlis (RHN),Arau,19/09/2025 18:15:00,6.0,0.5,10.5,0.0,1.0,9.5,0.0,0.0,Selangor
-20,0010271RF,Ulu Pauh (F2),Arau,19/09/2025 18:30:00,12.0,0.5,11.0,0.0,0.0,27.0,0.0,0.0,Selangor
-21,6403001,Ulu Pauh,Arau,19/09/2025 18:30:00,10.0,0.0,9.0,0.0,0.0,25.0,0.0,0.0,Selangor
-22,6302022,Changkat Jawi di Perlis (RHN),Arau,19/09/2025 18:15:00,14.0,0.5,14.0,0.0,0.5,1.0,1.5,0.0,Selangor
-23,0010511RF,Genting Kabu (F2),Kangar,19/09/2025 18:30:00,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,Selangor
-24,6501005,Abi Kg. Baru (RHN),Kangar,19/09/2025 18:15:00,4.0,0.5,22.5,0.0,3.5,5.0,0.0,0.0,Selangor
-25,6402010,Kg. Bakau,Kangar,19/09/2025 18:00:00,4.0,0.0,13.0,0.0,0.0,7.0,0.0,0.0,Selangor
-26,0010671RF,Tebing Tinggi (F2),Kangar,19/09/2025 18:30:00,3.5,0.5,23.5,23.5,1.0,5.5,1.0,0.0,Selangor
-27,6301001,Kg. Behor Lateh di Perlis (RHN),Kangar,19/09/2025 18:15:00,5.5,0.5,15.0,0.0,0.0,35.5,3.0,0.0,Selangor
-28,6401000,Kuala Perlis di Perlis (RHN),Kangar,19/09/2025 18:15:00,3.0,0.0,51.5,0.0,1.5,26.5,7.5,0.0,Selangor
-29,0010581RF,Simpang Ampat (F2),Kangar,19/09/2025 18:30:00,44.5,0.0,20.0,0.0,4.0,26.5,0.5,0.0,Selangor
-1,0270351RF,Sua Betong (F2),Port Dickson,19/09/2025 18:30:00,10.0,0.0,52.0,6.5,24.5,0.0,0.0,0.0,Negeri Sembilan
-2,2819002,Setul Mantin,Seremban,19/09/2025 18:00:00,7.5,0.0,60.5,2.5,9.0,0.0,0.0,0.0,Negeri Sembilan
-3,0241271RF,Bandar Baru Nilai,Seremban,19/09/2025 18:00:00,2.5,2.5,28.0,2.0,19.0,0.0,0.0,0.0,Negeri Sembilan
-4,2720041,Kg. Bahru Pantai,Seremban,19/09/2025 18:00:00,4.0,1.5,46.0,3.0,5.5,0.0,0.0,0.0,Negeri Sembilan
-5,2719001,Setor JPS Negeri Sembilan,Seremban,19/09/2025 18:00:00,16.5,0.0,53.0,6.0,6.5,0.5,0.0,0.0,Negeri Sembilan
-6,2618002,Sendayan,Seremban,19/09/2025 18:15:00,-9999.0,-9999.0,-9999.0,-9999.0,-9999.0,-9999.0,0.0,0.0,Negeri Sembilan
-7,2619002,Seremban 2,Seremban,19/09/2025 18:00:00,-9999.0,-9999.0,-9999.0,-9999.0,-9999.0,-9999.0,0.0,0.0,Negeri Sembilan
-8,2619002,Kg. Mantau,Seremban,19/09/2025 18:00:00,2.0,0.0,67.0,8.5,9.5,0.0,0.0,0.0,Negeri Sembilan
-9,2719003,Sek. Keb. Tmn. Seri Pagi,Seremban,19/09/2025 18:00:00,4.5,0.0,47.0,2.5,10.5,0.0,0.0,0.0,Negeri Sembilan
-10,2619003,Masjid Tmn. Tuanku Jaafar,Seremban,19/09/2025 18:00:00,3.5,0.0,-9999.0,-9999.0,0.0,0.0,0.0,0.0,Negeri Sembilan
-11,2519422,Kg. Linsum,Seremban,19/09/2025 18:00:00,4.5,0.0,48.0,3.0,21.0,0.0,0.0,0.0,Negeri Sembilan
-12,2620048,Ladang Perhentian Tinggi,Seremban,19/09/2025 18:00:00,2.0,0.5,33.5,0.5,15.5,0.0,0.0,0.0,Negeri Sembilan
-13,2419054,Ladang Sengkang,Port Dickson,19/09/2025 18:00:00,13.5,0.0,45.5,1.0,31.5,0.0,0.0,0.0,Negeri Sembilan
-14,2518001,Ladang Salak,Port Dickson,19/09/2025 18:00:00,12.0,1.5,72.5,17.5,10.5,1.0,3.5,0.5,Negeri Sembilan
-15,2517033,Hospital Port Dickson,Port Dickson,19/09/2025 18:00:00,17.0,0.0,22.5,1.5,34.5,0.0,0.0,0.0,Negeri Sembilan
-16,2617032,Chuah,Port Dickson,19/09/2025 18:00:00,28.0,0.0,47.0,0.0,31.0,0.0,0.0,0.0,Negeri Sembilan
-17,2420052,Ladang Sg. Baru,Rembau,19/09/2025 18:00:00,9.0,9.0,0.5,0.0,0.0,0.0,0.0,0.0,Negeri Sembilan
-18,2820011,Kg. Ulu Klawang,Jelebu,19/09/2025 18:00:00,-9999.0,-9999.0,-9999.0,-9999.0,-9999.0,0.0,0.0,0.0,Negeri Sembilan
-19,0552911RF,Kg. Ulu Klawang (F1),Jelebu,19/09/2025 18:30:00,1.5,0.0,85.5,0.5,8.5,0.0,0.0,0.0,Negeri Sembilan
-20,2525415,Petaling,Jelebu,19/09/2025 18:00:00,0.5,0.0,36.5,0.0,24.0,0.0,0.0,0.0,Negeri Sembilan
-21,0552911RF,Kg. Relai di Kg. Baharu (F1),Jelebu,19/09/2025 18:15:00,-9999.0,-9999.0,-9999.0,-9999.0,-9999.0,0.0,0.0,0.0,Negeri Sembilan
-22,3020016,Kg. Chennah,Jelebu,19/09/2025 18:00:00,0.5,0.0,12.5,0.0,43.5,0.0,12.0,20.0,Negeri Sembilan
-23,0551901RF,Kg. Chennah (F1),Jelebu,19/09/2025 18:30:00,0.5,0.5,14.0,0.0,50.5,0.0,15.0,0.0,Negeri Sembilan
-24,0551821RF,MARDI Jelebu (F1),Jelebu,19/09/2025 18:30:00,0.5,0.0,15.0,0.0,33.5,0.0,0.0,0.0,Negeri Sembilan
-25,,Ladang Glandle (F1),Jelebu,19/09/2025 18:15:00,0.0,0.0,0.5,0.0,29.0,0.5,0.0,0.0,Negeri Sembilan
-26,0552171RF,Kg. Datok Johan (F1),Jempol,19/09/2025 17:45:00,0.0,0.0,24.0,24.0,33.0,33.0,0.0,0.0,Negeri Sembilan
-27,2824093,Ladang Bahau,Jempol,19/09/2025 18:00:00,2.5,0.0,1.5,0.0,5.0,0.0,0.0,0.0,Negeri Sembilan
-28,0552941RF,Ladang Sg. Sabaling (F1),Jempol,19/09/2025 18:30:00,3.5,0.0,-9999.0,-9999.0,-9999.0,-9999.0,0.0,0.0,Negeri Sembilan
-29,0553001RF,Sg. Lui Halt (F1),Jempol,19/09/2025 18:30:00,-9999.0,-9999.0,-9999.0,-9999.0,-9999.0,-9999.0,0.0,0.0,Negeri Sembilan
-30,2721074,Kg. Talang,Kuala Pilah,19/09/2025 18:00:00,-9999.0,-9999.0,43.0,1.0,18.5,0.0,0.0,0.0,Negeri Sembilan
-31,2722014,Ampang Tinggi,Kuala Pilah,19/09/2025 18:00:00,2.0,0.0,18.5,0.0,4.5,0.0,0.0,0.0,Negeri Sembilan
-32,2622080,Kg. Dangi,Kuala Pilah,19/09/2025 18:00:00,2.5,0.0,17.5,0.0,9.0,0.0,0.0,0.0,Negeri Sembilan
-33,2624001,Felda Jelai,Tampin,19/09/2025 18:00:00,0.5,0.0,1.5,0.0,0.0,0.0,0.0,0.0,Negeri Sembilan
-34,2525005,Ladang Fidlot,Tampin,19/09/2025 18:00:00,0.0,0.0,0.0,0.0,0.5,0.0,0.0,0.0,Negeri Sembilan
-35,2526005,Kg. Tiong,Tampin,19/09/2025 18:00:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Negeri Sembilan
-36,2625084,Londah,Tampin,19/09/2025 18:00:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Negeri Sembilan
-37,0241181RF,Pekan Lenggeng (F2),Seremban,19/09/2025 18:30:00,29.5,0.0,33.0,4.0,11.0,0.0,0.0,0.0,Negeri Sembilan
-38,0241171RF,Kg. Labu (F2),Seremban,19/09/2025 18:30:00,4.0,14.0,39.0,2.5,15.5,0.0,0.0,0.0,Negeri Sembilan
-39,0241161RF,Pekan Nilai (F2),Seremban,19/09/2025 18:30:00,3.0,3.0,25.5,2.5,19.5,0.0,0.0,0.0,Negeri Sembilan
-40,0270381RF,Kg. Mantau (F2),Seremban,19/09/2025 18:15:00,5.5,0.0,69.0,8.5,10.0,0.0,0.0,0.0,Negeri Sembilan
-41,0241291RF,Kg. Jijan (F2),Seremban,19/09/2025 18:30:00,4.5,1.0,29.0,3.0,26.0,0.0,0.0,0.0,Negeri Sembilan
-42,0270451RF,Sendayan (F2),Seremban,19/09/2025 18:30:00,5.0,17.5,56.0,1.0,16.5,0.0,0.0,0.0,Negeri Sembilan
-43,0270441RF,Ladang Salak (F2),Seremban,19/09/2025 18:30:00,11.0,0.5,72.0,15.0,9.0,0.0,0.0,0.0,Negeri Sembilan
-44,0270331RF,Ladang Perhentian Tinggi (F2),Seremban,19/09/2025 18:30:00,2.0,0.0,31.5,0.5,15.5,0.0,0.0,0.0,Negeri Sembilan
-45,0270561RF,Sek Keb Taman Sri Pagi (F2),Seremban,19/09/2025 18:30:00,-9999.0,0.0,47.0,3.0,13.5,0.0,0.0,0.0,Negeri Sembilan
-46,0270461RF,Seremban 2 (F2),Seremban,19/09/2025 18:30:00,3.5,0.0,74.0,4.0,11.5,0.0,0.0,0.0,Negeri Sembilan
-47,0270551RF,Masjid TTJ (F2),Seremban,19/09/2025 18:30:00,3.0,0.0,42.0,3.0,33.0,0.0,0.0,0.0,Negeri Sembilan
-48,NSBN0001,Kg. Bahru Pantai (F2),Seremban,19/09/2025 18:30:00,4.0,1.5,46.0,3.0,5.5,0.0,0.0,0.0,Negeri Sembilan
-49,0270341RF,Hospital Port Dickson (F2),Port Dickson,19/09/2025 18:30:00,16.0,0.0,30.0,1.5,32.0,0.0,0.0,0.0,Negeri Sembilan
-50,0270361RF,Ladang Sua Betong (F2),Port Dickson,19/09/2025 18:30:00,11.0,8.5,46.0,12.5,38.5,0.0,0.0,0.0,Negeri Sembilan
-51,0260021RF,Kg. Jimah Lama (F2),Port Dickson,19/09/2025 18:30:00,0.0,-9999.0,0.0,3.0,14.5,0.0,0.0,0.0,Negeri Sembilan
-52,0260051RF,Kompleks Pentadbiran PD (F2),Port Dickson,19/09/2025 18:30:00,11.5,0.5,33.5,2.5,0.5,0.0,0.0,0.0,Negeri Sembilan
-53,0000000RF,Kg. Sawah Sunggala (F2),Port Dickson,19/09/2025 18:30:00,17.0,7.5,27.0,3.0,56.5,0.5,11.5,0.0,Negeri Sembilan
-54,0260071RF,Kg. Melayu Sri Parit (F2),Port Dickson,19/09/2025 18:30:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Negeri Sembilan
-55,0270211RF,Chuah (F2),Port Dickson,19/09/2025 18:30:00,27.0,0.0,2.5,0.0,30.5,0.0,0.0,0.0,Negeri Sembilan
-56,0270571RF,Solok Air Murai (F2),Rembau,19/09/2025 18:30:00,9.5,0.0,46.0,5.5,31.0,0.0,0.0,0.0,Negeri Sembilan
-57,0270581RF,Kg. Pilin (F2),Rembau,19/09/2025 18:30:00,11.5,0.0,46.5,11.0,19.0,0.0,0.0,0.0,Negeri Sembilan
-58,0270371RF,Titian Bintangor (F2),Rembau,19/09/2025 18:30:00,11.5,0.5,19.0,22.0,12.0,0.0,0.0,0.0,Negeri Sembilan
-59,0270401RF,Pekan Kota (F2),Rembau,19/09/2025 18:30:00,9.0,0.0,33.0,1.5,6.0,0.0,0.0,0.0,Negeri Sembilan
-60,0270291RF,Pulau Mampat (F2),Rembau,19/09/2025 18:30:00,5.0,0.5,16.0,2.0,7.5,0.0,0.0,0.0,Negeri Sembilan
-61,0550351RF,Kg. Sungai Buluh (F2),Jelebu,19/09/2025 18:15:00,0.5,0.0,7.0,0.0,39.5,0.0,0.0,0.0,Negeri Sembilan
-62,0551791RF,Ladang Pertang (F2),Jelebu,19/09/2025 18:30:00,0.5,0.0,15.0,5.0,19.0,0.0,0.0,0.0,Negeri Sembilan
-63,0321411RF,Ladang Kuala Jelai (F2),Jempol,19/09/2025 18:30:00,-9999.0,-9999.0,-9999.0,-9999.0,10.5,0.0,0.0,0.0,Negeri Sembilan
-64,0550021RF,Ladang Bahau (F2),Jempol,19/09/2025 18:30:00,2.5,0.0,2.0,0.0,5.5,0.0,0.0,0.0,Negeri Sembilan
-65,0321141RF,Felda Palong 9 (F2),Jempol,19/09/2025 18:30:00,2.0,0.0,1.0,0.0,1.5,0.0,0.0,0.0,Negeri Sembilan
-66,0321541RF,SMK Serting Hilir (F2),Jempol,19/09/2025 18:30:00,0.5,0.0,0.0,0.0,31.0,0.0,0.0,0.0,Negeri Sembilan
-67,0321421RF,Felda Palong 16 (F2),Jempol,19/09/2025 18:30:00,2.5,0.0,2.0,0.0,37.5,0.0,0.0,0.0,Negeri Sembilan
-68,0000000RF,Hutan Lipur De' Bana (F2),Jempol,19/09/2025 18:30:00,0.5,0.0,13.0,0.0,13.0,0.0,0.0,0.0,Negeri Sembilan
-69,0553261RF,Sek. Keb. Sg. Sampo (F2),Jempol,19/09/2025 18:30:00,0.5,0.0,1.5,0.0,17.0,0.0,0.0,0.0,Negeri Sembilan
-70,0320831RF,Kepis Site 4 (F2),Kuala Pilah,19/09/2025 18:30:00,0.5,0.5,3.5,0.0,6.5,0.0,0.0,0.0,Negeri Sembilan
-71,0320711RF,Kg. Birah (F2),Kuala Pilah,19/09/2025 18:30:00,0.0,6.0,12.5,0.0,4.0,0.0,0.0,0.0,Negeri Sembilan
-72,0321401RF,Ladang Juasseh (F2),Kuala Pilah,19/09/2025 18:30:00,1.0,0.0,7.0,0.0,5.5,0.0,0.0,0.0,Negeri Sembilan
-73,0320451RF,Kg. Tanjong Limau (F2),Kuala Pilah,19/09/2025 18:30:00,1.0,0.5,44.0,3.0,24.0,0.0,0.0,0.0,Negeri Sembilan
-74,0321271RF,Kg. Sawah Lebar (F2),Kuala Pilah,19/09/2025 18:30:00,0.0,0.0,10.0,0.0,9.5,0.0,0.0,0.0,Negeri Sembilan
-75,0321171RF,Kg. Talang (F2),Kuala Pilah,19/09/2025 18:30:00,0.5,0.0,44.5,1.0,20.0,0.0,0.0,0.0,Negeri Sembilan
-76,0321061RF,Kg. Dangi (F2),Kuala Pilah,19/09/2025 18:30:00,3.5,0.0,17.5,0.0,9.0,0.0,0.0,0.0,Negeri Sembilan
-77,0321501RF,Kg. Seri Menanti (F2),Kuala Pilah,19/09/2025 18:30:00,3.5,0.0,42.5,0.5,6.0,0.0,0.0,0.0,Negeri Sembilan
-78,0321601RF,"Kg. Kalang Meranti, Johol (F2)",Kuala Pilah,19/09/2025 18:30:00,21.5,0.0,63.0,2.0,20.5,0.0,0.0,0.0,Negeri Sembilan
-79,0321161RF,Kg. Berembang (F2),Kuala Pilah,19/09/2025 18:30:00,-9999.0,-9999.0,5.0,0.0,17.5,0.0,0.0,0.0,Negeri Sembilan
-80,0321591RF,Kg. Pus (F2),Kuala Pilah,19/09/2025 18:30:00,0.5,0.0,13.0,0.0,1.0,0.0,0.0,0.0,Negeri Sembilan
-81,0320641RF,Ladang Gan Kee (F2),Tampin,19/09/2025 18:30:00,3.5,0.0,5.5,0.0,3.0,0.0,0.0,0.0,Negeri Sembilan
-82,0290391RF,Ladang Repah (F2),Tampin,19/09/2025 18:30:00,6.5,0.0,20.0,0.0,9.0,0.0,0.0,0.0,Negeri Sembilan
-83,0321131RF,Bukit Rokan (F2),Tampin,19/09/2025 18:15:00,0.5,0.5,0.0,0.5,0.0,0.5,0.0,0.0,Negeri Sembilan
-84,0321021RF,Pejabat Daerah Gemas (F2),Tampin,19/09/2025 18:30:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Negeri Sembilan
-85,0320991RF,Felda Jelai 4 (F2),Tampin,19/09/2025 18:15:00,0.0,0.5,0.5,0.0,0.0,0.0,0.0,0.0,Negeri Sembilan
-86,0320971RF,Air Kuning (F2),Tampin,19/09/2025 18:30:00,0.0,0.0,0.5,0.0,-9999.0,0.0,0.0,0.0,Negeri Sembilan
-87,0321031RF,Kg. Tiong (F2),Tampin,19/09/2025 18:30:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Negeri Sembilan
-88,0321041RF,Empang Sg. Dua (F2),Tampin,19/09/2025 18:15:00,-9999.0,-9999.0,-9999.0,-9999.0,-9999.0,-9999.0,0.5,0.0,Negeri Sembilan
-1,0270231RF,Jamb. Sg. Simpang Ampat (F2),Alor Gajah,19/09/2025 18:30:00,2.5,0.0,16.0,0.0,0.0,0.0,0.0,0.0,Melaka
-2,0270601RF,UITM Lendu (F2),Alor Gajah,19/09/2025 18:30:00,13.0,0.0,38.0,0.0,8.0,0.0,0.0,0.0,Melaka
-3,0290301RF,Kg. Sg. Siput (F2),Alor Gajah,19/09/2025 18:30:00,12.5,0.0,14.5,1.0,7.0,0.0,0.0,0.0,Melaka
-4,0270661RF,Rumah Pam Lubok China (F2),Alor Gajah,19/09/2025 18:30:00,12.0,0.0,33.5,17.0,13.5,0.0,0.0,0.0,Melaka
-5,0270031RF,Ladang Sg. Bharu (F2),Alor Gajah,19/09/2025 18:30:00,14.5,0.0,31.0,0.0,16.5,0.0,7.5,0.0,Melaka
-6,0290401RF,"Akademi Laut Malaysia, ALAM (F2)",Alor Gajah,19/09/2025 18:30:00,26.0,0.0,22.5,0.0,34.0,0.0,0.0,0.0,Melaka
-7,0290311RF,Solok Duku (F2),Alor Gajah,19/09/2025 18:30:00,28.5,0.0,58.5,0.0,16.5,0.0,0.0,0.0,Melaka
-8,0290271RF,Tanjung Rimau (F2),Alor Gajah,19/09/2025 18:15:00,12.0,0.0,34.5,0.0,6.5,0.0,0.0,0.0,Melaka
-9,0290421RF,Gadek (F2),Alor Gajah,19/09/2025 18:30:00,9.5,0.0,22.0,0.0,20.5,0.0,0.0,0.0,Melaka
-10,0290211RF,Melaka Pindah (F2),Alor Gajah,19/09/2025 18:30:00,9.5,0.0,34.5,0.0,9.5,0.0,0.0,0.0,Melaka
-11,0290141RF,Pantai Belimbing (F2),Alor Gajah,19/09/2025 18:30:00,11.0,0.0,16.0,0.0,31.0,0.0,1.5,0.0,Melaka
-12,0290011RF,Ladang Tebolang Tebong (F2),Alor Gajah,19/09/2025 18:00:00,10.0,0.0,6.0,0.0,12.0,0.0,0.0,0.0,Melaka
-13,0290151RF,Bt. 11 Air Resam (F2),Alor Gajah,19/09/2025 18:30:00,14.5,0.0,8.0,0.0,26.0,0.0,0.0,0.0,Melaka
-14,0290231RF,Pintu Air Durian Tunggal U/S (F2),Alor Gajah,19/09/2025 18:00:00,23.0,0.0,12.5,0.0,30.5,0.0,0.0,0.0,Melaka
-15,0310291RF,Empangan Jus (F2),Jasin,19/09/2025 18:30:00,11.5,0.0,1.0,0.0,7.5,0.0,0.0,0.0,Melaka
-16,0310211RF,Selandar (F2),Jasin,19/09/2025 18:30:00,21.5,0.0,2.0,0.0,24.0,0.0,0.0,0.0,Melaka
-17,0310331RF,Sek. Keb. Kemendor (F2),Jasin,19/09/2025 18:30:00,12.0,0.0,0.5,0.0,32.0,0.0,0.0,0.0,Melaka
-18,0310041RF,Ladang Diamond Jubilee (F2),Jasin,19/09/2025 18:30:00,6.5,0.0,0.0,0.0,22.5,0.0,0.0,0.0,Melaka
-19,0310241RF,Chohong (F2),Jasin,19/09/2025 18:30:00,4.0,0.0,0.0,0.5,21.0,0.0,0.0,0.0,Melaka
-20,0310031RF,Jasin Lalang (F2),Jasin,19/09/2025 18:30:00,-9999.0,-9999.0,-9999.0,0.0,34.0,0.0,0.0,0.0,Melaka
-21,0310351RF,UITM Jasin (F2),Jasin,19/09/2025 18:30:00,10.0,0.0,0.5,5.0,12.5,0.0,0.0,0.0,Melaka
-22,0310251RF,Rumah Pam Telok Rimba (F2),Jasin,19/09/2025 18:30:00,7.5,0.0,0.0,46.5,7.5,0.0,0.0,0.0,Melaka
-23,0300081RF,Bemban (F2),Jasin,19/09/2025 18:30:00,5.5,0.0,11.0,0.0,41.0,0.0,1.0,0.0,Melaka
-24,0300011RF,Ladang Bukit Kajang (F2),Jasin,19/09/2025 18:30:00,6.5,0.0,9.0,0.0,38.5,0.0,0.0,0.0,Melaka
-25,0290021RF,Pusat Pertanian Sg. Udang (F2),Melaka Tengah,19/09/2025 18:30:00,55.5,0.0,46.5,0.0,37.5,0.0,0.0,0.0,Melaka
-26,0290191RF,Empangan Bertam Hulu (F2),Melaka Tengah,19/09/2025 18:30:00,16.5,0.0,16.5,-9999.0,-9999.0,-9999.0,1.0,0.0,Melaka
-27,0290351RF,Pintu Air Klebang Besar D/S (F2),Melaka Tengah,19/09/2025 18:30:00,73.5,0.0,18.0,0.0,29.0,0.0,0.0,0.0,Melaka
-28,0290341RF,Pintu Air Cheng U/S (F2),Melaka Tengah,19/09/2025 18:30:00,55.0,0.0,9.5,0.0,36.5,0.0,0.0,0.0,Melaka
-29,0290491RF,Kg. Sg. Putat (F2),Melaka Tengah,19/09/2025 18:30:00,41.5,0.0,13.5,0.0,48.0,0.0,0.0,0.0,Melaka
-30,0290361RF,Stor Bukit Baru (F2),Melaka Tengah,19/09/2025 18:30:00,70.0,0.0,15.5,0.5,26.5,0.0,3.5,0.0,Melaka
-31,0300051RF,Pintu Air Sg. Duyong (F2),Melaka Tengah,19/09/2025 18:30:00,0.5,-9999.0,-9999.0,-9999.0,0.5,0.0,2.0,0.0,Melaka
-1,2626003,Kg. Awat,Segamat,19/09/2025 18:15:00,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,Johor
-2,2627001,Sek. Keb. Spang Loi,Segamat,19/09/2025 18:15:00,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,Johor
-3,2628002,Kg. Bangas,Segamat,19/09/2025 18:15:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Johor
-4,2528003,Felda Pemanis,Segamat,19/09/2025 18:15:00,1.0,0.0,0.0,0.0,1.0,0.0,2.0,2.0,Johor
-5,2527004,Ladang Paya Lang,Segamat,19/09/2025 18:15:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Johor
-6,2526004,Buloh Kasap,Segamat,19/09/2025 18:15:00,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,Johor
-7,2430002,Empangan Juaseh,Segamat,19/09/2025 18:15:00,4.0,0.0,0.0,0.0,19.0,0.0,0.0,0.0,Johor
-8,2430009,Air Panas,Segamat,19/09/2025 18:15:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Johor
-9,2530002,Felda Redong,Segamat,19/09/2025 18:15:00,0.0,0.0,0.0,0.0,6.0,0.0,0.0,0.0,Johor
-10,2530001,Segamat Kecil,Segamat,19/09/2025 18:15:00,0.0,0.0,0.0,0.0,2.0,0.0,6.0,6.0,Johor
-11,2529001,Felda Kemelah,Segamat,19/09/2025 18:15:00,0.0,0.0,0.0,0.0,9.0,0.0,0.0,0.0,Johor
-12,2528002,Bandar Segamat,Segamat,19/09/2025 18:15:00,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,Johor
-13,0200012,Jeti Kg. Tekam,Segamat,19/09/2025 18:15:00,0.0,0.0,0.0,0.0,7.0,0.0,0.0,0.0,Johor
-14,2330002,Kg. Gatom,Segamat,19/09/2025 18:15:00,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,Johor
-15,2330009,LPP Labis,Segamat,19/09/2025 18:15:00,1.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,Johor
-16,2230001,SMK Chaah,Segamat,19/09/2025 18:15:00,0.0,0.0,2.0,0.0,11.0,0.0,0.0,0.0,Johor
-17,2130002,Kangkar Chaah,Segamat,19/09/2025 18:00:00,1.0,0.0,0.0,0.0,7.0,18.0,0.0,0.0,Johor
-18,2229001,Felda Maokil,Muar,19/09/2025 18:15:00,1.0,0.0,1.0,0.0,19.0,0.0,0.0,0.0,Johor
-19,2028001,Bukit Kepong,Muar,19/09/2025 18:15:00,0.0,0.0,0.0,0.0,11.0,0.0,0.0,0.0,Johor
-20,2127001,Kg. Olak Sepam,Muar,19/09/2025 18:15:00,1.0,0.0,3.0,2.0,34.0,0.0,0.0,0.0,Johor
-21,2127074,Panchor,Muar,19/09/2025 18:15:00,1.0,0.0,1.0,1.0,39.0,0.0,0.0,0.0,Johor
-22,0230996,Kg. Parit Wahid,Muar,19/09/2025 18:15:00,2.0,0.0,3.0,5.0,32.0,0.0,0.0,0.0,Johor
-23,2026002,Kg. Sg. Terap,Muar,19/09/2025 18:15:00,9.0,0.0,1.0,91.0,60.0,0.0,0.0,0.0,Johor
-24,2027001,Air Hitam Bt. 15,Muar,19/09/2025 18:15:00,0.0,0.0,8.0,0.0,19.0,0.0,0.0,0.0,Johor
-25,0152637,Kg. Parit Tengah,Muar,19/09/2025 18:15:00,1.0,0.0,17.0,0.0,19.0,0.0,0.0,0.0,Johor
-26,1926051,Ladang Air Manis,Muar,19/09/2025 18:15:00,1.0,0.0,9.0,0.0,13.0,0.0,0.0,0.0,Johor
-27,No Data,Parit Jawa,Muar,19/09/2025 18:15:00,1.0,0.0,9.0,0.0,21.0,0.0,0.0,0.0,Johor
-28,2326025,Gunung Ledang,Tangkak,19/09/2025 18:15:00,1.0,0.0,1.0,0.0,6.0,0.0,0.0,0.0,Johor
-29,2326026,Bukit Serampang,Tangkak,19/09/2025 18:15:00,1.0,0.0,0.0,6.0,14.0,0.0,0.0,0.0,Johor
-30,2225002,Paya Mas,Tangkak,19/09/2025 18:15:00,8.0,0.0,1.0,4.0,7.0,0.0,0.0,0.0,Johor
-31,2226001,Sawah Ring,Tangkak,19/09/2025 18:15:00,1.0,0.0,1.0,12.0,6.0,0.0,0.0,0.0,Johor
-32,2226002,Simpang 5 Darat,Tangkak,19/09/2025 18:15:00,1.0,0.0,8.0,9.0,8.0,0.0,0.0,0.0,Johor
-33,2125002,Sg. Senduk,Tangkak,19/09/2025 18:15:00,4.0,0.0,0.0,83.0,36.0,0.0,0.0,0.0,Johor
-34,2025001,Pintu Air Tanjung Agas,Tangkak,19/09/2025 18:15:00,5.0,0.0,2.0,37.0,40.0,0.0,0.0,0.0,Johor
-35,2225001,Kg. Seri Ma'amor,Tangkak,19/09/2025 18:15:00,9.0,0.0,-9999.0,2.0,11.0,0.0,0.0,0.0,Johor
-36,2027001,Telok Rimba,Tangkak,19/09/2025 18:00:00,6.0,0.0,0.0,59.0,5.0,0.0,0.0,0.0,Johor
-37,2125001,Pintu Air Kesang,Tangkak,19/09/2025 18:15:00,8.0,0.0,0.0,50.0,16.0,0.0,0.0,0.0,Johor
-38,2130001,Ladang Chaah,Batu Pahat,19/09/2025 18:15:00,1.0,0.0,0.0,0.0,22.0,0.0,0.0,0.0,Johor
-39,2131001,Ladang Lian Seng,Batu Pahat,19/09/2025 18:15:00,1.0,0.0,0.0,0.0,37.0,0.0,0.0,0.0,Johor
-40,2030071,Empangan Bekok,Batu Pahat,19/09/2025 18:15:00,1.0,0.0,0.0,0.0,13.0,0.0,0.0,0.0,Johor
-41,2130068,Ladang Union,Batu Pahat,19/09/2025 18:15:00,1.0,0.0,2.0,0.0,23.0,0.0,0.0,0.0,Johor
-42,2130070,Bt. 77 Jln. Yong Peng,Batu Pahat,19/09/2025 18:15:00,1.0,0.0,6.0,0.0,22.0,0.0,0.0,0.0,Johor
-43,2031069,Ladang Yong Peng,Batu Pahat,19/09/2025 18:15:00,2.0,0.0,0.0,0.0,26.0,0.0,0.0,0.0,Johor
-44,2031067,Bandar Yong Peng,Batu Pahat,19/09/2025 18:15:00,1.0,0.0,4.0,0.0,25.0,0.0,0.0,0.0,Johor
-45,1931003,Empangan Sembrong,Batu Pahat,19/09/2025 18:15:00,5.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,Johor
-46,1931004,Bt. 2 Sembrong,Batu Pahat,19/09/2025 18:15:00,6.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,Johor
-47,1831080,Parit Karjo,Batu Pahat,19/09/2025 18:15:00,35.0,0.0,0.0,0.0,0.0,0.0,6.0,0.0,Johor
-48,1829054,Parit Besar,Batu Pahat,19/09/2025 18:15:00,9.0,0.0,3.0,0.0,17.0,0.0,14.0,0.0,Johor
-49,1841199,Parit Belemam,Batu Pahat,19/09/2025 18:15:00,10.0,0.0,4.0,0.0,25.0,0.0,0.0,0.0,Johor
-50,1929065,Sri Medan,Batu Pahat,19/09/2025 18:00:00,13.0,0.0,8.0,0.0,41.0,0.0,1.0,0.0,Johor
-51,1928062,Parit Sulong,Batu Pahat,19/09/2025 18:15:00,2.0,0.0,1.0,0.0,30.0,0.0,0.0,0.0,Johor
-52,1928064,Tebing Tinggi,Batu Pahat,19/09/2025 18:15:00,3.0,0.0,3.0,0.0,29.0,0.0,15.0,0.0,Johor
-53,1829001,SMK Munshi Sulaiman,Batu Pahat,19/09/2025 18:15:00,9.0,0.0,0.0,0.0,25.0,0.0,1.0,0.0,Johor
-54,1829078,JPS Batu Pahat,Batu Pahat,19/09/2025 18:15:00,3.0,0.0,2.0,0.0,39.0,0.0,7.0,0.0,Johor
-55,1730082,Senggarang,Batu Pahat,19/09/2025 18:15:00,5.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,Johor
-56,1731092,Rengit,Batu Pahat,19/09/2025 18:00:00,19.0,0.0,0.0,0.0,0.0,0.0,9.0,0.0,Johor
-57,2033002,Bandar Kluang,Kluang,19/09/2025 18:15:00,5.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,Johor
-58,2135001,Kg. Contoh,Kluang,19/09/2025 18:15:00,18.0,0.0,0.0,0.0,11.0,0.0,0.0,0.0,Johor
-59,2235001,SMK Kahang,Kluang,19/09/2025 18:15:00,37.0,0.0,0.0,0.0,12.0,0.0,0.0,0.0,Johor
-60,1835001,Layang-Layang,Kluang,19/09/2025 18:15:00,22.0,0.0,0.0,0.0,0.0,0.0,17.0,0.0,Johor
-61,1832001,Felda Air Hitam,Kluang,19/09/2025 18:15:00,13.0,0.0,15.0,0.0,1.0,0.0,20.0,0.0,Johor
-62,1832001,Empangan Machap,Kluang,19/09/2025 18:15:00,12.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,Johor
-63,1833124,Simpang Renggam,Kluang,19/09/2025 18:15:00,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Johor
-64,1834003,Kg. Sg. Siam,Kulai,19/09/2025 18:15:00,11.0,0.0,2.0,0.0,1.0,0.0,26.0,0.0,Johor
-65,1735001,Kg. Murni Jaya,Kulai,19/09/2025 18:15:00,10.0,0.0,2.0,0.0,3.0,0.0,2.0,0.0,Johor
-66,1734003,Ladang Sedenak,Kulai,19/09/2025 18:15:00,10.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,Johor
-67,No Data,Bt. 21 Kulai,Kulai,19/09/2025 18:15:00,13.0,0.0,1.0,0.0,4.0,0.0,0.0,0.0,Johor
-68,1636002,Kg. Separa,Kulai,19/09/2025 18:15:00,31.0,0.0,3.0,0.0,4.0,0.0,1.0,0.0,Johor
-69,1536001,Taman Aman,Kulai,19/09/2025 18:15:00,19.0,0.0,34.0,0.0,6.0,0.0,38.0,0.0,Johor
-70,1734002,Kg. Melayu Bukit Batu,Kulai,19/09/2025 18:15:00,15.0,0.0,0.0,0.0,6.0,0.0,4.0,0.0,Johor
-71,1635001,Kg. Sri Paya,Kulai,19/09/2025 18:15:00,17.0,0.0,1.0,0.0,16.0,0.0,0.0,0.0,Johor
-72,No Data,Puncak Gunung Pulai,Kulai,19/09/2025 18:15:00,15.0,0.0,2.0,0.0,42.0,1.0,29.0,0.0,Johor
-73,1534013,Kg. Kabong,Pontian,19/09/2025 18:15:00,35.0,0.0,1.0,0.0,30.0,0.0,2.0,0.0,Johor
-74,1534003,Kg. Paya Embun,Pontian,19/09/2025 18:15:00,17.0,0.0,21.0,0.0,36.0,0.0,0.0,0.0,Johor
-75,1732005,Pintu Air Parit Salleh,Pontian,19/09/2025 18:15:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Johor
-76,1632001,PPPB Benut,Pontian,19/09/2025 18:15:00,18.0,0.0,4.0,0.0,25.0,0.0,20.0,0.0,Johor
-77,1435004,Kg. Ulu Pulai,Pontian,19/09/2025 18:15:00,14.0,0.0,3.0,3.0,23.0,0.0,16.0,1.0,Johor
-78,1334108,Ladang Kukup,Pontian,19/09/2025 18:15:00,17.0,0.0,0.0,0.0,12.0,0.0,0.0,0.0,Johor
-79,1535001,Kangkar Pulai,Johor Bahru,19/09/2025 18:15:00,20.0,0.0,6.0,0.0,10.0,0.0,1.0,0.0,Johor
-80,No Data,Kg. Baru Muafakat,Johor Bahru,19/09/2025 18:15:00,25.0,0.0,17.0,0.0,52.0,0.0,17.0,2.0,Johor
-81,1436001,Iskandar Puteri,Johor Bahru,19/09/2025 18:15:00,22.0,0.0,24.0,0.0,10.0,0.0,32.0,0.0,Johor
-82,7239550,Nusa Duta,Johor Bahru,19/09/2025 18:15:00,14.0,0.0,44.0,0.0,2.0,0.0,31.0,0.0,Johor
-83,1536013,Kg. Laut,Johor Bahru,19/09/2025 18:15:00,22.0,0.0,45.0,0.0,1.0,0.0,47.0,0.0,Johor
-84,1538001,Kg. Maju Jaya,Johor Bahru,19/09/2025 18:15:00,10.0,0.0,12.0,0.0,0.0,0.0,3.0,0.0,Johor
-85,1537002,Taman Sri Pandan,Johor Bahru,19/09/2025 18:15:00,10.0,0.0,8.0,0.0,0.0,0.0,1.0,0.0,Johor
-86,1538001,Klinik Desa Plentong,Johor Bahru,19/09/2025 16:45:00,3.0,0.0,8.0,0.0,0.0,0.0,1.0,0.0,Johor
-87,1437116,Stor JPS Johor Bahru,Johor Bahru,19/09/2025 18:15:00,0.0,0.0,17.0,17.0,0.0,0.0,0.0,0.0,Johor
-88,1437001,Pintu Air Kolam Air,Johor Bahru,19/09/2025 18:15:00,11.0,0.0,26.0,0.0,1.0,0.0,2.0,0.0,Johor
-89,1438002,Kg. Sepakat,Johor Bahru,19/09/2025 18:15:00,4.0,0.0,20.0,0.0,1.0,0.0,0.0,0.0,Johor
-90,1538002,Klinik Kesihatan Ulu Tiram,Johor Bahru,19/09/2025 18:15:00,11.0,8.0,3.0,2.0,2.0,2.0,2.0,0.0,Johor
-91,11111222,Kg. Bukit Dagang,Johor Bahru,19/09/2025 18:15:00,1.0,0.0,12.0,0.0,0.0,0.0,17.0,0.0,Johor
-92,1539136,Ladang Lim Lim,Johor Bahru,19/09/2025 18:15:00,1.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,Johor
-93,1836001,Ulu Sebol,Kota Tinggi,19/09/2025 18:15:00,10.0,0.0,0.0,0.0,2.0,2.0,20.0,0.0,Johor
-94,1835001,Ladang Pekan,Kota Tinggi,19/09/2025 18:15:00,6.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,Johor
-95,1836146,Linggiu,Kota Tinggi,19/09/2025 18:15:00,30.0,0.0,0.0,0.0,0.0,0.0,42.0,0.0,Johor
-96,1737001,Bukit Besar,Kota Tinggi,19/09/2025 18:15:00,23.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,Johor
-97,1737060,Kg. Semanggar,Kota Tinggi,19/09/2025 18:15:00,5.0,0.0,18.0,0.0,0.0,0.0,15.0,0.0,Johor
-98,7668291,Kg. Sri Jaya,Kota Tinggi,19/09/2025 18:15:00,3.0,0.0,27.0,0.0,0.0,0.0,0.0,0.0,Johor
-99,1738001,Kota Tinggi,Kota Tinggi,19/09/2025 18:15:00,2.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,Johor
-100,1739004,Pasak,Kota Tinggi,19/09/2025 18:15:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Johor
-101,0001234,Kg. Sg. Sembilang,Kota Tinggi,19/09/2025 18:15:00,0.0,0.0,3.0,0.0,0.0,0.0,6.0,0.0,Johor
-102,1738132,Ladang Nam Heng,Kota Tinggi,19/09/2025 18:15:00,0.0,0.0,3.0,0.0,0.0,0.0,15.0,0.0,Johor
-103,1542001,Bandar Penawar,Kota Tinggi,19/09/2025 18:15:00,2.0,0.0,5.0,0.0,3.0,0.0,0.0,0.0,Johor
-104,1541139,Johor Silica,Kota Tinggi,19/09/2025 18:15:00,2.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,Johor
-105,1442003,Bukit Pelali,Kota Tinggi,19/09/2025 18:15:00,3.0,0.0,13.0,0.0,27.0,0.0,0.0,0.0,Johor
-106,1341001,Lepau,Kota Tinggi,19/09/2025 18:15:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Johor
-107,1442002,Punggai,Kota Tinggi,19/09/2025 18:15:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Johor
-108,1641001,Felda Lok Heng,Kota Tinggi,19/09/2025 18:15:00,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,Johor
-109,1841002,Sedili Kecil,Kota Tinggi,19/09/2025 18:15:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Johor
-110,1839196,Kg. Mawai,Kota Tinggi,19/09/2025 18:15:00,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,Johor
-111,1940001,Sek. Keb. Sempang,Kota Tinggi,19/09/2025 18:15:00,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,Johor
-112,2536168,Empangan Labong,Mersing,19/09/2025 18:15:00,11.0,2.0,40.0,0.0,0.0,0.0,0.0,0.0,Johor
-113,2636170,Stor JPS Endau,Mersing,19/09/2025 18:15:00,4.0,0.0,5.0,0.0,1.0,0.0,0.0,0.0,Johor
-114,2338001,Loji Air Wak Salam,Mersing,19/09/2025 18:15:00,20.0,0.0,1.0,0.0,3.0,1.0,6.0,0.0,Johor
-115,2438006,Jemari,Mersing,19/09/2025 18:15:00,4.0,0.0,2.0,0.0,2.0,0.0,0.0,0.0,Johor
-116,2438002,Pengkalan Batu,Mersing,19/09/2025 18:15:00,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,Johor
-117,2438001,Stor JPS Mersing,Mersing,19/09/2025 18:15:00,18.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,Johor
-118,7360911,Kg. Tenglu Kecil,Mersing,19/09/2025 18:15:00,24.0,5.0,0.0,0.0,1.0,0.0,0.0,0.0,Johor
-119,7360922,Sg. Paya Dato,Mersing,19/09/2025 18:15:00,16.0,0.0,5.0,0.0,4.0,0.0,0.0,0.0,Johor
-1,0553201RF,Jalan Simpang Pulai,Cameron Highlands,19/09/2025 18:15:00,-9999.0,-9999.0,-9999.0,-9999.0,-9999.0,-9999.0,0.0,0.0,Pahang
-2,0553231RF,Hulu Sg. Merah,Cameron Highlands,19/09/2025 18:15:00,-9999.0,-9999.0,-9999.0,-9999.0,-9999.0,-9999.0,2.5,0.0,Pahang
-3,0553211RF,Hulu Sg. Ringlet,Cameron Highlands,19/09/2025 18:15:00,-9999.0,-9999.0,-9999.0,-9999.0,-9999.0,-9999.0,5.5,0.0,Pahang
-4,0553221RF,Middle Sg. Ringlet,Cameron Highlands,19/09/2025 18:15:00,-9999.0,-9999.0,-9999.0,-9999.0,-9999.0,-9999.0,5.0,0.0,Pahang
-5,0553241RF,Pekan Ringlet,Cameron Highlands,19/09/2025 18:15:00,-9999.0,-9999.0,-9999.0,-9999.0,0.0,0.0,3.0,0.0,Pahang
-6,0553061RF,Blue Valley (F1),Cameron Highlands,19/09/2025 18:15:00,2.5,0.5,5.5,24.0,5.5,0.0,0.0,0.0,Pahang
-7,4514035,Sg. Ikan,Cameron Highlands,19/09/2025 18:00:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Pahang
-8,0552351RF,Sg. Ikan (F1),Cameron Highlands,19/09/2025 18:15:00,5.0,0.0,7.0,31.5,6.5,0.0,0.0,0.0,Pahang
-9,4513033,Brinchang,Cameron Highlands,19/09/2025 18:00:00,3.0,0.0,13.0,11.0,8.0,0.0,0.0,0.0,Pahang
-10,0553341RF,Tringkap (F1),Cameron Highlands,19/09/2025 18:15:00,1.0,0.0,11.5,11.5,4.5,0.0,0.0,0.0,Pahang
-11,0552011RF,MARDI (F1),Cameron Highlands,19/09/2025 18:15:00,7.0,0.0,18.0,21.5,8.0,0.0,0.5,0.0,Pahang
-12,4414040,MARDI CH,Cameron Highlands,19/09/2025 18:00:00,6.0,0.0,14.0,17.0,6.0,0.0,0.5,0.0,Pahang
-13,0552461RF,Ladang Boh (Kwsn. Boh) F1,Cameron Highlands,19/09/2025 18:15:00,8.5,0.0,20.0,16.5,4.0,0.0,0.0,0.0,Pahang
-14,0551801RF,Ladang Boh (Kwsn. Kilang) F1,Cameron Highlands,19/09/2025 18:15:00,11.0,0.0,17.5,12.5,4.0,0.0,0.0,0.0,Pahang
-15,0552471RF,Ladang Boh (Kwsn. Selatan) F1,Cameron Highlands,19/09/2025 18:15:00,9.5,0.0,13.5,9.5,4.0,0.0,0.0,0.0,Pahang
-16,C00001,SJK (C) Lembah Bertam,Cameron Highlands,19/09/2025 18:00:00,10.5,0.0,14.0,1.5,4.0,0.0,0.5,0.0,Pahang
-17,0552791RF,Pos Sinderut (F1),Lipis,19/09/2025 18:15:00,0.0,1.5,18.0,2.5,2.0,0.0,0.0,0.0,Pahang
-18,0552781RF,Pos Betau (F1),Lipis,19/09/2025 18:15:00,0.0,4.0,6.5,3.0,3.0,7.0,13.0,0.0,Pahang
-19,0552321RF,Kuala Medang (F1),Lipis,19/09/2025 18:15:00,0.0,0.5,3.5,3.0,3.5,1.5,0.0,0.0,Pahang
-20,4620046,Merapoh,Lipis,19/09/2025 18:00:00,1.0,9.0,3.5,12.0,3.0,0.5,0.0,0.0,Pahang
-21,0552281RF,Jam. Chegar Perah (F1),Lipis,19/09/2025 18:15:00,1.0,3.5,3.0,13.0,5.0,0.0,2.0,0.0,Pahang
-22,0552731RF,S. K. Aur Gading (F1),Lipis,19/09/2025 18:15:00,-9999.0,-9999.0,-9999.0,-9999.0,2.5,3.0,0.0,0.0,Pahang
-23,0552861RF,Bukit Betong (F1),Lipis,19/09/2025 18:15:00,0.5,6.5,2.5,2.0,5.0,13.5,7.5,0.0,Pahang
-24,0552721RF,Ladang Benta (F1),Lipis,19/09/2025 18:15:00,0.5,16.0,1.0,0.5,4.5,0.0,0.5,0.0,Pahang
-25,0552771RF,Kg. Bandar (F1),Lipis,19/09/2025 18:15:00,0.0,8.0,3.0,0.0,12.5,3.0,5.5,0.0,Pahang
-26,0552751RF,Hospital Lipis (F1),Lipis,19/09/2025 18:15:00,0.5,-9999.0,1.5,1.5,-9999.0,-9999.0,27.5,0.0,Pahang
-27,0552831RF,Stn. Keretapi Kerambit (F1),Lipis,19/09/2025 18:15:00,0.0,11.0,3.0,0.0,4.5,0.5,26.0,0.0,Pahang
-28,0552421RF,Kg. Bantal Seberang (F1),Jerantut,19/09/2025 18:15:00,0.5,2.0,0.0,29.0,10.0,1.5,1.0,0.0,Pahang
-29,0552371RF,Kuala Tahan (F1),Jerantut,19/09/2025 07:45:00,0.0,5.5,1.5,16.5,7.0,0.0,27.0,0.0,Pahang
-30,4324001,Kuala Tahan,Jerantut,19/09/2025 18:00:00,0.0,4.5,1.5,12.0,6.0,0.0,24.5,0.0,Pahang
-31,0552271RF,Kg. Merting (F1),Jerantut,19/09/2025 18:15:00,-9999.0,-9999.0,0.5,43.5,6.5,9.5,60.5,0.0,Pahang
-32,0551831RF,Kg. Chebong (F1),Jerantut,19/09/2025 18:00:00,0.0,29.0,0.5,6.0,4.0,0.5,62.0,0.0,Pahang
-33,0553481RF,Kuala Tembeling (F1),Jerantut,19/09/2025 18:15:00,0.0,3.0,0.0,0.5,0.0,0.0,10.0,0.0,Pahang
-34,0553481RF,Kuala Tembeling,Jerantut,19/09/2025 18:00:00,0.5,19.0,1.0,4.0,2.5,0.0,9.0,0.0,Pahang
-35,0552901RF,Kg. Baru (F1),Jerantut,19/09/2025 18:15:00,0.5,3.5,1.5,0.5,3.5,1.0,0.0,0.0,Pahang
-36,0552401RF,Jerantut Feri (F1),Jerantut,19/09/2025 18:15:00,0.0,0.5,4.5,1.5,5.5,1.5,14.5,0.0,Pahang
-37,0553001RF,Batu Malim (F1),Raub,19/09/2025 18:15:00,0.0,26.5,13.5,0.0,4.0,2.0,0.0,0.0,Pahang
-38,4017001,Batu Malim,Raub,19/09/2025 18:00:00,0.0,28.5,13.0,0.0,4.0,2.5,0.0,0.0,Pahang
-39,3717001,Peninjau,Raub,19/09/2025 17:00:00,0.0,0.5,44.0,1.0,1.5,0.0,0.0,0.0,Pahang
-40,0553121RF,JPS Stor Raub (F1),Raub,19/09/2025 18:15:00,0.0,8.0,5.5,0.0,2.0,1.5,1.0,0.0,Pahang
-41,0551811RF,Kg. Cheroh (F1),Raub,19/09/2025 18:00:00,0.0,4.0,11.0,0.0,5.0,0.0,0.0,0.0,Pahang
-42,0552341RF,Kg. Peruas (F1),Raub,19/09/2025 18:00:00,0.5,0.0,0.5,0.0,3.5,10.5,0.0,0.0,Pahang
-43,0552881RF,Janda Baik (F1),Bentong,19/09/2025 18:15:00,3.5,0.5,49.5,2.0,24.0,0.0,0.0,0.0,Pahang
-44,0553401RF,Kg. Lengkong (F1),Bentong,19/09/2025 18:15:00,0.0,13.0,-9999.0,-9999.0,0.0,0.0,0.0,0.0,Pahang
-45,0552931RF,Ladang Mentakab (F1),Temerloh,19/09/2025 18:15:00,-9999.0,-9999.0,-9999.0,-9999.0,23.5,0.0,0.0,0.0,Pahang
-46,0553071RF,"Sg. Terbol, Jenderak (F1)",Temerloh,19/09/2025 18:15:00,0.5,0.0,1.0,0.5,1.0,12.5,0.0,0.0,Pahang
-47,0552961RF,"Pos Penderas, Kuala Krau (F1)",Temerloh,19/09/2025 18:15:00,0.0,0.5,1.0,10.0,0.5,5.5,0.0,0.0,Pahang
-48,0552601RF,Felda Jenderak Selatan (F1),Temerloh,19/09/2025 18:15:00,0.5,4.5,23.5,1.0,3.0,0.0,0.0,0.0,Pahang
-49,0553041RF,Lubuk Pasu (F1),Temerloh,19/09/2025 18:15:00,0.0,0.5,11.5,0.0,6.5,0.0,0.0,0.0,Pahang
-50,3424081,Temerloh (Lubuk Pasu),Temerloh,19/09/2025 18:00:00,0.0,0.5,12.5,0.0,6.5,0.0,0.0,0.0,Pahang
-51,0553091RF,Triang (F1),Bera,19/09/2025 18:15:00,0.5,0.0,0.5,-9999.0,-9999.0,0.0,0.0,0.0,Pahang
-52,2924096,Glendale,Bera,19/09/2025 18:00:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Pahang
-53,0552381RF,Pej. Ramsar (F1),Bera,19/09/2025 18:15:00,0.0,0.0,0.5,0.0,1.0,0.0,0.0,0.0,Pahang
-54,0552301RF,Pej. Felda Triang 2 (F1),Bera,19/09/2025 18:00:00,0.0,0.0,0.5,0.0,1.0,0.0,0.0,0.0,Pahang
-55,0552611RF,Felda Kg. Awah (F1),Maran,19/09/2025 18:15:00,0.0,2.0,3.0,0.0,1.0,0.0,0.0,0.0,Pahang
-56,0553021RF,Kg. Chenor (F1),Maran,19/09/2025 18:15:00,0.0,0.0,0.0,-9999.0,-9999.0,0.0,0.0,0.0,Pahang
-57,0552581RF,Bandar Jengka (F1),Maran,19/09/2025 18:15:00,0.0,1.5,0.5,1.0,1.0,0.0,3.0,0.0,Pahang
-58,0552701RF,Sek. Keb. Kuala Sentul (F1),Maran,19/09/2025 18:15:00,0.0,17.5,5.5,0.0,0.5,0.0,7.0,0.0,Pahang
-59,0553031RF,Lubok Paku (F1),Maran,19/09/2025 07:00:00,-9999.0,-9999.0,0.0,-9999.0,0.0,0.0,0.0,0.0,Pahang
-60,0552201RF,Kuala Sg. Chini (F1),Pekan,19/09/2025 18:15:00,0.0,0.0,5.5,0.0,0.0,0.0,0.0,0.0,Pahang
-61,3428001,Kuala Sg.Chini,Pekan,19/09/2025 18:00:00,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,Pahang
-62,0552851RF,Batu Gong (F1),Pekan,19/09/2025 18:00:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Pahang
-63,3431099,Paloh Hinai,Pekan,19/09/2025 18:00:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Pahang
-64,0552571RF,Kg. Temai Hilir (F1),Pekan,19/09/2025 18:15:00,0.0,15.5,0.0,0.0,0.5,0.0,7.5,0.0,Pahang
-65,0552411RF,Pahang Tua (F1),Pekan,19/09/2025 18:15:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Pahang
-66,0553051RF,Pekan (F1),Pekan,19/09/2025 18:15:00,0.0,13.0,0.5,0.0,0.0,0.0,2.0,0.0,Pahang
-67,3032167,Temeris (RHN),Pekan,19/09/2025 18:15:00,1.0,1.0,13.5,0.0,5.5,0.0,0.0,0.0,Pahang
-68,3930012,PCCL Sg. Lembing,Kuantan,19/09/2025 04:00:00,0.0,2.5,5.0,9.0,8.5,0.0,0.0,0.0,Pahang
-69,3831001,Pasir Kemudi,Kuantan,19/09/2025 18:00:00,0.0,0.0,0.0,-9999.0,-9999.0,0.0,17.5,0.0,Pahang
-70,3831002,Felda Panching Utara,Kuantan,19/09/2025 18:00:00,10.5,0.0,0.0,0.5,10.5,10.5,32.0,0.0,Pahang
-71,3832020,Kuantan Bypass,Kuantan,19/09/2025 18:00:00,0.5,0.5,0.0,0.5,0.0,0.0,0.0,0.0,Pahang
-72,3833002,KOMTUR,Kuantan,19/09/2025 18:00:00,0.5,0.0,0.0,-9999.0,-9999.0,1.5,6.5,0.0,Pahang
-73,3432001,Sri Damai,Kuantan,19/09/2025 18:00:00,0.0,4.0,0.0,-9999.0,-9999.0,0.0,17.5,0.0,Pahang
-74,3133001,Cherating,Kuantan,19/09/2025 18:00:00,0.5,0.0,0.5,53.5,6.0,0.0,51.0,0.0,Pahang
-75,2630001,Sg. Pukin,Rompin,19/09/2025 18:00:00,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Pahang
-76,2829001,Ulu Sg. Chanis (RHN),Rompin,19/09/2025 18:15:00,0.5,0.0,0.0,0.0,0.5,0.0,0.0,0.0,Pahang
-77,2828173,Kg. Gambir (RHN),Rompin,19/09/2025 18:15:00,0.5,0.0,0.0,0.0,9.0,0.0,0.0,0.0,Pahang
-78,0520121RF,Jam. Bahau Keratong (RHN),Rompin,19/09/2025 18:15:00,0.0,-9999.0,-9999.0,-9999.0,-9999.0,-9999.0,0.0,0.0,Pahang
-79,3028001,Sg. Kepasing (RHN),Rompin,19/09/2025 18:15:00,0.0,0.0,0.5,0.0,3.0,0.0,0.0,0.0,Pahang
-80,3129177,Bkt. Ibam (RHN),Rompin,19/09/2025 18:15:00,-9999.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,Pahang
-81,0520321RF,Balai Bomba Muadzam Shah (RHN),Rompin,19/09/2025 18:15:00,0.5,0.5,0.0,0.0,5.0,0.0,0.0,0.0,Pahang
-82,2834180,S.K. Leban Chondong (RHN),Rompin,19/09/2025 18:15:00,0.5,0.0,17.5,0.0,8.5,0.0,0.0,0.0,Pahang
-83,2834001,Stn. Per. Endau Rompin (RHN),Rompin,19/09/2025 18:15:00,1.5,0.0,35.0,1.5,7.5,14.0,0.0,0.0,Pahang
-84,2834181,Rumah Rehat Lama Rompin (RHN),Rompin,19/09/2025 18:15:00,1.5,0.0,1.5,0.0,1.5,22.0,0.0,0.0,Pahang
-85,0500511RF,Emp. Anak Endau Pahang (RHN),Rompin,19/09/2025 18:15:00,5.5,0.0,0.5,0.0,0.5,2.5,3.0,0.0,Pahang
-86,2636182,Tanjung Gemok,Rompin,19/09/2025 18:00:00,4.0,4.5,7.5,0.5,0.5,0.0,0.0,0.0,Pahang
-87,2841005,Mukut di Tioman (RHN),Rompin,19/09/2025 18:15:00,38.0,0.0,0.0,0.0,9.0,0.0,0.0,0.0,Pahang
-1,0670491RF,Kg. Menerong (F1),Hulu Terengganu,18/09/2025 21:00:00,-9999.0,-9999.0,-9999.0,51.5,5.0,13.5,13.5,0.0,Terengganu
-2,5424401,Kg. Keruak,Besut,19/09/2025 18:00:00,9.5,21.5,0.5,28.5,0.0,2.0,0.0,0.0,Terengganu
-3,5524001,Kg. La,Besut,19/09/2025 18:00:00,3.5,11.5,0.0,15.0,1.5,0.0,0.0,0.0,Terengganu
-4,5625003,Empangan Paya Peda,Besut,19/09/2025 08:30:00,3.0,10.5,0.0,24.5,0.0,0.0,0.0,0.0,Terengganu
-5,5724003,Jambatan Jerteh,Besut,19/09/2025 18:00:00,3.0,29.5,0.5,81.5,1.0,15.0,0.0,0.0,Terengganu
-6,5626001,Institut Pertanian Tok Dor,Besut,19/09/2025 18:00:00,4.0,13.0,0.0,23.0,9.0,0.5,0.0,0.0,Terengganu
-7,5625011,Sek. Keb. Kg. Jabi,Besut,19/09/2025 18:00:00,18.0,20.5,0.0,49.0,8.5,1.5,0.0,0.0,Terengganu
-8,0670481RF,Kg. Langkap (F1),Setiu,19/09/2025 18:05:00,-9999.0,-9999.0,-9999.0,-9999.0,-9999.0,4.5,0.5,0.0,Terengganu
-9,0670571RF,Sek. Keb. Sg. Tong (F1),Setiu,19/09/2025 18:00:00,11.5,39.5,0.0,18.5,1.0,0.0,0.0,0.0,Terengganu
-10,0670271RF,Kg. Bukit (F1),Setiu,19/09/2025 01:45:00,0.0,-9999.0,-9999.0,-9999.0,-9999.0,0.5,0.0,0.0,Terengganu
-11,5229036,Kg. Bukit,Setiu,19/09/2025 18:00:00,24.0,11.0,0.0,3.0,1.0,0.0,0.0,0.0,Terengganu
-12,0670561RF,Sek. Keb. Lubuk Teras (F1),Setiu,19/09/2025 18:15:00,0.5,4.5,0.0,11.0,1.0,0.0,0.0,0.0,Terengganu
-13,5426003,Kg. Besut,Setiu,19/09/2025 18:15:00,13.0,2.0,0.0,58.5,0.0,11.0,1.0,0.0,Terengganu
-14,6140002,Kg. Besut (RHN),Setiu,19/09/2025 18:15:00,13.0,2.0,0.0,58.5,0.5,11.0,1.0,0.0,Terengganu
-15,5527024,Jambatan Permaisuri,Setiu,19/09/2025 00:00:00,0.0,0.0,0.0,0.0,0.0,-9999.0,0.0,-9999.0,Terengganu
-16,5428003,Jambatan Chalok,Setiu,19/09/2025 08:00:00,1.5,6.5,0.0,14.0,0.5,46.5,0.0,0.0,Terengganu
-17,0670421RF,Empangan Kenyir (F1),Hulu Terengganu,19/09/2025 18:00:00,0.5,14.0,0.5,13.5,4.5,0.0,0.0,0.0,Terengganu
-18,0670601RF,Tanjung Mentong (F1),Hulu Terengganu,19/09/2025 18:15:00,-9999.0,-9999.0,-9999.0,-9999.0,0.0,0.0,0.0,0.0,Terengganu
-19,0670181RF,Kg. Dura (F1),Hulu Terengganu,19/09/2025 18:15:00,0.5,6.0,1.5,23.5,4.0,0.0,0.0,0.0,Terengganu
-20,0670411RF,Jambatan Kuala Berang,Hulu Terengganu,19/09/2025 17:45:00,-9999.0,-9999.0,-9999.0,-9999.0,7.0,0.0,0.0,0.0,Terengganu
-21,5127011,Kenyir Elephant Village (KEV),Hulu Terengganu,19/09/2025 18:00:00,12.5,0.5,0.0,9.5,3.5,0.0,0.0,0.0,Terengganu
-22,4930003,Kg. Menerong,Hulu Terengganu,19/09/2025 18:00:00,0.5,1.5,0.5,53.0,6.5,13.5,0.5,0.0,Terengganu
-23,6130005,Felda Mengkawang,Hulu Terengganu,19/09/2025 06:00:00,-9999.0,-9999.0,-9999.0,0.0,-9999.0,0.0,0.0,0.0,Terengganu
-24,0670461RF,Kg. Felda Mengkawang (F1),Hulu Terengganu,19/09/2025 17:30:00,0.0,3.0,0.0,59.0,5.0,26.0,0.0,0.0,Terengganu
-25,4929001,Kg. Embong,Hulu Terengganu,19/09/2025 18:00:00,5.5,8.5,2.0,0.5,6.0,0.0,0.0,0.0,Terengganu
-26,5130063,Pertanian Ajil,Hulu Terengganu,19/09/2025 18:00:00,1.0,0.0,0.0,11.0,5.0,0.0,0.0,0.0,Terengganu
-27,0670401RF,Bukit Tumbuh (F1),Kuala Terengganu,19/09/2025 17:50:00,-9999.0,-9999.0,-9999.0,-9999.0,0.0,2.5,0.0,0.0,Terengganu
-28,0670591RF,Stor JPS Kuala Terengganu (F1),Kuala Terengganu,19/09/2025 18:00:00,13.5,4.0,7.0,6.5,2.0,2.0,0.0,0.0,Terengganu
-29,0670371RF,Rumah Pam Pulau Bahagia (F1),Kuala Terengganu,19/09/2025 18:15:00,-9999.0,-9999.0,-9999.0,-9999.0,0.0,0.0,0.0,0.0,Terengganu
-30,0670531RF,Padang Kemunting (F1),Kuala Nerus,19/09/2025 17:45:00,7.5,14.0,0.0,0.5,1.5,12.5,0.0,0.0,Terengganu
-31,0670611RF,Universiti Malaysia Terengganu (F1),Kuala Nerus,19/09/2025 18:15:00,4.5,62.5,0.5,0.5,1.5,2.0,0.0,0.0,Terengganu
-32,0670551RF,Sek. Keb. Gemuruh (F1),Kuala Nerus,19/09/2025 18:15:00,17.0,31.0,0.0,0.5,1.0,0.5,0.0,0.0,Terengganu
-33,4529001,Kg. Pasir Raja,Dungun,19/09/2025 18:00:00,0.5,54.5,0.0,63.5,9.5,3.0,0.0,0.0,Terengganu
-34,4232002,Jambatan Air Putih,Kemaman,19/09/2025 18:15:00,0.0,0.0,2.0,32.0,12.5,0.0,3.0,0.0,Terengganu
-35,4233053,Rumah Pam Paya Paman,Kemaman,19/09/2025 17:00:00,0.0,0.0,0.0,41.5,5.5,0.0,4.0,0.0,Terengganu
-36,4234109,JPS Kemaman,Kemaman,19/09/2025 18:00:00,8.0,0.0,0.0,28.0,7.0,0.0,5.0,0.0,Terengganu
-37,0700271RF,Pulau Perhentian (F2),Besut,19/09/2025 18:15:00,0.5,5.5,0.0,7.5,0.0,0.0,0.0,0.0,Terengganu
-38,0700251RF,Kemia (F2),Besut,19/09/2025 18:15:00,5.5,21.0,1.5,34.5,0.0,1.0,0.0,0.0,Terengganu
-39,0690081RF,Sek. Keb. Kg. Jabi (F2),Besut,19/09/2025 18:15:00,16.0,19.0,0.0,41.5,10.0,1.0,0.0,0.0,Terengganu
-40,0700221RF,Empangan Paya Peda (F2),Besut,19/09/2025 18:15:00,2.5,11.0,0.0,24.0,0.0,0.0,0.0,0.0,Terengganu
-41,0690091RF,Institut Pertanian Tok Dor (F2),Besut,19/09/2025 18:15:00,4.5,15.0,0.0,25.0,12.0,0.0,0.0,0.0,Terengganu
-42,0700241RF,Kalabe (F2),Besut,19/09/2025 11:15:00,2.0,48.0,0.0,18.5,0.5,0.0,0.0,0.0,Terengganu
-43,0700121RF,Pengkalan Nyireh (F2),Besut,19/09/2025 18:15:00,1.0,13.5,0.0,39.5,14.0,0.0,0.0,0.0,Terengganu
-44,0700201RF,Jambatan Keruak (F2),Besut,19/09/2025 18:15:00,9.0,22.0,0.0,29.0,0.0,2.0,0.0,0.0,Terengganu
-45,0700191RF,Kg. La (F2),Besut,19/09/2025 18:15:00,3.5,12.0,0.0,17.0,1.0,0.5,0.0,0.0,Terengganu
-46,0700181RF,Jambatan Jerteh (F2),Besut,19/09/2025 18:15:00,4.0,31.5,0.0,81.5,0.0,15.5,0.0,0.0,Terengganu
-47,0690071RF,Kg. Tembila (F2),Besut,19/09/2025 18:15:00,0.0,18.0,0.0,3.5,10.0,0.0,0.0,0.0,Terengganu
-48,0700141RF,Empangan Jajar (F2),Besut,19/09/2025 18:10:00,2.5,28.0,0.0,52.5,0.0,0.0,0.0,0.0,Terengganu
-49,0680291RF,Kg. Mok Jintan (F2),Setiu,19/09/2025 18:15:00,0.5,13.0,0.0,29.0,1.0,12.5,0.0,0.0,Terengganu
-50,0680171RF,Jambatan Chalok (F2),Setiu,19/09/2025 18:15:00,1.5,6.0,0.0,13.0,0.5,44.5,1.5,0.0,Terengganu
-51,0680221RF,Jambatan Guntung (F2),Setiu,19/09/2025 18:15:00,14.5,43.0,0.5,25.5,0.5,0.5,0.0,0.0,Terengganu
-52,0680311RF,Ibu Bekalan Setiu (F2),Setiu,19/09/2025 18:15:00,31.0,2.0,0.0,18.0,1.0,0.5,0.0,0.0,Terengganu
-53,0680261RF,Hulu Sg. Tarom (F2),Setiu,19/09/2025 18:15:00,1.0,2.5,0.0,38.0,1.5,89.5,0.0,0.0,Terengganu
-54,0670631RF,Pertanian Ajil (F2),Hulu Terengganu,19/09/2025 18:15:00,1.0,0.0,0.0,14.5,5.0,0.0,0.0,0.0,Terengganu
-55,0650051RF,Kg. Bukit Diman (F2),Hulu Terengganu,19/09/2025 18:15:00,0.5,0.0,0.0,23.5,6.0,0.5,0.0,0.0,Terengganu
-56,0660041RF,Pintu Air Tok Adis (F2),Kuala Terengganu,19/09/2025 18:15:00,2.0,1.0,0.0,7.5,1.5,0.0,0.0,0.0,Terengganu
-57,0650061RF,JPS Marang (F2),Marang,19/09/2025 18:15:00,2.0,11.5,0.0,15.0,2.0,4.0,0.0,0.0,Terengganu
-58,0650041RF,Jamb. Pengkalan Berangan (F2),Marang,19/09/2025 18:15:00,0.5,3.0,0.5,10.0,6.5,0.0,0.0,0.0,Terengganu
-59,0660051RF,Dewan Sivik Bukit Payong (F2),Marang,19/09/2025 18:00:00,0.5,2.5,0.0,4.5,2.0,0.0,0.0,0.0,Terengganu
-60,0630241RF,MARDI Jerangau (F2),Dungun,19/09/2025 18:15:00,0.5,10.5,0.0,62.5,18.0,20.0,0.0,0.0,Terengganu
-61,0630211RF,Niah (F2),Dungun,19/09/2025 18:30:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Terengganu
-62,0630221RF,Pokcumat (F2),Dungun,19/09/2025 14:45:00,0.5,-9999.0,0.0,-9999.0,8.0,3.5,0.0,0.0,Terengganu
-63,0630151RF,Kuala Jengai (F2),Dungun,19/09/2025 18:30:00,0.5,17.0,0.0,37.5,8.5,5.0,0.0,0.0,Terengganu
-64,0630231RF,Kuala Dungun (F2),Dungun,19/09/2025 18:15:00,0.5,13.5,0.5,23.5,10.5,0.0,1.5,0.0,Terengganu
-65,0620051RF,Kg. Luit (F2),Dungun,19/09/2025 18:15:00,0.5,0.5,0.5,41.5,11.0,73.0,0.5,0.0,Terengganu
-66,0620091RF,Bandar Al-Muktafi Billah Shah (F2),Dungun,19/09/2025 18:15:00,0.0,4.0,0.5,13.0,9.5,19.5,4.0,0.0,Terengganu
-67,0630031RF,Rumah Pam Delong (F2),Dungun,19/09/2025 08:30:00,0.5,-9999.0,0.5,-9999.0,5.5,-9999.0,6.0,0.5,Terengganu
-68,0600271RF,SMK Neram (F2),Kemaman,19/09/2025 18:15:00,0.0,0.0,0.0,59.0,7.5,0.0,32.0,0.0,Terengganu
-69,0600201RF,Jambatan Air Putih (F2),Kemaman,19/09/2025 18:15:00,0.0,0.0,2.5,36.5,10.0,0.0,3.0,0.0,Terengganu
-70,0600321RF,Hulu Jabor (F2),Kemaman,19/09/2025 18:15:00,0.0,0.0,0.5,62.5,7.0,0.0,28.5,0.0,Terengganu
-71,0600331RF,Jambatan Tebak (F2),Kemaman,19/09/2025 18:15:00,0.0,0.5,3.0,77.0,12.5,0.5,8.0,0.0,Terengganu
-72,0600121RF,Seri Bandi (F2),Kemaman,19/09/2025 18:15:00,0.0,0.0,1.5,87.5,13.5,16.5,3.0,0.0,Terengganu
-73,0600161RF,Kg. Yak Yah (F2),Kemaman,19/09/2025 18:15:00,0.0,0.0,3.0,41.0,10.0,0.0,3.5,0.0,Terengganu
-74,0600251RF,Kg. Rantau Panjang (F2),Kemaman,19/09/2025 18:15:00,0.5,0.5,0.0,0.0,9.5,4.0,2.5,0.0,Terengganu
-75,0600261RF,Kg. Sg. Mas (F2),Kemaman,19/09/2025 18:15:00,0.0,14.5,6.5,102.0,14.0,2.5,3.0,0.0,Terengganu
-76,0600341RF,Bukit Teruna Kijal (F2),Kemaman,19/09/2025 05:00:00,-9999.0,0.0,0.0,70.5,17.0,7.0,7.0,1.0,Terengganu
-77,0600211RF,Kuarter JPS di Dusun Nyior (F2),Kemaman,19/09/2025 18:15:00,7.5,0.0,0.0,34.0,7.0,0.0,5.0,0.0,Terengganu
-1,0010571RF,Wang Kelian (F2),Padang Besar,19/09/2025 18:15:00,0.0,0.0,0.5,1.0,6.5,8.0,9.5,0.0,Kelantan
-2,0010461RF,Lubuk Sireh (F2),Padang Besar,19/09/2025 18:15:00,0.5,1.0,0.5,0.5,0.5,1.0,0.0,0.0,Kelantan
-3,6602002,Kaki Bukit,Padang Besar,19/09/2025 18:00:00,5.0,1.0,19.0,0.0,4.0,5.0,0.0,0.0,Kelantan
-4,6603002,Padang Besar,Padang Besar,19/09/2025 18:00:00,10.0,0.0,12.0,0.0,0.0,13.0,0.0,0.0,Kelantan
-5,6602003,Padang Besar di Perlis (RHN),Padang Besar,19/09/2025 18:15:00,11.0,0.0,12.0,0.0,0.0,13.5,0.0,0.0,Kelantan
-6,6602006,Kg. Chantik,Padang Besar,19/09/2025 18:00:00,4.0,0.0,21.0,0.0,1.0,8.0,0.0,0.0,Kelantan
-7,0010421RF,Kg. Masjid (F2),Padang Besar,19/09/2025 18:15:00,2.5,0.0,17.5,0.0,1.5,9.5,0.0,0.0,Kelantan
-8,6602004,Kg. Masjid,Padang Besar,19/09/2025 18:00:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Kelantan
-9,6502011,Empangan Timah Tasuh,Padang Besar,19/09/2025 18:15:00,3.0,1.0,20.0,0.0,0.0,9.0,0.0,0.0,Kelantan
-10,0010621RF,Kolam Sg. Buloh (F2),Padang Besar,19/09/2025 18:15:00,6.5,0.5,9.0,0.0,0.0,0.0,1.0,0.0,Kelantan
-11,0010681RF,Ladang Perlis (F2),Arau,19/09/2025 18:15:00,4.5,0.0,14.0,0.0,0.0,0.5,0.0,0.0,Kelantan
-12,6502012,Kg. Batu Bertangkup,Arau,19/09/2025 18:00:00,4.0,0.0,9.0,0.0,0.0,1.0,0.0,0.0,Kelantan
-13,0000000RF,Kolam Sg. Serai 2 (N),Arau,19/09/2025 18:00:00,-9999.0,-9999.0,-9999.0,-9999.0,0.5,1.5,0.0,0.0,Kelantan
-14,0010541RF,Tok Biduk (F2),Arau,19/09/2025 17:30:00,7.0,0.0,8.5,8.5,1.0,2.5,0.0,0.0,Kelantan
-15,0010631RF,Kolam Sg. Jernih (F2),Arau,19/09/2025 18:15:00,4.5,0.0,12.5,0.0,0.0,2.5,0.0,0.0,Kelantan
-16,0010491RF,Balik Guar (F2),Arau,19/09/2025 18:15:00,6.5,0.5,13.0,0.0,0.0,14.5,0.0,0.0,Kelantan
-17,0010611RF,Kg. Gial (RHN),Arau,19/09/2025 18:15:00,5.0,0.5,13.5,0.0,0.0,47.5,0.0,0.0,Kelantan
-18,6402009,Kg. Kuala Tunggang,Arau,19/09/2025 18:00:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Kelantan
-19,6402007,Arau di Perlis (RHN),Arau,19/09/2025 18:15:00,6.0,0.5,10.5,0.0,1.0,9.5,0.0,0.0,Kelantan
-20,0010271RF,Ulu Pauh (F2),Arau,19/09/2025 18:15:00,12.0,0.5,11.0,0.0,0.0,27.0,0.0,0.0,Kelantan
-21,6403001,Ulu Pauh,Arau,19/09/2025 18:00:00,10.0,0.0,9.0,0.0,0.0,25.0,0.0,0.0,Kelantan
-22,6302022,Changkat Jawi di Perlis (RHN),Arau,19/09/2025 18:15:00,14.0,0.5,14.0,0.0,0.5,1.0,1.5,0.0,Kelantan
-23,0010511RF,Genting Kabu (F2),Kangar,19/09/2025 18:15:00,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,Kelantan
-24,6501005,Abi Kg. Baru (RHN),Kangar,19/09/2025 18:15:00,4.0,0.5,22.5,0.0,3.5,5.0,0.0,0.0,Kelantan
-25,6402010,Kg. Bakau,Kangar,19/09/2025 18:00:00,4.0,0.0,13.0,0.0,0.0,7.0,0.0,0.0,Kelantan
-26,0010671RF,Tebing Tinggi (F2),Kangar,19/09/2025 14:15:00,3.5,0.5,23.5,23.5,1.0,5.5,1.0,0.0,Kelantan
-27,6301001,Kg. Behor Lateh di Perlis (RHN),Kangar,19/09/2025 18:15:00,5.5,0.5,15.0,0.0,0.0,35.5,3.0,0.0,Kelantan
-28,6401000,Kuala Perlis di Perlis (RHN),Kangar,19/09/2025 18:15:00,3.0,0.0,51.5,0.0,1.5,26.5,7.5,0.0,Kelantan
-29,0010581RF,Simpang Ampat (F2),Kangar,19/09/2025 18:15:00,44.5,0.0,20.0,0.0,4.0,26.5,0.5,0.0,Kelantan
-1,0010571RF,Wang Kelian (F2),Padang Besar,19/09/2025 18:15:00,0.0,0.0,0.5,1.0,6.5,8.0,9.5,0.0,Sarawak
-2,0010461RF,Lubuk Sireh (F2),Padang Besar,19/09/2025 18:15:00,0.5,1.0,0.5,0.5,0.5,1.0,0.0,0.0,Sarawak
-3,6602002,Kaki Bukit,Padang Besar,19/09/2025 18:00:00,5.0,1.0,19.0,0.0,4.0,5.0,0.0,0.0,Sarawak
-4,6603002,Padang Besar,Padang Besar,19/09/2025 18:00:00,10.0,0.0,12.0,0.0,0.0,13.0,0.0,0.0,Sarawak
-5,6602003,Padang Besar di Perlis (RHN),Padang Besar,19/09/2025 18:15:00,11.0,0.0,12.0,0.0,0.0,13.5,0.0,0.0,Sarawak
-6,6602006,Kg. Chantik,Padang Besar,19/09/2025 18:00:00,4.0,0.0,21.0,0.0,1.0,8.0,0.0,0.0,Sarawak
-7,0010421RF,Kg. Masjid (F2),Padang Besar,19/09/2025 18:15:00,2.5,0.0,17.5,0.0,1.5,9.5,0.0,0.0,Sarawak
-8,6602004,Kg. Masjid,Padang Besar,19/09/2025 18:00:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Sarawak
-9,6502011,Empangan Timah Tasuh,Padang Besar,19/09/2025 18:15:00,3.0,1.0,20.0,0.0,0.0,9.0,0.0,0.0,Sarawak
-10,0010621RF,Kolam Sg. Buloh (F2),Padang Besar,19/09/2025 18:15:00,6.5,0.5,9.0,0.0,0.0,0.0,1.0,0.0,Sarawak
-11,0010681RF,Ladang Perlis (F2),Arau,19/09/2025 18:15:00,4.5,0.0,14.0,0.0,0.0,0.5,0.0,0.0,Sarawak
-12,6502012,Kg. Batu Bertangkup,Arau,19/09/2025 18:00:00,4.0,0.0,9.0,0.0,0.0,1.0,0.0,0.0,Sarawak
-13,0000000RF,Kolam Sg. Serai 2 (N),Arau,19/09/2025 18:00:00,-9999.0,-9999.0,-9999.0,-9999.0,0.5,1.5,0.0,0.0,Sarawak
-14,0010541RF,Tok Biduk (F2),Arau,19/09/2025 17:30:00,7.0,0.0,8.5,8.5,1.0,2.5,0.0,0.0,Sarawak
-15,0010631RF,Kolam Sg. Jernih (F2),Arau,19/09/2025 18:15:00,4.5,0.0,12.5,0.0,0.0,2.5,0.0,0.0,Sarawak
-16,0010491RF,Balik Guar (F2),Arau,19/09/2025 18:15:00,6.5,0.5,13.0,0.0,0.0,14.5,0.0,0.0,Sarawak
-17,0010611RF,Kg. Gial (RHN),Arau,19/09/2025 18:15:00,5.0,0.5,13.5,0.0,0.0,47.5,0.0,0.0,Sarawak
-18,6402009,Kg. Kuala Tunggang,Arau,19/09/2025 18:00:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Sarawak
-19,6402007,Arau di Perlis (RHN),Arau,19/09/2025 18:15:00,6.0,0.5,10.5,0.0,1.0,9.5,0.0,0.0,Sarawak
-20,0010271RF,Ulu Pauh (F2),Arau,19/09/2025 18:15:00,12.0,0.5,11.0,0.0,0.0,27.0,0.0,0.0,Sarawak
-21,6403001,Ulu Pauh,Arau,19/09/2025 18:00:00,10.0,0.0,9.0,0.0,0.0,25.0,0.0,0.0,Sarawak
-22,6302022,Changkat Jawi di Perlis (RHN),Arau,19/09/2025 18:15:00,14.0,0.5,14.0,0.0,0.5,1.0,1.5,0.0,Sarawak
-23,0010511RF,Genting Kabu (F2),Kangar,19/09/2025 18:15:00,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,Sarawak
-24,6501005,Abi Kg. Baru (RHN),Kangar,19/09/2025 18:15:00,4.0,0.5,22.5,0.0,3.5,5.0,0.0,0.0,Sarawak
-25,6402010,Kg. Bakau,Kangar,19/09/2025 18:00:00,4.0,0.0,13.0,0.0,0.0,7.0,0.0,0.0,Sarawak
-26,0010671RF,Tebing Tinggi (F2),Kangar,19/09/2025 14:15:00,3.5,0.5,23.5,23.5,1.0,5.5,1.0,0.0,Sarawak
-27,6301001,Kg. Behor Lateh di Perlis (RHN),Kangar,19/09/2025 18:15:00,5.5,0.5,15.0,0.0,0.0,35.5,3.0,0.0,Sarawak
-28,6401000,Kuala Perlis di Perlis (RHN),Kangar,19/09/2025 18:15:00,3.0,0.0,51.5,0.0,1.5,26.5,7.5,0.0,Sarawak
-29,0010581RF,Simpang Ampat (F2),Kangar,19/09/2025 18:15:00,44.5,0.0,20.0,0.0,4.0,26.5,0.5,0.0,Sarawak
-1,0010571RF,Wang Kelian (F2),Padang Besar,19/09/2025 18:15:00,0.0,0.0,0.5,1.0,6.5,8.0,9.5,0.0,Sabah
-2,0010461RF,Lubuk Sireh (F2),Padang Besar,19/09/2025 18:15:00,0.5,1.0,0.5,0.5,0.5,1.0,0.0,0.0,Sabah
-3,6602002,Kaki Bukit,Padang Besar,19/09/2025 18:00:00,5.0,1.0,19.0,0.0,4.0,5.0,0.0,0.0,Sabah
-4,6603002,Padang Besar,Padang Besar,19/09/2025 18:00:00,10.0,0.0,12.0,0.0,0.0,13.0,0.0,0.0,Sabah
-5,6602003,Padang Besar di Perlis (RHN),Padang Besar,19/09/2025 18:15:00,11.0,0.0,12.0,0.0,0.0,13.5,0.0,0.0,Sabah
-6,6602006,Kg. Chantik,Padang Besar,19/09/2025 18:00:00,4.0,0.0,21.0,0.0,1.0,8.0,0.0,0.0,Sabah
-7,0010421RF,Kg. Masjid (F2),Padang Besar,19/09/2025 18:15:00,2.5,0.0,17.5,0.0,1.5,9.5,0.0,0.0,Sabah
-8,6602004,Kg. Masjid,Padang Besar,19/09/2025 18:00:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Sabah
-9,6502011,Empangan Timah Tasuh,Padang Besar,19/09/2025 18:15:00,3.0,1.0,20.0,0.0,0.0,9.0,0.0,0.0,Sabah
-10,0010621RF,Kolam Sg. Buloh (F2),Padang Besar,19/09/2025 18:15:00,6.5,0.5,9.0,0.0,0.0,0.0,1.0,0.0,Sabah
-11,0010681RF,Ladang Perlis (F2),Arau,19/09/2025 18:15:00,4.5,0.0,14.0,0.0,0.0,0.5,0.0,0.0,Sabah
-12,6502012,Kg. Batu Bertangkup,Arau,19/09/2025 18:00:00,4.0,0.0,9.0,0.0,0.0,1.0,0.0,0.0,Sabah
-13,0000000RF,Kolam Sg. Serai 2 (N),Arau,19/09/2025 18:00:00,-9999.0,-9999.0,-9999.0,-9999.0,0.5,1.5,0.0,0.0,Sabah
-14,0010541RF,Tok Biduk (F2),Arau,19/09/2025 17:30:00,7.0,0.0,8.5,8.5,1.0,2.5,0.0,0.0,Sabah
-15,0010631RF,Kolam Sg. Jernih (F2),Arau,19/09/2025 18:15:00,4.5,0.0,12.5,0.0,0.0,2.5,0.0,0.0,Sabah
-16,0010491RF,Balik Guar (F2),Arau,19/09/2025 18:15:00,6.5,0.5,13.0,0.0,0.0,14.5,0.0,0.0,Sabah
-17,0010611RF,Kg. Gial (RHN),Arau,19/09/2025 18:15:00,5.0,0.5,13.5,0.0,0.0,47.5,0.0,0.0,Sabah
-18,6402009,Kg. Kuala Tunggang,Arau,19/09/2025 18:00:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Sabah
-19,6402007,Arau di Perlis (RHN),Arau,19/09/2025 18:15:00,6.0,0.5,10.5,0.0,1.0,9.5,0.0,0.0,Sabah
-20,0010271RF,Ulu Pauh (F2),Arau,19/09/2025 18:15:00,12.0,0.5,11.0,0.0,0.0,27.0,0.0,0.0,Sabah
-21,6403001,Ulu Pauh,Arau,19/09/2025 18:00:00,10.0,0.0,9.0,0.0,0.0,25.0,0.0,0.0,Sabah
-22,6302022,Changkat Jawi di Perlis (RHN),Arau,19/09/2025 18:15:00,14.0,0.5,14.0,0.0,0.5,1.0,1.5,0.0,Sabah
-23,0010511RF,Genting Kabu (F2),Kangar,19/09/2025 18:15:00,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,Sabah
-24,6501005,Abi Kg. Baru (RHN),Kangar,19/09/2025 18:15:00,4.0,0.5,22.5,0.0,3.5,5.0,0.0,0.0,Sabah
-25,6402010,Kg. Bakau,Kangar,19/09/2025 18:00:00,4.0,0.0,13.0,0.0,0.0,7.0,0.0,0.0,Sabah
-26,0010671RF,Tebing Tinggi (F2),Kangar,19/09/2025 14:15:00,3.5,0.5,23.5,23.5,1.0,5.5,1.0,0.0,Sabah
-27,6301001,Kg. Behor Lateh di Perlis (RHN),Kangar,19/09/2025 18:15:00,5.5,0.5,15.0,0.0,0.0,35.5,3.0,0.0,Sabah
-28,6401000,Kuala Perlis di Perlis (RHN),Kangar,19/09/2025 18:15:00,3.0,0.0,51.5,0.0,1.5,26.5,7.5,0.0,Sabah
-29,0010581RF,Simpang Ampat (F2),Kangar,19/09/2025 18:15:00,44.5,0.0,20.0,0.0,4.0,26.5,0.5,0.0,Sabah
-1,0010571RF,Wang Kelian (F2),Padang Besar,19/09/2025 18:15:00,0.0,0.0,0.5,1.0,6.5,8.0,9.5,0.0,WP Kuala Lumpur
-2,0010461RF,Lubuk Sireh (F2),Padang Besar,19/09/2025 18:15:00,0.5,1.0,0.5,0.5,0.5,1.0,0.0,0.0,WP Kuala Lumpur
-3,6602002,Kaki Bukit,Padang Besar,19/09/2025 18:00:00,5.0,1.0,19.0,0.0,4.0,5.0,0.0,0.0,WP Kuala Lumpur
-4,6603002,Padang Besar,Padang Besar,19/09/2025 18:00:00,10.0,0.0,12.0,0.0,0.0,13.0,0.0,0.0,WP Kuala Lumpur
-5,6602003,Padang Besar di Perlis (RHN),Padang Besar,19/09/2025 18:15:00,11.0,0.0,12.0,0.0,0.0,13.5,0.0,0.0,WP Kuala Lumpur
-6,6602006,Kg. Chantik,Padang Besar,19/09/2025 18:00:00,4.0,0.0,21.0,0.0,1.0,8.0,0.0,0.0,WP Kuala Lumpur
-7,0010421RF,Kg. Masjid (F2),Padang Besar,19/09/2025 18:15:00,2.5,0.0,17.5,0.0,1.5,9.5,0.0,0.0,WP Kuala Lumpur
-8,6602004,Kg. Masjid,Padang Besar,19/09/2025 18:00:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,WP Kuala Lumpur
-9,6502011,Empangan Timah Tasuh,Padang Besar,19/09/2025 18:15:00,3.0,1.0,20.0,0.0,0.0,9.0,0.0,0.0,WP Kuala Lumpur
-10,0010621RF,Kolam Sg. Buloh (F2),Padang Besar,19/09/2025 18:15:00,6.5,0.5,9.0,0.0,0.0,0.0,1.0,0.0,WP Kuala Lumpur
-11,0010681RF,Ladang Perlis (F2),Arau,19/09/2025 18:15:00,4.5,0.0,14.0,0.0,0.0,0.5,0.0,0.0,WP Kuala Lumpur
-12,6502012,Kg. Batu Bertangkup,Arau,19/09/2025 18:00:00,4.0,0.0,9.0,0.0,0.0,1.0,0.0,0.0,WP Kuala Lumpur
-13,0000000RF,Kolam Sg. Serai 2 (N),Arau,19/09/2025 18:00:00,-9999.0,-9999.0,-9999.0,-9999.0,0.5,1.5,0.0,0.0,WP Kuala Lumpur
-14,0010541RF,Tok Biduk (F2),Arau,19/09/2025 17:30:00,7.0,0.0,8.5,8.5,1.0,2.5,0.0,0.0,WP Kuala Lumpur
-15,0010631RF,Kolam Sg. Jernih (F2),Arau,19/09/2025 18:15:00,4.5,0.0,12.5,0.0,0.0,2.5,0.0,0.0,WP Kuala Lumpur
-16,0010491RF,Balik Guar (F2),Arau,19/09/2025 18:15:00,6.5,0.5,13.0,0.0,0.0,14.5,0.0,0.0,WP Kuala Lumpur
-17,0010611RF,Kg. Gial (RHN),Arau,19/09/2025 18:15:00,5.0,0.5,13.5,0.0,0.0,47.5,0.0,0.0,WP Kuala Lumpur
-18,6402009,Kg. Kuala Tunggang,Arau,19/09/2025 18:00:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,WP Kuala Lumpur
-19,6402007,Arau di Perlis (RHN),Arau,19/09/2025 18:15:00,6.0,0.5,10.5,0.0,1.0,9.5,0.0,0.0,WP Kuala Lumpur
-20,0010271RF,Ulu Pauh (F2),Arau,19/09/2025 18:15:00,12.0,0.5,11.0,0.0,0.0,27.0,0.0,0.0,WP Kuala Lumpur
-21,6403001,Ulu Pauh,Arau,19/09/2025 18:00:00,10.0,0.0,9.0,0.0,0.0,25.0,0.0,0.0,WP Kuala Lumpur
-22,6302022,Changkat Jawi di Perlis (RHN),Arau,19/09/2025 18:15:00,14.0,0.5,14.0,0.0,0.5,1.0,1.5,0.0,WP Kuala Lumpur
-23,0010511RF,Genting Kabu (F2),Kangar,19/09/2025 18:15:00,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,WP Kuala Lumpur
-24,6501005,Abi Kg. Baru (RHN),Kangar,19/09/2025 18:15:00,4.0,0.5,22.5,0.0,3.5,5.0,0.0,0.0,WP Kuala Lumpur
-25,6402010,Kg. Bakau,Kangar,19/09/2025 18:00:00,4.0,0.0,13.0,0.0,0.0,7.0,0.0,0.0,WP Kuala Lumpur
-26,0010671RF,Tebing Tinggi (F2),Kangar,19/09/2025 14:15:00,3.5,0.5,23.5,23.5,1.0,5.5,1.0,0.0,WP Kuala Lumpur
-27,6301001,Kg. Behor Lateh di Perlis (RHN),Kangar,19/09/2025 18:15:00,5.5,0.5,15.0,0.0,0.0,35.5,3.0,0.0,WP Kuala Lumpur
-28,6401000,Kuala Perlis di Perlis (RHN),Kangar,19/09/2025 18:15:00,3.0,0.0,51.5,0.0,1.5,26.5,7.5,0.0,WP Kuala Lumpur
-29,0010581RF,Simpang Ampat (F2),Kangar,19/09/2025 18:15:00,44.5,0.0,20.0,0.0,4.0,26.5,0.5,0.0,WP Kuala Lumpur
-1,0010571RF,Wang Kelian (F2),Padang Besar,19/09/2025 18:15:00,0.0,0.0,0.5,1.0,6.5,8.0,9.5,0.0,WP Putrajaya
-2,0010461RF,Lubuk Sireh (F2),Padang Besar,19/09/2025 18:15:00,0.5,1.0,0.5,0.5,0.5,1.0,0.0,0.0,WP Putrajaya
-3,6602002,Kaki Bukit,Padang Besar,19/09/2025 18:00:00,5.0,1.0,19.0,0.0,4.0,5.0,0.0,0.0,WP Putrajaya
-4,6603002,Padang Besar,Padang Besar,19/09/2025 18:00:00,10.0,0.0,12.0,0.0,0.0,13.0,0.0,0.0,WP Putrajaya
-5,6602003,Padang Besar di Perlis (RHN),Padang Besar,19/09/2025 18:15:00,11.0,0.0,12.0,0.0,0.0,13.5,0.0,0.0,WP Putrajaya
-6,6602006,Kg. Chantik,Padang Besar,19/09/2025 18:00:00,4.0,0.0,21.0,0.0,1.0,8.0,0.0,0.0,WP Putrajaya
-7,0010421RF,Kg. Masjid (F2),Padang Besar,19/09/2025 18:15:00,2.5,0.0,17.5,0.0,1.5,9.5,0.0,0.0,WP Putrajaya
-8,6602004,Kg. Masjid,Padang Besar,19/09/2025 18:00:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,WP Putrajaya
-9,6502011,Empangan Timah Tasuh,Padang Besar,19/09/2025 18:15:00,3.0,1.0,20.0,0.0,0.0,9.0,0.0,0.0,WP Putrajaya
-10,0010621RF,Kolam Sg. Buloh (F2),Padang Besar,19/09/2025 18:15:00,6.5,0.5,9.0,0.0,0.0,0.0,1.0,0.0,WP Putrajaya
-11,0010681RF,Ladang Perlis (F2),Arau,19/09/2025 18:15:00,4.5,0.0,14.0,0.0,0.0,0.5,0.0,0.0,WP Putrajaya
-12,6502012,Kg. Batu Bertangkup,Arau,19/09/2025 18:00:00,4.0,0.0,9.0,0.0,0.0,1.0,0.0,0.0,WP Putrajaya
-13,0000000RF,Kolam Sg. Serai 2 (N),Arau,19/09/2025 18:00:00,-9999.0,-9999.0,-9999.0,-9999.0,0.5,1.5,0.0,0.0,WP Putrajaya
-14,0010541RF,Tok Biduk (F2),Arau,19/09/2025 17:30:00,7.0,0.0,8.5,8.5,1.0,2.5,0.0,0.0,WP Putrajaya
-15,0010631RF,Kolam Sg. Jernih (F2),Arau,19/09/2025 18:15:00,4.5,0.0,12.5,0.0,0.0,2.5,0.0,0.0,WP Putrajaya
-16,0010491RF,Balik Guar (F2),Arau,19/09/2025 18:15:00,6.5,0.5,13.0,0.0,0.0,14.5,0.0,0.0,WP Putrajaya
-17,0010611RF,Kg. Gial (RHN),Arau,19/09/2025 18:15:00,5.0,0.5,13.5,0.0,0.0,47.5,0.0,0.0,WP Putrajaya
-18,6402009,Kg. Kuala Tunggang,Arau,19/09/2025 18:00:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,WP Putrajaya
-19,6402007,Arau di Perlis (RHN),Arau,19/09/2025 18:15:00,6.0,0.5,10.5,0.0,1.0,9.5,0.0,0.0,WP Putrajaya
-20,0010271RF,Ulu Pauh (F2),Arau,19/09/2025 18:15:00,12.0,0.5,11.0,0.0,0.0,27.0,0.0,0.0,WP Putrajaya
-21,6403001,Ulu Pauh,Arau,19/09/2025 18:00:00,10.0,0.0,9.0,0.0,0.0,25.0,0.0,0.0,WP Putrajaya
-22,6302022,Changkat Jawi di Perlis (RHN),Arau,19/09/2025 18:15:00,14.0,0.5,14.0,0.0,0.5,1.0,1.5,0.0,WP Putrajaya
-23,0010511RF,Genting Kabu (F2),Kangar,19/09/2025 18:15:00,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,WP Putrajaya
-24,6501005,Abi Kg. Baru (RHN),Kangar,19/09/2025 18:15:00,4.0,0.5,22.5,0.0,3.5,5.0,0.0,0.0,WP Putrajaya
-25,6402010,Kg. Bakau,Kangar,19/09/2025 18:00:00,4.0,0.0,13.0,0.0,0.0,7.0,0.0,0.0,WP Putrajaya
-26,0010671RF,Tebing Tinggi (F2),Kangar,19/09/2025 14:15:00,3.5,0.5,23.5,23.5,1.0,5.5,1.0,0.0,WP Putrajaya
-27,6301001,Kg. Behor Lateh di Perlis (RHN),Kangar,19/09/2025 18:15:00,5.5,0.5,15.0,0.0,0.0,35.5,3.0,0.0,WP Putrajaya
-28,6401000,Kuala Perlis di Perlis (RHN),Kangar,19/09/2025 18:15:00,3.0,0.0,51.5,0.0,1.5,26.5,7.5,0.0,WP Putrajaya
-29,0010581RF,Simpang Ampat (F2),Kangar,19/09/2025 18:15:00,44.5,0.0,20.0,0.0,4.0,26.5,0.5,0.0,WP Putrajaya
-1,0010571RF,Wang Kelian (F2),Padang Besar,19/09/2025 18:15:00,0.0,0.0,0.5,1.0,6.5,8.0,9.5,0.0,WP Labuan
-2,0010461RF,Lubuk Sireh (F2),Padang Besar,19/09/2025 18:15:00,0.5,1.0,0.5,0.5,0.5,1.0,0.0,0.0,WP Labuan
-3,6602002,Kaki Bukit,Padang Besar,19/09/2025 18:00:00,5.0,1.0,19.0,0.0,4.0,5.0,0.0,0.0,WP Labuan
-4,6603002,Padang Besar,Padang Besar,19/09/2025 18:00:00,10.0,0.0,12.0,0.0,0.0,13.0,0.0,0.0,WP Labuan
-5,6602003,Padang Besar di Perlis (RHN),Padang Besar,19/09/2025 18:15:00,11.0,0.0,12.0,0.0,0.0,13.5,0.0,0.0,WP Labuan
-6,6602006,Kg. Chantik,Padang Besar,19/09/2025 18:00:00,4.0,0.0,21.0,0.0,1.0,8.0,0.0,0.0,WP Labuan
-7,0010421RF,Kg. Masjid (F2),Padang Besar,19/09/2025 18:15:00,2.5,0.0,17.5,0.0,1.5,9.5,0.0,0.0,WP Labuan
-8,6602004,Kg. Masjid,Padang Besar,19/09/2025 18:00:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,WP Labuan
-9,6502011,Empangan Timah Tasuh,Padang Besar,19/09/2025 18:15:00,3.0,1.0,20.0,0.0,0.0,9.0,0.0,0.0,WP Labuan
-10,0010621RF,Kolam Sg. Buloh (F2),Padang Besar,19/09/2025 18:15:00,6.5,0.5,9.0,0.0,0.0,0.0,1.0,0.0,WP Labuan
-11,0010681RF,Ladang Perlis (F2),Arau,19/09/2025 18:15:00,4.5,0.0,14.0,0.0,0.0,0.5,0.0,0.0,WP Labuan
-12,6502012,Kg. Batu Bertangkup,Arau,19/09/2025 18:00:00,4.0,0.0,9.0,0.0,0.0,1.0,0.0,0.0,WP Labuan
-13,0000000RF,Kolam Sg. Serai 2 (N),Arau,19/09/2025 18:00:00,-9999.0,-9999.0,-9999.0,-9999.0,0.5,1.5,0.0,0.0,WP Labuan
-14,0010541RF,Tok Biduk (F2),Arau,19/09/2025 17:30:00,7.0,0.0,8.5,8.5,1.0,2.5,0.0,0.0,WP Labuan
-15,0010631RF,Kolam Sg. Jernih (F2),Arau,19/09/2025 18:15:00,4.5,0.0,12.5,0.0,0.0,2.5,0.0,0.0,WP Labuan
-16,0010491RF,Balik Guar (F2),Arau,19/09/2025 18:15:00,6.5,0.5,13.0,0.0,0.0,14.5,0.0,0.0,WP Labuan
-17,0010611RF,Kg. Gial (RHN),Arau,19/09/2025 18:15:00,5.0,0.5,13.5,0.0,0.0,47.5,0.0,0.0,WP Labuan
-18,6402009,Kg. Kuala Tunggang,Arau,19/09/2025 18:00:00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,WP Labuan
-19,6402007,Arau di Perlis (RHN),Arau,19/09/2025 18:15:00,6.0,0.5,10.5,0.0,1.0,9.5,0.0,0.0,WP Labuan
-20,0010271RF,Ulu Pauh (F2),Arau,19/09/2025 18:15:00,12.0,0.5,11.0,0.0,0.0,27.0,0.0,0.0,WP Labuan
-21,6403001,Ulu Pauh,Arau,19/09/2025 18:00:00,10.0,0.0,9.0,0.0,0.0,25.0,0.0,0.0,WP Labuan
-22,6302022,Changkat Jawi di Perlis (RHN),Arau,19/09/2025 18:15:00,14.0,0.5,14.0,0.0,0.5,1.0,1.5,0.0,WP Labuan
-23,0010511RF,Genting Kabu (F2),Kangar,19/09/2025 18:15:00,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,WP Labuan
-24,6501005,Abi Kg. Baru (RHN),Kangar,19/09/2025 18:15:00,4.0,0.5,22.5,0.0,3.5,5.0,0.0,0.0,WP Labuan
-25,6402010,Kg. Bakau,Kangar,19/09/2025 18:00:00,4.0,0.0,13.0,0.0,0.0,7.0,0.0,0.0,WP Labuan
-26,0010671RF,Tebing Tinggi (F2),Kangar,19/09/2025 14:15:00,3.5,0.5,23.5,23.5,1.0,5.5,1.0,0.0,WP Labuan
-27,6301001,Kg. Behor Lateh di Perlis (RHN),Kangar,19/09/2025 18:15:00,5.5,0.5,15.0,0.0,0.0,35.5,3.0,0.0,WP Labuan
-28,6401000,Kuala Perlis di Perlis (RHN),Kangar,19/09/2025 18:15:00,3.0,0.0,51.5,0.0,1.5,26.5,7.5,0.0,WP Labuan
-29,0010581RF,Simpang Ampat (F2),Kangar,19/09/2025 18:15:00,44.5,0.0,20.0,0.0,4.0,26.5,0.5,0.0,WP Labuan
+0,1,state
+Icons,Description,Perlis
+,Change Background Contrast,Perlis
+,Change Font Size,Perlis
+,Highlight Links,Perlis
+,Change Font,Perlis
+,Change Font Color,Perlis
+,Change Header Images,Perlis
+,Reset All Function,Perlis
+Icons,Description,Kedah
+,Change Background Contrast,Kedah
+,Change Font Size,Kedah
+,Highlight Links,Kedah
+,Change Font,Kedah
+,Change Font Color,Kedah
+,Change Header Images,Kedah
+,Reset All Function,Kedah
+Icons,Description,Pulau Pinang
+,Change Background Contrast,Pulau Pinang
+,Change Font Size,Pulau Pinang
+,Highlight Links,Pulau Pinang
+,Change Font,Pulau Pinang
+,Change Font Color,Pulau Pinang
+,Change Header Images,Pulau Pinang
+,Reset All Function,Pulau Pinang
+Icons,Description,Perak
+,Change Background Contrast,Perak
+,Change Font Size,Perak
+,Highlight Links,Perak
+,Change Font,Perak
+,Change Font Color,Perak
+,Change Header Images,Perak
+,Reset All Function,Perak
+Icons,Description,Selangor
+,Change Background Contrast,Selangor
+,Change Font Size,Selangor
+,Highlight Links,Selangor
+,Change Font,Selangor
+,Change Font Color,Selangor
+,Change Header Images,Selangor
+,Reset All Function,Selangor
+Icons,Description,Negeri Sembilan
+,Change Background Contrast,Negeri Sembilan
+,Change Font Size,Negeri Sembilan
+,Highlight Links,Negeri Sembilan
+,Change Font,Negeri Sembilan
+,Change Font Color,Negeri Sembilan
+,Change Header Images,Negeri Sembilan
+,Reset All Function,Negeri Sembilan
+Icons,Description,Melaka
+,Change Background Contrast,Melaka
+,Change Font Size,Melaka
+,Highlight Links,Melaka
+,Change Font,Melaka
+,Change Font Color,Melaka
+,Change Header Images,Melaka
+,Reset All Function,Melaka
+Icons,Description,Johor
+,Change Background Contrast,Johor
+,Change Font Size,Johor
+,Highlight Links,Johor
+,Change Font,Johor
+,Change Font Color,Johor
+,Change Header Images,Johor
+,Reset All Function,Johor
+Icons,Description,Pahang
+,Change Background Contrast,Pahang
+,Change Font Size,Pahang
+,Highlight Links,Pahang
+,Change Font,Pahang
+,Change Font Color,Pahang
+,Change Header Images,Pahang
+,Reset All Function,Pahang
+Icons,Description,Terengganu
+,Change Background Contrast,Terengganu
+,Change Font Size,Terengganu
+,Highlight Links,Terengganu
+,Change Font,Terengganu
+,Change Font Color,Terengganu
+,Change Header Images,Terengganu
+,Reset All Function,Terengganu
+Icons,Description,Kelantan
+,Change Background Contrast,Kelantan
+,Change Font Size,Kelantan
+,Highlight Links,Kelantan
+,Change Font,Kelantan
+,Change Font Color,Kelantan
+,Change Header Images,Kelantan
+,Reset All Function,Kelantan
+Icons,Description,Sarawak
+,Change Background Contrast,Sarawak
+,Change Font Size,Sarawak
+,Highlight Links,Sarawak
+,Change Font,Sarawak
+,Change Font Color,Sarawak
+,Change Header Images,Sarawak
+,Reset All Function,Sarawak
+Icons,Description,Sabah
+,Change Background Contrast,Sabah
+,Change Font Size,Sabah
+,Highlight Links,Sabah
+,Change Font,Sabah
+,Change Font Color,Sabah
+,Change Header Images,Sabah
+,Reset All Function,Sabah
+Icons,Description,WP Kuala Lumpur
+,Change Background Contrast,WP Kuala Lumpur
+,Change Font Size,WP Kuala Lumpur
+,Highlight Links,WP Kuala Lumpur
+,Change Font,WP Kuala Lumpur
+,Change Font Color,WP Kuala Lumpur
+,Change Header Images,WP Kuala Lumpur
+,Reset All Function,WP Kuala Lumpur
+Icons,Description,WP Putrajaya
+,Change Background Contrast,WP Putrajaya
+,Change Font Size,WP Putrajaya
+,Highlight Links,WP Putrajaya
+,Change Font,WP Putrajaya
+,Change Font Color,WP Putrajaya
+,Change Header Images,WP Putrajaya
+,Reset All Function,WP Putrajaya
+Icons,Description,WP Labuan
+,Change Background Contrast,WP Labuan
+,Change Font Size,WP Labuan
+,Highlight Links,WP Labuan
+,Change Font,WP Labuan
+,Change Font Color,WP Labuan
+,Change Header Images,WP Labuan
+,Reset All Function,WP Labuan
