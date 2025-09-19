@@ -1,41 +1,34 @@
-# main.py
 from fastapi import FastAPI, Query
 import pandas as pd
-import os
 
 app = FastAPI()
-
-DATA_DIR = "data"
-
-def load_csv(filename):
-    path = os.path.join(DATA_DIR, filename)
-    if os.path.exists(path):
-        df = pd.read_csv(path)
-        return df
-    return pd.DataFrame()
 
 @app.get("/alert")
 def get_alert(state: str = None):
     try:
-        df = load_csv("paras_air.csv")
-        if df.empty:
-            return {"error": "Tiada data paras_air.csv"}
+        # Baca CSV paras air
+        df = pd.read_csv("data/paras_air.csv")
 
-        # cari kolum threshold yang wujud
-        threshold_cols = [c for c in df.columns if "Danger" in c or "Bahaya" in c]
-        if not threshold_cols:
-            return {"error": f"Kolum threshold tak jumpa. Header: {list(df.columns)}"}
+        # Buang row NaN supaya JSON valid
+        df = df.dropna()
 
-        danger_col = threshold_cols[0]
+        # Pastikan column "Danger" wujud
+        if "Danger" not in df.columns:
+            return {"error": f"Kolum 'Danger' tak jumpa. Header: {list(df.columns)}"}
 
-        # filter ikut threshold "Danger"
-        alerts = df[df[danger_col].notna()]
+        # Cari bacaan yang cecah / lebih daripada threshold danger
+        df["Water Level (m) (Graph)"] = pd.to_numeric(df["Water Level (m) (Graph)"], errors="coerce")
+        df["Danger"] = pd.to_numeric(df["Danger"], errors="coerce")
 
-        # ikut state kalau diberi
+        alerts = df[df["Water Level (m) (Graph)"] >= df["Danger"]]
+
+        # Filter ikut negeri
         if state:
             alerts = alerts[alerts["state"].str.lower() == state.lower()]
 
-        return alerts.to_dict(orient="records")
+        # Tukar ke JSON
+        result = alerts.replace([float("inf"), -float("inf")], None).to_dict(orient="records")
+        return result
 
     except Exception as e:
         return {"error": str(e)}
@@ -43,15 +36,21 @@ def get_alert(state: str = None):
 @app.get("/rain")
 def get_rain(state: str = None):
     try:
-        df = load_csv("hujan.csv")
-        if df.empty:
-            return {"error": "Tiada data hujan.csv"}
+        # Baca CSV hujan
+        df = pd.read_csv("data/hujan.csv")
+        df = df.dropna()
 
-        # kalau ada state filter
+        # Contoh: ambil bacaan hujan hari ni (col terakhir biasanya latest)
+        last_col = df.columns[-2]  # sebelum "state"
+        df[last_col] = pd.to_numeric(df[last_col], errors="coerce")
+
+        alerts = df[df[last_col] > 50]   # kalau lebih 50mm (heavy rain)
+
         if state:
-            df = df[df["state"].str.lower() == state.lower()]
+            alerts = alerts[alerts["state"].str.lower() == state.lower()]
 
-        return df.to_dict(orient="records")
+        result = alerts.replace([float("inf"), -float("inf")], None).to_dict(orient="records")
+        return result
 
     except Exception as e:
         return {"error": str(e)}
