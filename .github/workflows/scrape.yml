@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0   # penting supaya history penuh ada untuk rebase
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -19,6 +21,7 @@ jobs:
 
       - name: Install dependencies
         run: |
+          pip install --upgrade pip
           pip install -r requirements.txt
 
       - name: Run scraping script
@@ -30,4 +33,5 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git add data/*.csv
           git commit -m "Update data $(date)" || echo "No changes to commit"
-          git push
+          git pull --rebase origin main || true
+          git push origin HEAD:main
