@@ -33,26 +33,32 @@ for state, code in paras_air_states.items():
     driver.get(url)
     time.sleep(3)
 
-    try:
-        # masuk ke iframe
-        iframe = driver.find_element(By.TAG_NAME, "iframe")
-        driver.switch_to.frame(iframe)
+    # ...
+try:
+    # Cuba cari iframe
+    iframes = driver.find_elements(By.TAG_NAME, "iframe")
+    if iframes:
+        driver.switch_to.frame(iframes[0])  # masuk iframe pertama
+        print(f"🔎 {state}: masuk iframe")
+    else:
+        print(f"ℹ️ {state}: tiada iframe, scrape direct")
 
-        # scrape table
-        table = driver.find_element(By.ID, "normaltable1")
-        rows = table.find_elements(By.TAG_NAME, "tr")
-        data = [[cell.text for cell in row.find_elements(By.TAG_NAME, "td")] for row in rows if row.text.strip()]
-        df = pd.DataFrame(data)
-        df["state"] = state
-        paras_data.append(df)
+    # scrape table (dalam iframe atau direct)
+    table = driver.find_element(By.ID, "normaltable1")
+    rows = table.find_elements(By.TAG_NAME, "tr")
+    data = [[cell.text for cell in row.find_elements(By.TAG_NAME, "td")] for row in rows if row.text.strip()]
+    df = pd.DataFrame(data)
+    df["state"] = state
+    paras_data.append(df)
 
-        print(f"[OK] paras_air - {state} ({len(df)} rows)")
+    print(f"[OK] paras_air - {state} ({len(df)} rows)")
 
-        driver.switch_to.default_content()
+    driver.switch_to.default_content()
 
-    except Exception as e:
-        print(f"[X] paras_air - {state} | Error: {e}")
-        driver.switch_to.default_content()
+except Exception as e:
+    print(f"[X] paras_air - {state} | Error: {e}")
+    driver.switch_to.default_content()
+
 
 # Standardize header
 if paras_data:
@@ -112,3 +118,4 @@ if hujan_data:
     print("✅ Hujan data saved")
 
 print("🎉 Semua data berjaya diproses & disimpan dalam folder /data/")
+
