@@ -61,13 +61,18 @@ def scrape_table(driver, state, url):
         iframe = driver.find_element(By.TAG_NAME, "iframe")
         driver.switch_to.frame(iframe)
     except:
-        pass  # kalau tiada iframe, biar direct
+        pass  # kalau tiada iframe, teruskan
 
     try:
-        # tunggu table betul² load (max 30s)
-        table = WebDriverWait(driver, 30).until(
+        # tunggu element table wujud
+        table = WebDriverWait(driver, 15).until(
             EC.presence_of_element_located((By.TAG_NAME, "table"))
         )
+        # tunggu table ada data (lebih dari 1 row)
+        WebDriverWait(driver, 15).until(
+            lambda d: len(pd.read_html(table.get_attribute("outerHTML"))[0]) > 1
+        )
+
         df = pd.read_html(table.get_attribute("outerHTML"))[0]
         df["state"] = state
         print(f"[OK] {state} ({len(df)} rows)")
