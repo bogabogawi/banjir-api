@@ -26,7 +26,7 @@ paras_air_urls = {
     "Pahang": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air/aras-air-data/?state=PHG&district=ALL&station=ALL&lang=en",
     "Terengganu": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air/aras-air-data/?state=TRG&district=ALL&station=ALL&lang=en",
     "Kelantan": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air/aras-air-data/?state=KTN&district=ALL&station=ALL&lang=en",
-    "Sarawak": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air/aras-air-data/?state=SWK&district=ALL&station=ALL&lang=en",
+    "Sarawak": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air/aras-air-data/?state=SRK&district=ALL&station=ALL&lang=en",
     "Sabah": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air/aras-air-data/?state=SBH&district=ALL&station=ALL&lang=en",
     "WP Kuala Lumpur": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air/aras-air-data/?state=WKL&district=ALL&station=ALL&lang=en",
     "WP Putrajaya": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air/aras-air-data/?state=WPT&district=ALL&station=ALL&lang=en",
@@ -34,68 +34,52 @@ paras_air_urls = {
 }
 
 hujan_urls = {
-    "Perlis": "https://publicinfobanjir.water.gov.my/hujan/data-hujan/data-hujan-lanjutan/?state=PLS&district=ALL&station=ALL&lang=en",
-    "Kedah": "https://publicinfobanjir.water.gov.my/hujan/data-hujan/data-hujan-lanjutan/?state=KDH&district=ALL&station=ALL&lang=en",
-    "Pulau Pinang": "https://publicinfobanjir.water.gov.my/hujan/data-hujan/data-hujan-lanjutan/?state=PNG&district=ALL&station=ALL&lang=en",
-    "Perak": "https://publicinfobanjir.water.gov.my/hujan/data-hujan/data-hujan-lanjutan/?state=PRK&district=ALL&station=ALL&lang=en",
-    "Selangor": "https://publicinfobanjir.water.gov.my/hujan/data-hujan/data-hujan-lanjutan/?state=SGR&district=ALL&station=ALL&lang=en",
-    "Negeri Sembilan": "https://publicinfobanjir.water.gov.my/hujan/data-hujan/data-hujan-lanjutan/?state=NSN&district=ALL&station=ALL&lang=en",
-    "Melaka": "https://publicinfobanjir.water.gov.my/hujan/data-hujan/data-hujan-lanjutan/?state=MLK&district=ALL&station=ALL&lang=en",
-    "Johor": "https://publicinfobanjir.water.gov.my/hujan/data-hujan/data-hujan-lanjutan/?state=JHR&district=ALL&station=ALL&lang=en",
-    "Pahang": "https://publicinfobanjir.water.gov.my/hujan/data-hujan/data-hujan-lanjutan/?state=PHG&district=ALL&station=ALL&lang=en",
-    "Terengganu": "https://publicinfobanjir.water.gov.my/hujan/data-hujan/data-hujan-lanjutan/?state=TRG&district=ALL&station=ALL&lang=en",
-    "Kelantan": "https://publicinfobanjir.water.gov.my/hujan/data-hujan/data-hujan-lanjutan/?state=KTN&district=ALL&station=ALL&lang=en",
-    "Sarawak": "https://publicinfobanjir.water.gov.my/hujan/data-hujan/data-hujan-lanjutan/?state=SWK&district=ALL&station=ALL&lang=en",
-    "Sabah": "https://publicinfobanjir.water.gov.my/hujan/data-hujan/data-hujan-lanjutan/?state=SBH&district=ALL&station=ALL&lang=en",
-    "WP Kuala Lumpur": "https://publicinfobanjir.water.gov.my/hujan/data-hujan/data-hujan-lanjutan/?state=WKL&district=ALL&station=ALL&lang=en",
-    "WP Putrajaya": "https://publicinfobanjir.water.gov.my/hujan/data-hujan/data-hujan-lanjutan/?state=WPT&district=ALL&station=ALL&lang=en",
-    "WP Labuan": "https://publicinfobanjir.water.gov.my/hujan/data-hujan/data-hujan-lanjutan/?state=WPL&district=ALL&station=ALL&lang=en",
+    state: url.replace("aras-air/data-paras-air/aras-air-data", "hujan/data-hujan/data-hujan-lanjutan")
+    for state, url in paras_air_urls.items()
 }
 
 # =======================
 # Scraper function
 # =======================
-def scrape_table(driver, state, url, retries=3):
-    for attempt in range(1, retries + 1):
+def scrape_table(driver, state, url, max_retries=3):
+    for attempt in range(1, max_retries+1):
         try:
             driver.get(url)
-            time.sleep(2)  # bagi masa awal load
+            time.sleep(3)  # beri masa JS load
 
-            # cuba masuk iframe
+            # cuba masuk iframe kalau ada
             try:
                 iframe = driver.find_element(By.TAG_NAME, "iframe")
                 driver.switch_to.frame(iframe)
             except:
                 pass
 
-            # tunggu table
-            table = WebDriverWait(driver, 20).until(
+            # tunggu table ada row > 1
+            table = WebDriverWait(driver, 15).until(
                 EC.presence_of_element_located((By.TAG_NAME, "table"))
             )
-            df = pd.read_html(table.get_attribute("outerHTML"))[0]
-
-            if df.empty or len(df) <= 1:
+            rows = table.find_elements(By.TAG_NAME, "tr")
+            if len(rows) <= 1:
                 raise Exception("Table kosong")
 
+            # convert ke DataFrame
+            df = pd.read_html(table.get_attribute("outerHTML"))[0]
             df["state"] = state
             print(f"[OK] {state} ({len(df)} rows)")
             return df
-
         except Exception as e:
             print(f"[Retry {attempt}] {state} gagal | {e}")
             time.sleep(3)  # tunggu sebelum retry
-
         finally:
             driver.switch_to.default_content()
-
-    print(f"[X] {state} | Gagal selepas {retries} cubaan")
+    print(f"[X] {state} | Gagal selepas {max_retries} cubaan")
     return pd.DataFrame()
 
 # =======================
 # Main process
 # =======================
 options = webdriver.ChromeOptions()
-options.add_argument("--headless")
+options.add_argument("--headless=new")
 options.add_argument("--no-sandbox")
 options.add_argument("--disable-dev-shm-usage")
 
