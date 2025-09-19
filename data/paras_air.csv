@@ -5,8 +5,8 @@
 2,6602402,Sg. Pelarit di Kaki Bukit,Padang Besar,Sungai Perlis,Sg. Pelarit,19/09/2025 14:00,35.28,35.60,38.30,38.60,39.00,Perlis
 3,6602404,Sg. Chuchoh di Kg. Chantik,Padang Besar,Sungai Perlis,Sg. Chuchoh,19/09/2025 15:00,35.34,35.50,37.50,37.80,38.50,Perlis
 4,0010421WL,Sg.Jarum di Kg. Masjid (F2),Padang Besar,Sungai Perlis,Sg. Jarum,19/09/2025 15:15,29.90,30.00,33.00,33.30,33.60,Perlis
-5,6602403,Sg. Jarum di Kg. Masjid,Padang Besar,Sungai Perlis,Sg. Jarum,19/09/2025 15:00,29.92,30.00,33.00,33.30,33.60,Perlis
-6,6502436,Empangan Timah Tasuh,Padang Besar,Sungai Perlis,Sg. Korok,19/09/2025 15:15,27.35,29.10,29.40,29.50,29.60,Perlis
+5,6602403,Sg. Jarum di Kg. Masjid,Padang Besar,Sungai Perlis,Sg. Jarum,19/09/2025 15:15,29.93,30.00,33.00,33.30,33.60,Perlis
+6,6502436,Empangan Timah Tasuh,Padang Besar,Sungai Perlis,Sg. Korok,19/09/2025 15:30,27.35,29.10,29.40,29.50,29.60,Perlis
 7,0010621WL,Sg. Panggas di Kolam Sg. Buloh (F2),Padang Besar,Sungai Arau,Sg. Arau Sub basin,19/09/2025 15:15,-9999.00,29.50,30.60,30.80,31.00,Perlis
 8,0010631WL,Sg. Arau di Kolam Sg. Jernih (F2),Arau,Sungai Arau,Sg. Arau Sub basin,19/09/2025 15:15,20.78,20.70,21.50,22.00,22.30,Perlis
 9,0010491WL,Sg. Gial di Balik Guar (F2),Arau,Sungai Arau,Sg. Gial,19/09/2025 15:15,11.48,12.50,13.50,14.00,15.00,Perlis
@@ -18,7 +18,7 @@
 ,,,,,,,,,,,,Kedah
 1,0020471WL,Sg. Janing di Kg. Labi (F2),Padang Terap,Sungai Kedah,Sg. Kedah,19/09/2025 15:15,26.26,23.00,25.00,26.00,27.00,Kedah
 2,,Sg. Ketil di Kg. Bongor (F2),Baling,Sungai Muda,Sg. Muda,19/09/2025 15:15,59.18,0.00,59.40,59.70,60.00,Kedah
-3,0020481WL,Sg. Perik di Kg Perik (F2),Padang Terap,Sungai Kedah,Sg. Kedah,19/09/2025 15:15,-9999.00,0.00,13.00,13.50,14.20,Kedah
+3,0020481WL,Sg. Perik di Kg Perik (F2),Padang Terap,Sungai Kedah,Sg. Kedah,19/09/2025 15:30,-9999.00,0.00,13.00,13.50,14.20,Kedah
 4,0050321WL,Sg. Sedim di Kg. Sedim (F2),Baling,Sungai Muda,Sg. Muda,19/09/2025 15:15,33.52,33.50,35.00,35.75,36.50,Kedah
 5,0050551WL,Sg. Ketil di Kg. Padang Pulai (F2),Baling,Sungai Muda,Sg. Ketil,19/09/2025 15:15,11.25,13.50,15.50,15.80,16.50,Kedah
 6,1900181WL,Sg. Kuah di Kuah (F2),Langkawi,Sungai Kuah,Sg. Kuah,19/09/2025 15:15,0.08,1.50,1.70,2.00,2.30,Kedah
@@ -30,17 +30,17 @@
 12,0020611WL,Sg. Kedah di Ampang Jajar MADA (F2),Kota Setar,Sungai Kedah,Sg. Kedah,19/09/2025 15:15,0.24,0.00,0.00,0.00,0.00,Kedah
 13,0040081WL,Sg. Gurun Diversion di Titi Teras (F2),Yan,Sungai Udang,Sg. Udang (KDH),19/09/2025 15:15,2.88,0.00,0.00,0.00,0.00,Kedah
 14,,Sg. Nawa di Kg. Pokok Sena Lama (F2),Pokok Sena,Sungai Kedah,Sg. Nawa,19/09/2025 15:15,8.09,0.00,0.00,0.00,0.00,Kedah
-15,6397402,Sg. Melaka di Bukit Kemboja,Langkawi,Sungai Melaka (Kedah),Sg. Melaka,19/09/2025 15:15,6.92,6.00,7.75,8.05,8.75,Kedah
-16,6397411,Sg. Melaka di Padang Matsirat,Langkawi,Sungai Melaka (Kedah),Sg. Melaka,19/09/2025 15:15,3.19,2.90,3.10,3.19,3.40,Kedah
-17,K000009,Sg. Badak di Akademi Binaan Malaysia (ABM),Kubang Pasu,Sungai Kedah,Sg. Badak,19/09/2025 15:15,65.05,64.00,65.50,66.00,67.00,Kedah
+15,6397402,Sg. Melaka di Bukit Kemboja,Langkawi,Sungai Melaka (Kedah),Sg. Melaka,19/09/2025 15:30,6.92,6.00,7.75,8.05,8.75,Kedah
+16,6397411,Sg. Melaka di Padang Matsirat,Langkawi,Sungai Melaka (Kedah),Sg. Melaka,19/09/2025 15:30,2.93,2.90,3.10,3.19,3.40,Kedah
+17,K000009,Sg. Badak di Akademi Binaan Malaysia (ABM),Kubang Pasu,Sungai Kedah,Sg. Badak,19/09/2025 15:30,65.08,64.00,65.50,66.00,67.00,Kedah
 18,6405401,Sg. Sintok di UUM Sintok,Kubang Pasu,Sungai Kedah,Sg. Sintok,19/09/2025 15:15,41.68,42.00,44.00,44.15,44.50,Kedah
 19,6404410,Sg. Laka di Kg. Padang Pasir,Kubang Pasu,Sungai Kedah,Sg. Laka,19/09/2025 15:00,19.26,18.50,21.00,21.30,21.60,Kedah
 20,6204480,Sg. Bata di Kg. Bata,Kubang Pasu,Sungai Kedah,Sg. Bata,19/09/2025 15:00,7.71,6.50,8.53,8.83,9.14,Kedah
 21,6204422,Sg. Tanjung Pauh di Tanjung Pauh,Kubang Pasu,Sungai Kedah,Sg. Tanjung Pauh,19/09/2025 15:00,1.67,1.80,4.30,4.70,5.10,Kedah
-22,6204401,Sg. Padang Terap di Kepala Batas,Kubang Pasu,Sungai Kedah,Sg. Padang Terap,19/09/2025 15:15,1.39,1.50,3.50,3.59,3.80,Kedah
-23,K000006,Sg. Durian Burung di Kota Putra,Padang Terap,Sungai Kedah,Sg. Durian Burung,19/09/2025 15:15,83.59,80.00,85.00,89.00,90.00,Kedah
+22,6204401,Sg. Padang Terap di Kepala Batas,Kubang Pasu,Sungai Kedah,Sg. Padang Terap,19/09/2025 15:30,1.39,1.50,3.50,3.59,3.80,Kedah
+23,K000006,Sg. Durian Burung di Kota Putra,Padang Terap,Sungai Kedah,Sg. Durian Burung,19/09/2025 15:30,83.12,80.00,85.00,89.00,90.00,Kedah
 24,6306480,Sg. Padang Sanai di Pdg. Sanai,Padang Terap,Sungai Kedah,Sg. Padang Sanai,19/09/2025 15:00,27.00,30.30,34.00,35.00,36.00,Kedah
-25,K000007,Sg. Sari di Kilang Gula Padang Terap,Padang Terap,Sungai Kedah,Sg. Sari,19/09/2025 15:15,25.13,25.00,27.00,27.50,28.50,Kedah
+25,K000007,Sg. Sari di Kilang Gula Padang Terap,Padang Terap,Sungai Kedah,Sg. Sari,19/09/2025 15:30,25.17,25.00,27.00,27.50,28.50,Kedah
 26,6106480,Sg. Naka di Naka,Padang Terap,Sungai Kedah,Sg. Naka,19/09/2025 15:00,27.49,27.00,32.00,32.50,33.00,Kedah
 27,No Data,Sg. Anak Bukit di Taman Aman,Kota Setar,Sungai Kedah,Sg. Anak Bukit,18/09/2025 22:00,1.41,1.50,2.00,2.30,2.60,Kedah
 28,MADA0120,Sg. Kedah di Jambatan Lebuhraya,Kota Setar,Sungai Kedah,Sg. Kedah,19/09/2025 15:00,1.48,1.30,1.50,1.80,2.10,Kedah
@@ -49,9 +49,9 @@
 31,5905480,Sg. Pendang di Pondok Chegar,Pendang,Sungai Kedah,Sg. Pendang,19/09/2025 15:00,2.60,16.50,19.00,19.30,20.00,Kedah
 32,5706402,Sg. Chepir di Bt. 5,Sik,Sungai Muda,Sg. Chepir,19/09/2025 15:00,30.21,31.00,32.20,32.44,33.00,Kedah
 33,5708401,Sg. Ketil di Kg. Baru,Baling,Sungai Muda,Sg. Ketil,19/09/2025 15:00,81.16,81.50,83.50,83.65,84.00,Kedah
-34,5608418,Sg. Ketil di Kuala Pegang,Baling,Sungai Muda,Sg. Ketil,19/09/2025 15:15,34.11,35.00,36.00,36.75,37.50,Kedah
-35,5606401,Sg. Sedim di Kg. Sedim,Baling,Sungai Muda,Sg. Sedim,19/09/2025 15:15,33.39,33.50,35.00,35.75,36.50,Kedah
-36,5606410,Sg. Muda di Jambatan Syed Omar,Kuala Muda,Sungai Muda,Sg. Muda,19/09/2025 15:15,6.86,8.00,12.10,12.40,13.10,Kedah
+34,5608418,Sg. Ketil di Kuala Pegang,Baling,Sungai Muda,Sg. Ketil,19/09/2025 15:30,34.09,35.00,36.00,36.75,37.50,Kedah
+35,5606401,Sg. Sedim di Kg. Sedim,Baling,Sungai Muda,Sg. Sedim,19/09/2025 15:30,33.40,33.50,35.00,35.75,36.50,Kedah
+36,5606410,Sg. Muda di Jambatan Syed Omar,Kuala Muda,Sungai Muda,Sg. Muda,19/09/2025 15:30,6.86,8.00,12.10,12.40,13.10,Kedah
 37,MADA0134,Sg. Gurun di Kg. Perupok,Yan,Sungai Udang,Sg. Gurun,18/09/2025 17:00,2.27,1.20,3.00,3.25,3.50,Kedah
 38,5206405,Sg. Serdang di Kg. Majidee Tengah,Bandar Baharu,Sungai Kerian (Kedah),Sg. Serdang,19/09/2025 15:15,10.56,11.60,12.00,12.30,13.00,Kedah
 39,0090291WL,Sg Kerian di Rumah Pam Bandar Baharu (F2),Bandar Baharu,Sungai Kerian (Kedah),Sg. Kerian,19/09/2025 15:15,-0.25,0.00,0.00,0.00,0.00,Kedah
@@ -74,20 +74,20 @@
 12,0050701WL,Muara Lahar Endin (F2),Seberang Perai Utara,Sungai Lahar Endin,Sg. Lahar Endin,18/09/2025 22:45,1.41,0.20,1.40,1.60,2.00,Pulau Pinang
 13,1910271WL,Sg. Keluang di Bayan Lepas (F2),Barat Daya Pulau Pinang,Sungai Keluang,Sg. Keluang,19/09/2025 15:15,-9999.00,0.00,2.50,2.80,3.00,Pulau Pinang
 14,1910131WL,Sg. Air Itam di Lorong Batu Lanchang (F2),Timur Laut Pulau Pinang,Sungai Pinang,Sg. Air Itam,19/09/2025 15:15,4.23,4.00,5.20,5.50,6.00,Pulau Pinang
-15,5505413,Sg. Muda di Pinang Tunggal,Seberang Perai Utara,Sungai Muda (P. Pinang),Sg. Muda,19/09/2025 12:00,-9999.00,3.00,5.50,6.00,6.50,Pulau Pinang
-16,5504401,Sg.Muda di Bumbung Lima,Seberang Perai Utara,Sungai Muda (P. Pinang),Sg. Muda,19/09/2025 12:00,2.88,2.10,3.50,3.80,4.10,Pulau Pinang
-17,5403444,Rumah Pam Taman Limbungan,Seberang Perai Utara,Sungai Perai,Sg. Perai,19/09/2025 12:15,-9999.00,0.30,1.30,1.50,1.80,Pulau Pinang
-18,5405421,Sg. Kulim di Ara Kuda,Seberang Perai Tengah,Sungai Perai,Sg. Kulim,19/09/2025 12:15,-9999.00,6.32,7.50,7.80,8.10,Pulau Pinang
+15,5505413,Sg. Muda di Pinang Tunggal,Seberang Perai Utara,Sungai Muda (P. Pinang),Sg. Muda,19/09/2025 15:00,-9999.00,3.00,5.50,6.00,6.50,Pulau Pinang
+16,5504401,Sg.Muda di Bumbung Lima,Seberang Perai Utara,Sungai Muda (P. Pinang),Sg. Muda,19/09/2025 15:00,2.90,2.10,3.50,3.80,4.10,Pulau Pinang
+17,5403444,Rumah Pam Taman Limbungan,Seberang Perai Utara,Sungai Perai,Sg. Perai,19/09/2025 15:15,-9999.00,0.30,1.30,1.50,1.80,Pulau Pinang
+18,5405421,Sg. Kulim di Ara Kuda,Seberang Perai Tengah,Sungai Perai,Sg. Kulim,19/09/2025 15:15,-9999.00,6.32,7.50,7.80,8.10,Pulau Pinang
 19,5304401,Sg. Juru di Empangan Juru,Seberang Perai Tengah,Sungai Juru,Sg. Juru,19/09/2025 11:30,0.30,0.30,1.90,2.10,2.50,Pulau Pinang
-20,5204424,Sg. Jawi di Jln. Sg. Jawi,Seberang Perai Selatan,Sungai Jawi,Sg. Jawi,19/09/2025 12:15,2.76,2.40,4.00,4.30,4.50,Pulau Pinang
-21,5105459,Sg. Kecil,Seberang Perai Selatan,Sungai Kerian (P. Pinang),Sg. Kecil,19/09/2025 12:00,3.13,1.60,4.00,4.50,5.00,Pulau Pinang
-22,5104001,Sg. Acheh,Seberang Perai Selatan,Sungai Kerian (P. Pinang),Sg. Kerian,19/09/2025 12:15,0.00,1.50,1.80,2.00,2.50,Pulau Pinang
-23,5403405,Kolam Sg. Dondang,Timur Laut Pulau Pinang,Sungai Pinang,Sg. Dondang,19/09/2025 11:45,19.43,19.50,21.00,21.20,21.50,Pulau Pinang
-24,5403403,Sg. Pinang di Jalan P. Ramlee,Timur Laut Pulau Pinang,Sungai Pinang,Sg. Pinang,19/09/2025 12:15,0.00,0.45,2.00,2.35,2.70,Pulau Pinang
-25,5303403,Sg. Dua di Kg. Dua Bukit,Timur Laut Pulau Pinang,Sungai Dua,Sg. Dua,19/09/2025 11:45,1.69,0.64,2.50,2.80,3.20,Pulau Pinang
-26,5302407,Sg. Ara,Barat Daya Pulau Pinang,Sungai Keluang,Sg. Ara,19/09/2025 12:30,0.00,0.50,1.65,1.80,2.00,Pulau Pinang
+20,5204424,Sg. Jawi di Jln. Sg. Jawi,Seberang Perai Selatan,Sungai Jawi,Sg. Jawi,19/09/2025 15:15,2.78,2.40,4.00,4.30,4.50,Pulau Pinang
+21,5105459,Sg. Kecil,Seberang Perai Selatan,Sungai Kerian (P. Pinang),Sg. Kecil,19/09/2025 15:00,3.25,1.60,4.00,4.50,5.00,Pulau Pinang
+22,5104001,Sg. Acheh,Seberang Perai Selatan,Sungai Kerian (P. Pinang),Sg. Kerian,19/09/2025 15:15,0.00,1.50,1.80,2.00,2.50,Pulau Pinang
+23,5403405,Kolam Sg. Dondang,Timur Laut Pulau Pinang,Sungai Pinang,Sg. Dondang,19/09/2025 15:00,19.45,19.50,21.00,21.20,21.50,Pulau Pinang
+24,5403403,Sg. Pinang di Jalan P. Ramlee,Timur Laut Pulau Pinang,Sungai Pinang,Sg. Pinang,19/09/2025 15:00,0.77,0.45,2.00,2.35,2.70,Pulau Pinang
+25,5303403,Sg. Dua di Kg. Dua Bukit,Timur Laut Pulau Pinang,Sungai Dua,Sg. Dua,19/09/2025 14:45,1.29,0.64,2.50,2.80,3.20,Pulau Pinang
+26,5302407,Sg. Ara,Barat Daya Pulau Pinang,Sungai Keluang,Sg. Ara,19/09/2025 15:30,0.00,0.50,1.65,1.80,2.00,Pulau Pinang
 27,0050481WL,Sg. Muda di Pinang Tunggal (F2),Seberang Perai Utara,Sungai Muda (P. Pinang),Sg. Muda,19/09/2025 15:15,3.13,3.00,5.50,6.00,6.50,Pulau Pinang
-28,191013WL,Lorong Batu Lanchang,Timur Laut Pulau Pinang,Sungai Pinang,Sg. Air Itam,19/09/2025 12:30,0.00,0.00,5.00,5.50,6.00,Pulau Pinang
+28,191013WL,Lorong Batu Lanchang,Timur Laut Pulau Pinang,Sungai Pinang,Sg. Air Itam,19/09/2025 13:00,0.00,0.00,5.00,5.50,6.00,Pulau Pinang
 ,,,,,,,,,,,,Perak
 ,,,,,,,,,,,,Perak
 1,5006401,Kolam Air Bukit Merah,Kerian,Sungai Kurau,Sg. Kurau,19/09/2025 07:30,7.79,8.68,9.00,9.04,9.14,Perak
@@ -222,7 +222,7 @@
 13,0260021WL,Sg. Jimah di Kg. Jimah Lama (F2),Port Dickson,Sungai Jimah,Sg. Jimah,19/09/2025 15:15,7.20,8.00,8.30,8.60,9.10,Negeri Sembilan
 14,0270621WL,Sg. Sunggala di Kg. Sawah Sunggala (F2),Port Dickson,Sungai Menyala,Sg. Menyala,19/09/2025 15:15,1.94,1.80,3.60,3.80,4.00,Negeri Sembilan
 15,0270371WL,Sg. Rembau di Titian Bintangor (F2),Rembau,Sungai Linggi,Sg. Rembau,19/09/2025 15:15,2.67,3.90,4.20,4.50,4.80,Negeri Sembilan
-16,0270651WL,Sg. Rembau di Dataran Shahbandar (F2),Rembau,Sungai Linggi,Sg. Rembau,19/09/2025 15:00,-9999.00,1.10,4.00,4.50,5.00,Negeri Sembilan
+16,0270651WL,Sg. Rembau di Dataran Shahbandar (F2),Rembau,Sungai Linggi,Sg. Rembau,19/09/2025 15:15,-9999.00,1.10,4.00,4.50,5.00,Negeri Sembilan
 17,0321481WL,Sg. Palong di Kg. Jeram Panjang (F2),Jempol,Sungai Muar (NS),Sg. Palong,19/09/2025 15:15,24.68,24.60,28.00,29.00,30.00,Negeri Sembilan
 18,0321031WL,Sg. Gemas di Kg. Tiong (F2),Tampin,Sungai Muar (NS),Sg. Gemas,19/09/2025 15:15,19.81,19.00,20.50,21.50,22.50,Negeri Sembilan
 19,0320401WL,Sg. Gemencheh di Jalan Gemas-Rompin (F2),Tampin,Sungai Muar (NS),Sg. Gemencheh,19/09/2025 15:15,21.61,21.00,24.50,25.50,26.50,Negeri Sembilan
@@ -365,7 +365,7 @@
 42,3832420,Sg. Kuantan di Kuantan Bypass,Kuantan,Sungai Kuantan,Sg. Kuantan,19/09/2025 15:00,0.00,0.50,3.00,3.15,3.50,Pahang
 43,3432401,Sg. Belat di Sri Damai,Kuantan,Sungai Kuantan,Sg. Belat,19/09/2025 15:00,2.46,1.50,3.00,4.00,5.00,Pahang
 44,3133401,Sg. Cherating di Cherating,Kuantan,Sungai Cherating,Sg. Cherating,19/09/2025 15:00,2.90,1.50,3.00,3.30,4.00,Pahang
-45,2630401,Sg. Pukin,Rompin,Sungai Rompin,Sg. Pukin,19/09/2025 14:00,38.38,40.80,44.00,44.30,45.00,Pahang
+45,2630401,Sg. Pukin,Rompin,Sungai Rompin,Sg. Pukin,19/09/2025 15:00,38.38,40.80,44.00,44.30,45.00,Pahang
 46,2636482,Sg. Endau di Tanjung Gemok,Rompin,Sungai Endau (Pahang),Sg. Endau,19/09/2025 15:00,0.00,1.00,3.20,3.38,3.80,Pahang
 ,,,,,,,,,,,,Terengganu
 ,,,,,,,,,,,,Terengganu
@@ -388,7 +388,7 @@
 17,0670341WL,Sg. Terengganu di Drawbridge (F1),Kuala Terengganu,Sungai Terengganu,Sg. Terengganu,19/09/2025 15:20,0.20,0.30,1.40,1.60,1.80,Terengganu
 18,0670531WL,Parit Utama di Padang Kemunting (F1),Kuala Nerus,Sungai Terengganu,Sg. Terengganu,19/09/2025 15:15,2.60,1.50,3.20,3.60,3.80,Terengganu
 19,4232401,Sg. Kemaman di Jamb. Air Putih,Kemaman,Sungai Kemaman,Sg. Kemaman,19/09/2025 15:00,8.75,9.00,12.50,13.00,14.00,Terengganu
-20,4233453,Sg. Kemaman di Rumah Pam Paya Paman,Kemaman,Sungai Kemaman,Sg. Kemaman,19/09/2025 14:00,0.58,1.40,3.00,3.50,4.00,Terengganu
+20,4233453,Sg. Kemaman di Rumah Pam Paya Paman,Kemaman,Sungai Kemaman,Sg. Kemaman,19/09/2025 15:00,0.42,1.40,3.00,3.50,4.00,Terengganu
 21,0700201WL,Sg. Besut di Jambatan Keruak (F2),Besut,Sungai Besut,Sg. Besut,19/09/2025 15:15,30.95,28.50,33.00,34.00,35.00,Terengganu
 22,0700191WL,Sg. Besut di Kg. La (F2),Besut,Sungai Besut,Sg. Besut,19/09/2025 15:15,16.71,16.50,19.80,20.80,21.80,Terengganu
 23,0690071WL,Sg. Keluang di Kg. Tembila (F2),Besut,Sungai Keluang Besar,Sg. Keluang Besar,19/09/2025 15:15,-99.99,0.00,0.00,0.00,0.00,Terengganu
@@ -444,117 +444,117 @@
 33,0731001WL,Sg. Semerak di Pasir Puteh (F1),Pasir Puteh,Sungai Semerak,Sg. Semerak,18/09/2025 16:30,-9999.00,0.40,2.00,2.30,3.00,Kelantan
 ,,,,,,,,,,,,Sarawak
 ,,,,,,,,,,,,Sarawak
-1,1599401,Ulu Batang Kayan,Kuching,Batang Kayan,Btg. Kayan,19/09/2025 15:15,2.67,6.00,13.00,14.00,15.00,Sarawak
-2,1102401,Aman 5 Bridge,Kuching,Sungai Sarawak,Sg. Semadang,19/09/2025 15:15,31.24,31.20,37.40,37.58,38.00,Sarawak
-3,1200401,Sungai Pedid,Kuching,Sungai Sarawak,Sg. Spora,19/09/2025 15:15,14.23,14.25,20.53,20.71,21.13,Sarawak
-4,1302428,Kampung Git,Kuching,Sungai Sarawak,Sg. Sarawak Kiri,19/09/2025 15:15,5.17,4.74,12.29,12.79,13.29,Sarawak
-5,1301427,Buan Bidi,Kuching,Sungai Sarawak,Sg. Sarawak Kanan,19/09/2025 15:15,11.29,11.50,15.00,16.50,18.00,Sarawak
-6,1400401,Sungai Opar,Kuching,Sungai Sarawak,Sg. Opar,19/09/2025 15:15,11.71,12.00,15.83,16.01,16.43,Sarawak
-7,1401403,RTB Bau,Kuching,Sungai Sarawak,Sg. Sarawak Kanan,19/09/2025 15:15,8.69,10.00,12.46,12.58,12.86,Sarawak
-8,1401401,Bau Bridge,Kuching,Sungai Sarawak,Sg. Sarawak Kanan,19/09/2025 15:15,5.31,5.30,12.46,12.58,12.86,Sarawak
-9,1401402,Buso,Kuching,Sungai Sarawak,Sg. Sarawak Kanan,19/09/2025 15:15,1.84,1.80,8.00,10.20,10.70,Sarawak
-10,1402401,Siniawan,Kuching,Sungai Sarawak,Sg. Sarawak Kanan,19/09/2025 15:15,1.27,1.05,5.50,6.20,7.20,Sarawak
-11,1502404,Batu Kawa Bridge,Kuching,Sungai Sarawak,Sg. Sarawak,19/09/2025 15:15,1.94,1.50,2.50,3.00,4.20,Sarawak
-12,1502402,Desa Wira,Kuching,Sungai Sarawak,Sg. Sarawak,19/09/2025 15:15,1.35,0.53,3.10,3.30,3.50,Sarawak
-13,1503434,Central Park,Kuching,Sungai Sarawak,Sg. Maong,19/09/2025 15:15,1.35,0.51,3.86,4.00,4.24,Sarawak
-14,1502435,Kuala Maong,Kuching,Sungai Sarawak,Sg. Maong,19/09/2025 15:15,1.18,0.25,2.00,2.24,2.80,Sarawak
-15,1503407,Satok B,Kuching,Sungai Sarawak,Sg. Sibu,19/09/2025 15:15,1.03,0.27,2.40,2.52,2.80,Sarawak
-16,1503406,Padungan,Kuching,Sungai Sarawak,Sg. Sarawak,19/09/2025 15:15,1.31,0.50,2.60,2.81,3.30,Sarawak
-17,1504403,Barrage,Kuching,Sungai Sarawak,Sg. Sarawak,19/09/2025 15:15,1.06,0.80,2.80,2.92,3.20,Sarawak
-18,1504402,Sejingkat,Kuching,Sungai Sarawak,Sg. Sarawak,19/09/2025 15:15,1.51,1.00,2.90,3.20,3.75,Sarawak
-19,1502405,Sungai Tengah,Kuching,Sungai Sarawak,Sg. Tengah,19/09/2025 15:15,4.32,5.00,7.10,7.28,7.70,Sarawak
-20,1502403,Malihah,Kuching,Sungai Sarawak,Sg. Minjap,19/09/2025 15:15,2.79,3.42,6.80,7.10,7.40,Sarawak
-21,1601401,Kampung Rayu,Kuching,Sungai Sarawak,Sg. Rayu,19/09/2025 15:15,2.27,2.30,10.30,10.90,11.50,Sarawak
-22,1602402,Kampung Salak,Kuching,Sungai Sarawak,Btg. Salak,19/09/2025 15:15,0.33,1.35,3.40,3.60,3.80,Sarawak
-23,1704415,Pulau Lakei,Kuching,Sungai Sarawak,Laut,19/09/2025 15:15,-9999.00,3.00,3.80,4.10,4.50,Sarawak
-24,1304439,Batu Gong,Serian,Batang Samarahan,Sg. Tuang,19/09/2025 15:15,2.64,2.41,4.56,5.90,6.50,Sarawak
-25,1004438,Krusen,Serian,Batang Sadong,Sg. Batang Kayan,19/09/2025 15:15,11.30,11.93,15.20,16.30,17.40,Sarawak
-26,1005447,Meringgu,Serian,Batang Sadong,Sg. Kedup,19/09/2025 15:15,14.58,11.92,15.00,16.00,16.50,Sarawak
-27,1105401,Serian,Serian,Batang Sadong,Sg. Batang Kayan,19/09/2025 15:15,5.24,4.49,8.30,8.51,9.00,Sarawak
-28,101286,8th Mile,Samarahan,Batang Samarahan,Btg. Samarahan,19/09/2025 15:15,5.18,6.04,8.64,9.54,10.04,Sarawak
-29,1503408,Mid Sungai Kuap,Samarahan,Sungai Sarawak,Sg. Kuap,19/09/2025 15:15,1.56,0.60,3.00,3.30,3.80,Sarawak
-30,1506401,Asajaya Water Intake,Samarahan,Batang Samarahan,Sg. Moyan,19/09/2025 15:15,1.76,1.95,3.62,4.12,4.72,Sarawak
-31,1206401,Gedong,Samarahan,Batang Sadong,Btg. Kerang,19/09/2025 15:15,2.18,3.10,4.82,5.90,6.30,Sarawak
-32,1108401,Sabal Kruin,Samarahan,Batang Sadong,Sg. Simunjan,19/09/2025 15:15,-9999.00,4.84,6.91,7.52,8.32,Sarawak
-33,1220402,Nanga Delok,Sri Aman,Batang Lupar,Btg. Ai,19/09/2025 15:15,9.74,22.00,23.25,23.75,24.05,Sarawak
-34,1519401,Bau Sungai,Sri Aman,Batang Lupar,Btg. Sekerang,19/09/2025 15:15,14.31,13.00,16.00,17.00,20.00,Sarawak
-35,1116402,Engkilili JKR Wharf,Sri Aman,Batang Lupar,Btg. Lupar,19/09/2025 15:15,6.66,7.11,8.80,9.43,9.79,Sarawak
-36,1214403,Sri Aman Telemetry,Sri Aman,Batang Lupar,Btg. Lupar,19/09/2025 15:15,2.31,3.00,4.90,5.20,5.50,Sarawak
-37,1111401,Pantu,Sri Aman,Batang Lupar,Btg. Seterap,19/09/2025 15:15,5.04,1.80,4.90,5.58,6.30,Sarawak
-38,1415401,Nanga Lubau,Betong,Batang Saribas,Btg. Layar,19/09/2025 15:15,1.79,1.45,7.49,8.09,9.79,Sarawak
-39,1515401,Nanga Samu,Betong,Batang Saribas,Btg. Paku,19/09/2025 15:15,4.63,1.45,7.49,8.09,9.79,Sarawak
-40,1415404,Betong,Betong,Batang Saribas,Btg. Layar,19/09/2025 15:15,2.42,2.80,4.86,5.16,5.76,Sarawak
-41,1714401,Kaki Wong,Betong,Batang Krian,Btg. Krian,19/09/2025 15:15,-9999.00,13.61,16.44,17.04,17.64,Sarawak
-42,1812401,Roban,Betong,Batang Krian,Sg. Sebelak,19/09/2025 15:15,3.57,3.85,4.60,5.00,5.20,Sarawak
-43,2939401,Sambop B,Kapit,Batang Rajang,Btg. Belaga,19/09/2025 15:15,-9999.00,6.00,15.86,16.85,19.12,Sarawak
-44,2737402,Giam Pasang B,Kapit,Batang Rajang,Btg. Belaga,19/09/2025 15:15,1.92,3.00,5.00,5.50,6.00,Sarawak
-45,2737413,Belaga,Kapit,Batang Rajang,Btg. Belaga,19/09/2025 15:15,42.45,41.06,47.30,50.90,52.00,Sarawak
-46,2333401,Punan Bah B,Kapit,Batang Rajang,Btg. Belaga,19/09/2025 15:15,6.46,5.37,9.00,10.00,11.00,Sarawak
-47,2230443,Nanga Merit,Kapit,Batang Rajang,Btg. Belaga,19/09/2025 15:15,18.35,18.00,20.00,23.00,24.00,Sarawak
-48,2130405,Nanga Benin B,Kapit,Batang Rajang,Btg. Belaga,19/09/2025 15:15,14.52,13.46,20.60,21.60,22.00,Sarawak
-49,1836401,Nanga Entawau,Kapit,Batang Rajang,Btg. Baleh,19/09/2025 15:15,6.55,4.60,11.30,12.30,12.80,Sarawak
-50,1834401,Gaat B,Kapit,Batang Rajang,Btg. Baleh,19/09/2025 15:15,32.75,32.00,42.50,44.50,46.50,Sarawak
-51,1932408,Teluk Buing,Kapit,Batang Rajang,Btg. Baleh,19/09/2025 15:15,4.67,1.98,10.00,11.00,12.00,Sarawak
-52,2029402,Kapit New Headworks,Kapit,Batang Rajang,Btg. Rajang,19/09/2025 15:15,11.30,6.25,12.10,14.80,15.30,Sarawak
-53,2029403,Kapit Town,Kapit,Batang Rajang,Btg. Rajang,19/09/2025 15:15,10.82,6.25,11.90,14.55,15.30,Sarawak
-54,2026401,Nanga Sebatu,Kapit,Batang Rajang,Btg. Rajang,19/09/2025 15:15,8.02,5.00,11.00,14.00,15.00,Sarawak
-55,2025401,Song B,Kapit,Batang Rajang,Sg. Katibas,19/09/2025 15:15,8.05,5.59,10.59,11.59,12.59,Sarawak
-56,2023401,Nanga Kabah,Sibu,Batang Rajang,Btg. Rajang,19/09/2025 15:15,3.41,4.50,6.29,7.04,7.79,Sarawak
-57,2020404,Nanga Machan B,Sibu,Batang Rajang,Sg. Kanowit,19/09/2025 15:15,4.59,6.00,8.00,9.00,10.00,Sarawak
-58,2121401,Kanowit Town,Sibu,Batang Rajang,Btg. Rajang,19/09/2025 15:15,3.17,3.40,4.59,5.09,5.59,Sarawak
-59,2119401,Durin Bazaar,Sibu,Batang Rajang,Btg. Rajang,19/09/2025 15:15,2.77,2.50,3.50,4.00,4.50,Sarawak
-60,2218405,Stabau,Sibu,Batang Rajang,Btg. Rajang,19/09/2025 15:15,2.52,2.40,3.50,3.74,4.30,Sarawak
-61,2218402,Sungai Salim B,Sibu,Batang Rajang,Sg. Salim,19/09/2025 15:15,2.16,2.00,2.65,2.80,3.10,Sarawak
-62,2318405,Jabatan Laut,Sibu,Batang Rajang,Btg. Igan,19/09/2025 15:15,1.10,1.30,2.30,2.60,2.90,Sarawak
-63,2418401,Rantau Panjang B,Sibu,Batang Rajang,Btg. Igan,19/09/2025 15:15,0.47,1.50,2.00,2.18,2.60,Sarawak
-64,2318403,Sungai Teku,Sibu,Batang Rajang,Sg. Merah,19/09/2025 15:15,1.83,1.60,2.60,2.78,3.20,Sarawak
-65,2318402,Ulu Sungai Merah,Sibu,Batang Rajang,Sg. Merah,19/09/2025 15:15,1.30,1.60,2.20,2.29,2.50,Sarawak
-66,2318427,Sungai Merah,Sibu,Batang Rajang,Sg. Merah,19/09/2025 15:15,1.21,1.11,2.50,2.80,3.00,Sarawak
-67,2218403,Sarawak Maritime,Sibu,Batang Rajang,Btg. Rajang,19/09/2025 15:15,0.79,2.30,2.80,2.95,3.30,Sarawak
-68,2218403,Express Terminal,Sibu,Batang Rajang,Btg. Rajang,19/09/2025 15:15,1.29,1.80,2.50,2.62,2.90,Sarawak
-69,2218402,Sungai Bidut,Sibu,Batang Rajang,Btg. Rajang,19/09/2025 15:15,1.56,1.80,2.80,2.98,3.40,Sarawak
-70,2216401,Lebaan,Sibu,Batang Rajang,Btg. Lebaan,19/09/2025 15:15,2.75,2.60,3.40,4.15,4.90,Sarawak
-71,2021401,Renan Kemiding,Sibu,Batang Rajang,Sg. Kanowit,19/09/2025 15:15,5.09,2.91,6.21,7.21,7.71,Sarawak
-72,2321401,Stapang B,Sibu,Batang Oya,Btg. Oya,19/09/2025 15:15,10.79,10.00,12.20,13.20,14.20,Sarawak
-73,2520452,Tamin,Sibu,Batang Oya,Btg. Oya,19/09/2025 15:15,-9999.00,5.00,7.00,7.50,8.50,Sarawak
-74,2625402,Nanga Lemai B,Sibu,Batang Balingian,Sg. Lemai,19/09/2025 15:15,2.69,1.80,2.80,3.10,3.80,Sarawak
-75,2523402,Selangau B,Sibu,Batang Mukah,Btg. Mukah,19/09/2025 15:15,11.89,14.00,16.90,17.20,17.90,Sarawak
-76,1918401,Nanga Ayam,Sarikei,Batang Rajang,Sg. Kanowit,19/09/2025 15:15,10.11,8.45,18.48,18.95,19.45,Sarawak
-77,1915401,Ambas,Sarikei,Batang Rajang,Sg. Sarikei,19/09/2025 15:15,3.15,1.24,6.00,6.50,7.00,Sarawak
-78,2116401,Bintangor,Sarikei,Batang Rajang,Btg. Rajang,19/09/2025 15:15,1.09,2.40,2.48,2.60,3.30,Sarawak
-79,2115401,Sarikei DID,Sarikei,Batang Rajang,Btg. Rajang,19/09/2025 15:15,1.38,0.00,2.70,3.00,3.30,Sarawak
-80,2516401,Sungai Dausan,Mukah,Batang Rajang,Btg. Paloh,19/09/2025 15:15,5.01,5.00,6.00,6.30,6.60,Sarawak
-81,2514401,Daro,Mukah,Batang Rajang,Sg. Daro,19/09/2025 15:15,3.75,3.70,5.30,5.60,5.90,Sarawak
-82,2613401,Mid Bruit,Mukah,Batang Rajang,Btg. Lassa,19/09/2025 15:15,3.98,2.80,4.50,5.00,5.50,Sarawak
-83,2615401,Matu,Mukah,Batang Rajang,Btg. Matu,19/09/2025 15:15,1.26,0.84,1.74,2.64,3.34,Sarawak
-84,2818401,Oya Water Works,Mukah,Batang Oya,Btg. Oya,19/09/2025 15:15,1.37,3.00,4.00,4.50,5.00,Sarawak
+1,1599401,Ulu Batang Kayan,Kuching,Batang Kayan,Btg. Kayan,19/09/2025 15:30,2.68,6.00,13.00,14.00,15.00,Sarawak
+2,1102401,Aman 5 Bridge,Kuching,Sungai Sarawak,Sg. Semadang,19/09/2025 15:30,31.23,31.20,37.40,37.58,38.00,Sarawak
+3,1200401,Sungai Pedid,Kuching,Sungai Sarawak,Sg. Spora,19/09/2025 15:30,14.23,14.25,20.53,20.71,21.13,Sarawak
+4,1302428,Kampung Git,Kuching,Sungai Sarawak,Sg. Sarawak Kiri,19/09/2025 15:30,5.27,4.74,12.29,12.79,13.29,Sarawak
+5,1301427,Buan Bidi,Kuching,Sungai Sarawak,Sg. Sarawak Kanan,19/09/2025 15:30,11.29,11.50,15.00,16.50,18.00,Sarawak
+6,1400401,Sungai Opar,Kuching,Sungai Sarawak,Sg. Opar,19/09/2025 15:30,11.71,12.00,15.83,16.01,16.43,Sarawak
+7,1401403,RTB Bau,Kuching,Sungai Sarawak,Sg. Sarawak Kanan,19/09/2025 15:30,8.68,10.00,12.46,12.58,12.86,Sarawak
+8,1401401,Bau Bridge,Kuching,Sungai Sarawak,Sg. Sarawak Kanan,19/09/2025 15:30,5.31,5.30,12.46,12.58,12.86,Sarawak
+9,1401402,Buso,Kuching,Sungai Sarawak,Sg. Sarawak Kanan,19/09/2025 15:30,1.98,1.80,8.00,10.20,10.70,Sarawak
+10,1402401,Siniawan,Kuching,Sungai Sarawak,Sg. Sarawak Kanan,19/09/2025 15:30,1.31,1.05,5.50,6.20,7.20,Sarawak
+11,1502404,Batu Kawa Bridge,Kuching,Sungai Sarawak,Sg. Sarawak,19/09/2025 15:30,1.92,1.50,2.50,3.00,4.20,Sarawak
+12,1502402,Desa Wira,Kuching,Sungai Sarawak,Sg. Sarawak,19/09/2025 15:30,1.31,0.53,3.10,3.30,3.50,Sarawak
+13,1503434,Central Park,Kuching,Sungai Sarawak,Sg. Maong,19/09/2025 15:30,1.25,0.51,3.86,4.00,4.24,Sarawak
+14,1502435,Kuala Maong,Kuching,Sungai Sarawak,Sg. Maong,19/09/2025 15:30,1.17,0.25,2.00,2.24,2.80,Sarawak
+15,1503407,Satok B,Kuching,Sungai Sarawak,Sg. Sibu,19/09/2025 15:30,1.01,0.27,2.40,2.52,2.80,Sarawak
+16,1503406,Padungan,Kuching,Sungai Sarawak,Sg. Sarawak,19/09/2025 15:30,1.31,0.50,2.60,2.81,3.30,Sarawak
+17,1504403,Barrage,Kuching,Sungai Sarawak,Sg. Sarawak,19/09/2025 15:30,1.14,0.80,2.80,2.92,3.20,Sarawak
+18,1504402,Sejingkat,Kuching,Sungai Sarawak,Sg. Sarawak,19/09/2025 15:30,1.44,1.00,2.90,3.20,3.75,Sarawak
+19,1502405,Sungai Tengah,Kuching,Sungai Sarawak,Sg. Tengah,19/09/2025 15:30,4.34,5.00,7.10,7.28,7.70,Sarawak
+20,1502403,Malihah,Kuching,Sungai Sarawak,Sg. Minjap,19/09/2025 15:30,2.79,3.42,6.80,7.10,7.40,Sarawak
+21,1601401,Kampung Rayu,Kuching,Sungai Sarawak,Sg. Rayu,19/09/2025 15:30,2.27,2.30,10.30,10.90,11.50,Sarawak
+22,1602402,Kampung Salak,Kuching,Sungai Sarawak,Btg. Salak,19/09/2025 15:30,0.24,1.35,3.40,3.60,3.80,Sarawak
+23,1704415,Pulau Lakei,Kuching,Sungai Sarawak,Laut,19/09/2025 15:30,-9999.00,3.00,3.80,4.10,4.50,Sarawak
+24,1304439,Batu Gong,Serian,Batang Samarahan,Sg. Tuang,19/09/2025 15:30,2.64,2.41,4.56,5.90,6.50,Sarawak
+25,1004438,Krusen,Serian,Batang Sadong,Sg. Batang Kayan,19/09/2025 15:30,11.29,11.93,15.20,16.30,17.40,Sarawak
+26,1005447,Meringgu,Serian,Batang Sadong,Sg. Kedup,19/09/2025 15:30,14.56,11.92,15.00,16.00,16.50,Sarawak
+27,1105401,Serian,Serian,Batang Sadong,Sg. Batang Kayan,19/09/2025 15:30,5.22,4.49,8.30,8.51,9.00,Sarawak
+28,101286,8th Mile,Samarahan,Batang Samarahan,Btg. Samarahan,19/09/2025 15:30,5.17,6.04,8.64,9.54,10.04,Sarawak
+29,1503408,Mid Sungai Kuap,Samarahan,Sungai Sarawak,Sg. Kuap,19/09/2025 15:30,1.52,0.60,3.00,3.30,3.80,Sarawak
+30,1506401,Asajaya Water Intake,Samarahan,Batang Samarahan,Sg. Moyan,19/09/2025 15:30,1.77,1.95,3.62,4.12,4.72,Sarawak
+31,1206401,Gedong,Samarahan,Batang Sadong,Btg. Kerang,19/09/2025 15:30,2.40,3.10,4.82,5.90,6.30,Sarawak
+32,1108401,Sabal Kruin,Samarahan,Batang Sadong,Sg. Simunjan,19/09/2025 15:30,-9999.00,4.84,6.91,7.52,8.32,Sarawak
+33,1220402,Nanga Delok,Sri Aman,Batang Lupar,Btg. Ai,19/09/2025 15:30,9.73,22.00,23.25,23.75,24.05,Sarawak
+34,1519401,Bau Sungai,Sri Aman,Batang Lupar,Btg. Sekerang,19/09/2025 15:30,14.29,13.00,16.00,17.00,20.00,Sarawak
+35,1116402,Engkilili JKR Wharf,Sri Aman,Batang Lupar,Btg. Lupar,19/09/2025 15:30,6.64,7.11,8.80,9.43,9.79,Sarawak
+36,1214403,Sri Aman Telemetry,Sri Aman,Batang Lupar,Btg. Lupar,19/09/2025 15:30,2.75,3.00,4.90,5.20,5.50,Sarawak
+37,1111401,Pantu,Sri Aman,Batang Lupar,Btg. Seterap,19/09/2025 15:30,5.04,1.80,4.90,5.58,6.30,Sarawak
+38,1415401,Nanga Lubau,Betong,Batang Saribas,Btg. Layar,19/09/2025 15:30,1.78,1.45,7.49,8.09,9.79,Sarawak
+39,1515401,Nanga Samu,Betong,Batang Saribas,Btg. Paku,19/09/2025 15:30,4.65,1.45,7.49,8.09,9.79,Sarawak
+40,1415404,Betong,Betong,Batang Saribas,Btg. Layar,19/09/2025 15:30,2.79,2.80,4.86,5.16,5.76,Sarawak
+41,1714401,Kaki Wong,Betong,Batang Krian,Btg. Krian,19/09/2025 15:30,-9999.00,13.61,16.44,17.04,17.64,Sarawak
+42,1812401,Roban,Betong,Batang Krian,Sg. Sebelak,19/09/2025 15:30,3.70,3.85,4.60,5.00,5.20,Sarawak
+43,2939401,Sambop B,Kapit,Batang Rajang,Btg. Belaga,19/09/2025 15:30,-9999.00,6.00,15.86,16.85,19.12,Sarawak
+44,2737402,Giam Pasang B,Kapit,Batang Rajang,Btg. Belaga,19/09/2025 15:30,1.86,3.00,5.00,5.50,6.00,Sarawak
+45,2737413,Belaga,Kapit,Batang Rajang,Btg. Belaga,19/09/2025 15:30,42.46,41.06,47.30,50.90,52.00,Sarawak
+46,2333401,Punan Bah B,Kapit,Batang Rajang,Btg. Belaga,19/09/2025 15:30,6.43,5.37,9.00,10.00,11.00,Sarawak
+47,2230443,Nanga Merit,Kapit,Batang Rajang,Btg. Belaga,19/09/2025 15:30,18.34,18.00,20.00,23.00,24.00,Sarawak
+48,2130405,Nanga Benin B,Kapit,Batang Rajang,Btg. Belaga,19/09/2025 15:30,14.51,13.46,20.60,21.60,22.00,Sarawak
+49,1836401,Nanga Entawau,Kapit,Batang Rajang,Btg. Baleh,19/09/2025 15:30,6.59,4.60,11.30,12.30,12.80,Sarawak
+50,1834401,Gaat B,Kapit,Batang Rajang,Btg. Baleh,19/09/2025 15:30,32.75,32.00,42.50,44.50,46.50,Sarawak
+51,1932408,Teluk Buing,Kapit,Batang Rajang,Btg. Baleh,19/09/2025 15:30,4.67,1.98,10.00,11.00,12.00,Sarawak
+52,2029402,Kapit New Headworks,Kapit,Batang Rajang,Btg. Rajang,19/09/2025 15:30,11.30,6.25,12.10,14.80,15.30,Sarawak
+53,2029403,Kapit Town,Kapit,Batang Rajang,Btg. Rajang,19/09/2025 15:30,10.79,6.25,11.90,14.55,15.30,Sarawak
+54,2026401,Nanga Sebatu,Kapit,Batang Rajang,Btg. Rajang,19/09/2025 15:30,8.39,5.00,11.00,14.00,15.00,Sarawak
+55,2025401,Song B,Kapit,Batang Rajang,Sg. Katibas,19/09/2025 15:30,8.05,5.59,10.59,11.59,12.59,Sarawak
+56,2023401,Nanga Kabah,Sibu,Batang Rajang,Btg. Rajang,19/09/2025 15:30,3.39,4.50,6.29,7.04,7.79,Sarawak
+57,2020404,Nanga Machan B,Sibu,Batang Rajang,Sg. Kanowit,19/09/2025 15:30,4.55,6.00,8.00,9.00,10.00,Sarawak
+58,2121401,Kanowit Town,Sibu,Batang Rajang,Btg. Rajang,19/09/2025 15:30,3.16,3.40,4.59,5.09,5.59,Sarawak
+59,2119401,Durin Bazaar,Sibu,Batang Rajang,Btg. Rajang,19/09/2025 15:30,2.78,2.50,3.50,4.00,4.50,Sarawak
+60,2218405,Stabau,Sibu,Batang Rajang,Btg. Rajang,19/09/2025 15:30,2.54,2.40,3.50,3.74,4.30,Sarawak
+61,2218402,Sungai Salim B,Sibu,Batang Rajang,Sg. Salim,19/09/2025 15:30,2.19,2.00,2.65,2.80,3.10,Sarawak
+62,2318405,Jabatan Laut,Sibu,Batang Rajang,Btg. Igan,19/09/2025 15:30,1.17,1.30,2.30,2.60,2.90,Sarawak
+63,2418401,Rantau Panjang B,Sibu,Batang Rajang,Btg. Igan,19/09/2025 15:30,0.49,1.50,2.00,2.18,2.60,Sarawak
+64,2318403,Sungai Teku,Sibu,Batang Rajang,Sg. Merah,19/09/2025 15:30,1.83,1.60,2.60,2.78,3.20,Sarawak
+65,2318402,Ulu Sungai Merah,Sibu,Batang Rajang,Sg. Merah,19/09/2025 15:30,1.31,1.60,2.20,2.29,2.50,Sarawak
+66,2318427,Sungai Merah,Sibu,Batang Rajang,Sg. Merah,19/09/2025 15:30,1.27,1.11,2.50,2.80,3.00,Sarawak
+67,2218403,Sarawak Maritime,Sibu,Batang Rajang,Btg. Rajang,19/09/2025 15:30,0.85,2.30,2.80,2.95,3.30,Sarawak
+68,2218403,Express Terminal,Sibu,Batang Rajang,Btg. Rajang,19/09/2025 15:30,1.36,1.80,2.50,2.62,2.90,Sarawak
+69,2218402,Sungai Bidut,Sibu,Batang Rajang,Btg. Rajang,19/09/2025 15:30,1.64,1.80,2.80,2.98,3.40,Sarawak
+70,2216401,Lebaan,Sibu,Batang Rajang,Btg. Lebaan,19/09/2025 15:30,2.70,2.60,3.40,4.15,4.90,Sarawak
+71,2021401,Renan Kemiding,Sibu,Batang Rajang,Sg. Kanowit,19/09/2025 15:30,5.08,2.91,6.21,7.21,7.71,Sarawak
+72,2321401,Stapang B,Sibu,Batang Oya,Btg. Oya,19/09/2025 15:30,10.78,10.00,12.20,13.20,14.20,Sarawak
+73,2520452,Tamin,Sibu,Batang Oya,Btg. Oya,19/09/2025 15:30,-9999.00,5.00,7.00,7.50,8.50,Sarawak
+74,2625402,Nanga Lemai B,Sibu,Batang Balingian,Sg. Lemai,19/09/2025 15:30,2.69,1.80,2.80,3.10,3.80,Sarawak
+75,2523402,Selangau B,Sibu,Batang Mukah,Btg. Mukah,19/09/2025 15:30,11.88,14.00,16.90,17.20,17.90,Sarawak
+76,1918401,Nanga Ayam,Sarikei,Batang Rajang,Sg. Kanowit,19/09/2025 15:30,10.11,8.45,18.48,18.95,19.45,Sarawak
+77,1915401,Ambas,Sarikei,Batang Rajang,Sg. Sarikei,19/09/2025 15:30,3.15,1.24,6.00,6.50,7.00,Sarawak
+78,2116401,Bintangor,Sarikei,Batang Rajang,Btg. Rajang,19/09/2025 15:30,1.15,2.40,2.48,2.60,3.30,Sarawak
+79,2115401,Sarikei DID,Sarikei,Batang Rajang,Btg. Rajang,19/09/2025 15:30,1.40,0.00,2.70,3.00,3.30,Sarawak
+80,2516401,Sungai Dausan,Mukah,Batang Rajang,Btg. Paloh,19/09/2025 15:30,5.07,5.00,6.00,6.30,6.60,Sarawak
+81,2514401,Daro,Mukah,Batang Rajang,Sg. Daro,19/09/2025 15:30,3.78,3.70,5.30,5.60,5.90,Sarawak
+82,2613401,Mid Bruit,Mukah,Batang Rajang,Btg. Lassa,19/09/2025 15:30,4.01,2.80,4.50,5.00,5.50,Sarawak
+83,2615401,Matu,Mukah,Batang Rajang,Btg. Matu,19/09/2025 15:30,1.25,0.84,1.74,2.64,3.34,Sarawak
+84,2818401,Oya Water Works,Mukah,Batang Oya,Btg. Oya,19/09/2025 15:30,1.33,3.00,4.00,4.50,5.00,Sarawak
 85,2825401,Sungai Bawan,Mukah,Batang Balingian,Sg. Bawan,19/09/2025 11:15,-9999.00,1.90,3.50,4.40,4.70,Sarawak
-86,3025401,Kuala Balingian,Mukah,Batang Balingian,Btg. Balingian,19/09/2025 15:15,-9999.00,0.00,0.80,1.10,1.40,Sarawak
-87,2629401,Muput,Bintulu,Batang Tatau,Sg. Anap,19/09/2025 15:15,-9999.00,3.00,6.50,7.50,8.50,Sarawak
-88,2830401,Rumah Abua,Bintulu,Batang Tatau,Btg. Tatau,19/09/2025 15:15,2.25,5.00,9.31,10.40,11.31,Sarawak
-89,2828401,Tatau Town,Bintulu,Batang Tatau,Btg. Tatau,19/09/2025 15:15,-9999.00,1.25,2.25,2.95,3.30,Sarawak
-90,3028401,Kuala Tatau,Bintulu,Batang Tatau,Btg. Tatau,19/09/2025 15:15,-0.77,0.50,0.75,1.05,1.35,Sarawak
-91,3137401,Tubau,Bintulu,Batang Kemena,Btg. Kemena,19/09/2025 15:15,3.23,3.00,6.20,6.80,7.50,Sarawak
-92,3236401,Rumah Along,Bintulu,Batang Kemena,Btg. Kemena,19/09/2025 15:15,2.48,1.88,5.00,6.00,7.00,Sarawak
-93,3130401,Bintulu Kastam Wharf,Bintulu,Batang Kemena,Btg. Kemena,19/09/2025 15:15,-0.37,0.50,1.00,1.60,2.10,Sarawak
-94,3035401,Kuala Binyo,Bintulu,Batang Kemena,Sg. Binyo,19/09/2025 15:15,2.84,4.00,5.20,5.80,6.00,Sarawak
-95,3330401,Sungai Sebatang,Bintulu,Batang Kemena,Sg. Sebatang,19/09/2025 15:15,1.58,2.00,3.26,4.00,4.26,Sarawak
-96,3132401,Sebauh,Bintulu,Batang Kemena,Btg. Kemena,19/09/2025 15:15,0.21,0.22,1.27,1.57,1.97,Sarawak
-97,2836401,Bintulu/Belaga Road,Bintulu,Batang Kemena,Sg. Pandan,19/09/2025 15:15,3.48,3.00,9.65,10.15,10.65,Sarawak
-98,3130402,Sungai Sibiu,Bintulu,Batang Kemena,Sg. Sibiu,19/09/2025 15:15,2.54,0.07,3.30,4.30,5.30,Sarawak
-99,3533401,Sungai Similajau,Bintulu,Sungai Similajau,Sg. Similajau,19/09/2025 15:15,4.15,4.00,8.00,9.00,12.00,Sarawak
-100,3635401,Kuala Tutong,Miri,Batang Suai,Btg. Suai,19/09/2025 15:15,0.74,1.20,4.00,4.50,5.00,Sarawak
-101,3837401,Batu Niah Bazaar,Miri,Sungai Miri,Sg. Niah,19/09/2025 15:15,0.46,0.86,2.62,4.72,5.22,Sarawak
-102,4038406,Bekenu,Miri,Sungai Sibuti,Sg. Sibuti,19/09/2025 15:15,0.10,0.42,1.21,1.51,2.02,Sarawak
-103,4440401,Miri DID,Miri,Sungai Miri,Sg. Miri,19/09/2025 15:15,0.81,2.00,2.50,2.70,3.00,Sarawak
-104,3945401,Long Panai,Miri,Batang Baram,Sg. Tutoh,19/09/2025 15:15,6.76,4.00,6.50,7.50,8.00,Sarawak
-105,3152408,Lio Matu,Miri,Batang Baram,Btg. Baram,19/09/2025 15:15,1.27,0.30,7.00,8.00,9.00,Sarawak
-106,3347401,Long Akah,Miri,Batang Baram,Btg. Baram,19/09/2025 15:15,2.47,5.00,9.00,10.00,11.00,Sarawak
-107,4043459,Benawa,Miri,Batang Baram,Btg. Baram,19/09/2025 15:15,-9999.00,3.50,6.00,7.00,8.00,Sarawak
-108,3541401,Long Jegan,Miri,Batang Baram,Sg. Tinjar,19/09/2025 15:15,9.10,4.50,10.50,11.50,12.00,Sarawak
-109,3842425,Long Teru,Miri,Batang Baram,Sg. Tinjar,19/09/2025 15:15,9.11,3.00,6.00,7.00,8.00,Sarawak
-110,4143406,Marudi,Miri,Batang Baram,Btg. Baram,19/09/2025 15:15,4.38,0.00,2.79,3.09,3.25,Sarawak
-111,4553401,Long Tengoa,Limbang,Batang Trusan,Btg. Trusan,19/09/2025 15:15,45.10,43.70,46.50,48.00,50.00,Sarawak
+86,3025401,Kuala Balingian,Mukah,Batang Balingian,Btg. Balingian,19/09/2025 15:30,-9999.00,0.00,0.80,1.10,1.40,Sarawak
+87,2629401,Muput,Bintulu,Batang Tatau,Sg. Anap,19/09/2025 15:30,-9999.00,3.00,6.50,7.50,8.50,Sarawak
+88,2830401,Rumah Abua,Bintulu,Batang Tatau,Btg. Tatau,19/09/2025 15:30,2.23,5.00,9.31,10.40,11.31,Sarawak
+89,2828401,Tatau Town,Bintulu,Batang Tatau,Btg. Tatau,19/09/2025 15:30,-9999.00,1.25,2.25,2.95,3.30,Sarawak
+90,3028401,Kuala Tatau,Bintulu,Batang Tatau,Btg. Tatau,19/09/2025 15:30,-0.80,0.50,0.75,1.05,1.35,Sarawak
+91,3137401,Tubau,Bintulu,Batang Kemena,Btg. Kemena,19/09/2025 15:30,3.21,3.00,6.20,6.80,7.50,Sarawak
+92,3236401,Rumah Along,Bintulu,Batang Kemena,Btg. Kemena,19/09/2025 15:30,2.47,1.88,5.00,6.00,7.00,Sarawak
+93,3130401,Bintulu Kastam Wharf,Bintulu,Batang Kemena,Btg. Kemena,19/09/2025 15:30,-0.42,0.50,1.00,1.60,2.10,Sarawak
+94,3035401,Kuala Binyo,Bintulu,Batang Kemena,Sg. Binyo,19/09/2025 15:30,2.82,4.00,5.20,5.80,6.00,Sarawak
+95,3330401,Sungai Sebatang,Bintulu,Batang Kemena,Sg. Sebatang,19/09/2025 15:30,1.53,2.00,3.26,4.00,4.26,Sarawak
+96,3132401,Sebauh,Bintulu,Batang Kemena,Btg. Kemena,19/09/2025 15:30,0.18,0.22,1.27,1.57,1.97,Sarawak
+97,2836401,Bintulu/Belaga Road,Bintulu,Batang Kemena,Sg. Pandan,19/09/2025 15:30,3.50,3.00,9.65,10.15,10.65,Sarawak
+98,3130402,Sungai Sibiu,Bintulu,Batang Kemena,Sg. Sibiu,19/09/2025 15:30,2.54,0.07,3.30,4.30,5.30,Sarawak
+99,3533401,Sungai Similajau,Bintulu,Sungai Similajau,Sg. Similajau,19/09/2025 15:30,4.13,4.00,8.00,9.00,12.00,Sarawak
+100,3635401,Kuala Tutong,Miri,Batang Suai,Btg. Suai,19/09/2025 15:30,0.72,1.20,4.00,4.50,5.00,Sarawak
+101,3837401,Batu Niah Bazaar,Miri,Sungai Miri,Sg. Niah,19/09/2025 15:30,0.41,0.86,2.62,4.72,5.22,Sarawak
+102,4038406,Bekenu,Miri,Sungai Sibuti,Sg. Sibuti,19/09/2025 15:30,0.04,0.42,1.21,1.51,2.02,Sarawak
+103,4440401,Miri DID,Miri,Sungai Miri,Sg. Miri,19/09/2025 15:30,0.77,2.00,2.50,2.70,3.00,Sarawak
+104,3945401,Long Panai,Miri,Batang Baram,Sg. Tutoh,19/09/2025 15:30,6.75,4.00,6.50,7.50,8.00,Sarawak
+105,3152408,Lio Matu,Miri,Batang Baram,Btg. Baram,19/09/2025 15:30,1.26,0.30,7.00,8.00,9.00,Sarawak
+106,3347401,Long Akah,Miri,Batang Baram,Btg. Baram,19/09/2025 15:30,2.46,5.00,9.00,10.00,11.00,Sarawak
+107,4043459,Benawa,Miri,Batang Baram,Btg. Baram,19/09/2025 15:30,-9999.00,3.50,6.00,7.00,8.00,Sarawak
+108,3541401,Long Jegan,Miri,Batang Baram,Sg. Tinjar,19/09/2025 15:30,9.08,4.50,10.50,11.50,12.00,Sarawak
+109,3842425,Long Teru,Miri,Batang Baram,Sg. Tinjar,19/09/2025 15:30,9.10,3.00,6.00,7.00,8.00,Sarawak
+110,4143406,Marudi,Miri,Batang Baram,Btg. Baram,19/09/2025 15:30,4.36,0.00,2.79,3.09,3.25,Sarawak
+111,4553401,Long Tengoa,Limbang,Batang Trusan,Btg. Trusan,19/09/2025 15:30,45.09,43.70,46.50,48.00,50.00,Sarawak
 112,1860041WL,Lundu Town (RHN),Kuching,Batang Kayan,Btg. Kayan,19/09/2025 15:15,1.38,0.50,2.00,2.50,3.00,Sarawak
 113,1800341WL,Kampung Mang,Samarahan,Batang Samarahan,Btg. Samarahan,19/09/2025 15:15,1.63,1.50,2.00,2.50,3.00,Sarawak
 114,1800351WL,Sungai Endap,Serian,Batang Samarahan,Sg. Endap,19/09/2025 15:15,3.10,3.50,5.00,6.00,7.30,Sarawak
@@ -567,7 +567,7 @@
 ,,,,,,,,,,,,Sabah
 ,,,,,,,,,,,,Sabah
 1,5159401,Sg. Padas di Tenom,Tenom,Sungai Padas,Sg. Padas,19/09/2025 14:00,174.90,174.50,175.50,176.25,177.00,Sabah
-2,5663401,Sg. Pegalan di Keranaan,Tambunan,Sungai Padas,Sg. Pegalan,19/09/2025 15:15,564.81,564.00,565.00,565.30,566.00,Sabah
+2,5663401,Sg. Pegalan di Keranaan,Tambunan,Sungai Padas,Sg. Pegalan,19/09/2025 15:30,564.81,564.00,565.00,565.30,566.00,Sabah
 3,5261402,Sg. Sook di Biah,Keningau,Sungai Padas,Sg. Sook,19/09/2025 15:00,254.53,253.50,255.50,256.50,257.50,Sabah
 4,5261401,Sg. Pegalan di Ansip,Keningau,Sungai Padas,Sg. Pegalan,19/09/2025 15:00,239.59,237.50,239.50,240.50,241.50,Sabah
 5,5961403,Sg. Moyog di Penampang (RHN),Penampang,Sungai Moyog,Sg. Moyog,19/09/2025 15:15,5.60,4.30,8.00,9.00,10.00,Sabah
