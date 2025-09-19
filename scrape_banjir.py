@@ -1,6 +1,7 @@
 # scrape_banjir.py
 import pandas as pd
 import datetime
+import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -54,34 +55,41 @@ hujan_urls = {
 # =======================
 # Scraper function
 # =======================
-def scrape_table(driver, state, url):
-    driver.get(url)
-    try:
-        # cuba masuk iframe dulu
-        iframe = driver.find_element(By.TAG_NAME, "iframe")
-        driver.switch_to.frame(iframe)
-    except:
-        pass  # kalau tiada iframe, teruskan
+def scrape_table(driver, state, url, retries=3):
+    for attempt in range(1, retries + 1):
+        try:
+            driver.get(url)
+            time.sleep(2)  # bagi masa awal load
 
-    try:
-        # tunggu element table wujud
-        table = WebDriverWait(driver, 15).until(
-            EC.presence_of_element_located((By.TAG_NAME, "table"))
-        )
-        # tunggu table ada data (lebih dari 1 row)
-        WebDriverWait(driver, 15).until(
-            lambda d: len(pd.read_html(table.get_attribute("outerHTML"))[0]) > 1
-        )
+            # cuba masuk iframe
+            try:
+                iframe = driver.find_element(By.TAG_NAME, "iframe")
+                driver.switch_to.frame(iframe)
+            except:
+                pass
 
-        df = pd.read_html(table.get_attribute("outerHTML"))[0]
-        df["state"] = state
-        print(f"[OK] {state} ({len(df)} rows)")
-        return df
-    except Exception as e:
-        print(f"[X] {state} | Error: {e}")
-        return pd.DataFrame()
-    finally:
-        driver.switch_to.default_content()
+            # tunggu table
+            table = WebDriverWait(driver, 20).until(
+                EC.presence_of_element_located((By.TAG_NAME, "table"))
+            )
+            df = pd.read_html(table.get_attribute("outerHTML"))[0]
+
+            if df.empty or len(df) <= 1:
+                raise Exception("Table kosong")
+
+            df["state"] = state
+            print(f"[OK] {state} ({len(df)} rows)")
+            return df
+
+        except Exception as e:
+            print(f"[Retry {attempt}] {state} gagal | {e}")
+            time.sleep(3)  # tunggu sebelum retry
+
+        finally:
+            driver.switch_to.default_content()
+
+    print(f"[X] {state} | Gagal selepas {retries} cubaan")
+    return pd.DataFrame()
 
 # =======================
 # Main process
