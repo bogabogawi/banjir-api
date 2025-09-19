@@ -53,7 +53,11 @@ if paras_data:
         "Level (m)", "Normal Level (m)", "Alert Level (m)",
         "Warning Level (m)", "Danger Level (m)", "state"
     ]
-    df_paras.columns = expected_cols[:len(df_paras.columns)]
+    
+    real_cols = len(df_paras.columns) - 1  # exclude "state"
+    rename_cols = expected_cols[:real_cols] + ["state"]
+
+    df_paras.columns = rename_cols
 
     # Simpan 2 versi
     df_paras.to_csv("data/paras_air.csv", index=False)
@@ -105,3 +109,4 @@ if hujan_data:
     print("✅ Hujan data saved")
 
 print("🎉 Semua data berjaya diproses & disimpan dalam folder /data/")
+
