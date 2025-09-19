@@ -3,64 +3,54 @@ import time
 import pandas as pd
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.common.by import By
 
-# ===============================
-# Setup
-# ===============================
 today = pd.Timestamp.today().strftime("%Y%m%d")
 os.makedirs("data", exist_ok=True)
 
+# ===============================
+# Setup Selenium
+# ===============================
 options = webdriver.ChromeOptions()
 options.add_argument("--headless=new")
 options.add_argument("--disable-gpu")
 options.add_argument("--no-sandbox")
+options.add_argument("--disable-dev-shm-usage")
 
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
 # ===============================
-# 1. Paras Air (Selenium scrape)
+# 1. Paras Air
 # ===============================
 paras_air_states = {
     "Perlis": "PLS", "Kedah": "KDH", "Pulau Pinang": "PNG", "Perak": "PRK",
-    "Selangor": "SEL", "Wilayah Persekutuan Kuala Lumpur": "WLH",
-    "Negeri Sembilan": "NSN", "Melaka": "MLK", "Johor": "JHR",
-    "Pahang": "PHG", "Terengganu": "TRG", "Kelantan": "KEL",
-    "Sarawak": "SRK", "Sabah": "SAB", "Wilayah Persekutuan Labuan": "WLP"
+    "Selangor": "SEL", "Wilayah Persekutuan Kuala Lumpur": "WPK", "Negeri Sembilan": "NSN",
+    "Melaka": "MLK", "Johor": "JHR", "Pahang": "PHG", "Terengganu": "TRG",
+    "Kelantan": "KEL", "Sarawak": "SRK", "Sabah": "SAB", "Wilayah Persekutuan Labuan": "WLP"
 }
 
 paras_data = []
-
-expected_cols = [
-    "Station", "River", "District", "Level (m)",
-    "Normal Level (m)", "Alert Level (m)",
-    "Warning Level (m)", "Danger Level (m)",
-    "Threshold1", "Threshold2", "Threshold3"
-]
-
 for state, code in paras_air_states.items():
     url = f"https://publicinfobanjir.water.gov.my/aras-air/data-paras-air/data-paras-air-lanjutan/?state={code}&district=ALL&station=ALL&lang=en"
     driver.get(url)
     time.sleep(2)
 
     try:
-        # Cuba masuk iframe (kalau ada)
-        iframes = driver.find_elements(By.TAG_NAME, "iframe")
-        if iframes:
-            driver.switch_to.frame(iframes[0])
+        # Ada page embed dalam iframe
+        try:
+            iframe = driver.find_element(By.TAG_NAME, "iframe")
+            driver.switch_to.frame(iframe)
+        except:
+            pass  # kalau tiada iframe → direct
 
         table = driver.find_element(By.ID, "normaltable1")
         rows = table.find_elements(By.TAG_NAME, "tr")
         data = [[c.text for c in r.find_elements(By.TAG_NAME, "td")] for r in rows if r.text.strip()]
         df = pd.DataFrame(data)
 
-        # Standardkan header ikut bilangan column scrape
-        real_cols = len(df.columns)
-        rename_cols = expected_cols[:real_cols] + ["state"]
+        # Tambah state
         df["state"] = state
-        df.columns = rename_cols
-
         paras_data.append(df)
         print(f"[OK] paras_air - {state} ({len(df)} rows)")
 
@@ -77,7 +67,7 @@ if paras_data:
     print("✅ Paras Air data saved")
 
 # ===============================
-# 2. Hujan (Selenium scrape table)
+# 2. Hujan
 # ===============================
 hujan_states = {
     "Perlis": "PLS", "Kedah": "KDH", "Pulau Pinang": "PNG", "Perak": "PRK",
@@ -87,33 +77,32 @@ hujan_states = {
 }
 
 hujan_data = []
-hujan_cols = [
-    "StationID", "Station", "District", "Datetime",
-    "1h Rainfall (mm)", "3h Rainfall (mm)", "6h Rainfall (mm)",
-    "24h Rainfall (mm)", "Total (mm)"
-]
-
 for state, code in hujan_states.items():
     url = f"https://publicinfobanjir.water.gov.my/hujan/data-hujan/data-hujan-lanjutan/?state={code}&district=ALL&station=ALL&lang=en"
     driver.get(url)
     time.sleep(2)
 
     try:
+        try:
+            iframe = driver.find_element(By.TAG_NAME, "iframe")
+            driver.switch_to.frame(iframe)
+        except:
+            pass
+
         table = driver.find_element(By.ID, "normaltable1")
         rows = table.find_elements(By.TAG_NAME, "tr")
         data = [[c.text for c in r.find_elements(By.TAG_NAME, "td")] for r in rows if r.text.strip()]
         df = pd.DataFrame(data)
 
-        real_cols = len(df.columns)
-        rename_cols = hujan_cols[:real_cols] + ["state"]
         df["state"] = state
-        df.columns = rename_cols
-
         hujan_data.append(df)
         print(f"[OK] hujan - {state} ({len(df)} rows)")
 
+        driver.switch_to.default_content()
+
     except Exception as e:
         print(f"[X] hujan - {state} | Error: {e}")
+        driver.switch_to.default_content()
 
 driver.quit()
 
