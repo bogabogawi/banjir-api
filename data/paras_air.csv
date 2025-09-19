@@ -1,14 +1,129 @@
-0,1,2,3,4,5,6,7,8,9,10,11,state
-1,0010571WL,Sg.Pelarit di Wang Kelian (F2),Padang Besar,Sungai Perlis,Sg. Pelarit,19/09/2025 16:15,104.75,105.30,105.80,106.10,106.40,Perlis
-2,6602402,Sg. Pelarit di Kaki Bukit,Padang Besar,Sungai Perlis,Sg. Pelarit,19/09/2025 17:00,35.28,35.60,38.30,38.60,39.00,Perlis
-3,6602404,Sg. Chuchoh di Kg. Chantik,Padang Besar,Sungai Perlis,Sg. Chuchoh,19/09/2025 17:00,35.34,35.50,37.50,37.80,38.50,Perlis
-4,0010421WL,Sg.Jarum di Kg. Masjid (F2),Padang Besar,Sungai Perlis,Sg. Jarum,19/09/2025 16:15,29.90,30.00,33.00,33.30,33.60,Perlis
-5,6602403,Sg. Jarum di Kg. Masjid,Padang Besar,Sungai Perlis,Sg. Jarum,19/09/2025 17:00,29.92,30.00,33.00,33.30,33.60,Perlis
-6,6502436,Empangan Timah Tasuh,Padang Besar,Sungai Perlis,Sg. Korok,19/09/2025 17:15,27.35,29.10,29.40,29.50,29.60,Perlis
-7,0010621WL,Sg. Panggas di Kolam Sg. Buloh (F2),Padang Besar,Sungai Arau,Sg. Arau Sub basin,19/09/2025 16:15,-9999.00,29.50,30.60,30.80,31.00,Perlis
-8,0010631WL,Sg. Arau di Kolam Sg. Jernih (F2),Arau,Sungai Arau,Sg. Arau Sub basin,19/09/2025 16:15,20.74,20.70,21.50,22.00,22.30,Perlis
-9,0010491WL,Sg. Gial di Balik Guar (F2),Arau,Sungai Arau,Sg. Gial,19/09/2025 16:15,11.48,12.50,13.50,14.00,15.00,Perlis
-10,6402433,Sg. Arau di Kg. Kuala Tunggang,Arau,Sungai Arau,Sg. Arau Sub basin,19/09/2025 17:00,12.35,12.45,12.85,13.00,13.25,Perlis
-11,0010511WL,Sg. Batu Pahat di Genting Kabu (F2),Kangar,Sungai Perlis,Sg. Batu Pahat,19/09/2025 16:15,23.83,24.20,25.30,25.85,26.40,Perlis
-12,6402401,Sg. Kg. Bakau di Kg. Bakau,Kangar,Sungai Perlis,Sg. Perlis,19/09/2025 17:00,1.39,1.50,3.00,3.30,3.50,Perlis
-13,0010501WL,Sg. Perlis di Bukit Tok Poh (F2),Kangar,Sungai Perlis,Sg. Perlis,19/09/2025 16:15,0.53,0.80,1.90,2.00,2.10,Perlis
+0,1,state
+,,Perlis
+,,Perlis
+,,Perlis
+,,Perlis
+,,Perlis
+,,Perlis
+,,Perlis
+,,Perlis
+,,Kedah
+,,Kedah
+,,Kedah
+,,Kedah
+,,Kedah
+,,Kedah
+,,Kedah
+,,Kedah
+,,Pulau Pinang
+,,Pulau Pinang
+,,Pulau Pinang
+,,Pulau Pinang
+,,Pulau Pinang
+,,Pulau Pinang
+,,Pulau Pinang
+,,Pulau Pinang
+,,Perak
+,,Perak
+,,Perak
+,,Perak
+,,Perak
+,,Perak
+,,Perak
+,,Perak
+,,Selangor
+,,Selangor
+,,Selangor
+,,Selangor
+,,Selangor
+,,Selangor
+,,Selangor
+,,Selangor
+,,Negeri Sembilan
+,,Negeri Sembilan
+,,Negeri Sembilan
+,,Negeri Sembilan
+,,Negeri Sembilan
+,,Negeri Sembilan
+,,Negeri Sembilan
+,,Negeri Sembilan
+,,Melaka
+,,Melaka
+,,Melaka
+,,Melaka
+,,Melaka
+,,Melaka
+,,Melaka
+,,Melaka
+,,Johor
+,,Johor
+,,Johor
+,,Johor
+,,Johor
+,,Johor
+,,Johor
+,,Johor
+,,Pahang
+,,Pahang
+,,Pahang
+,,Pahang
+,,Pahang
+,,Pahang
+,,Pahang
+,,Pahang
+,,Terengganu
+,,Terengganu
+,,Terengganu
+,,Terengganu
+,,Terengganu
+,,Terengganu
+,,Terengganu
+,,Terengganu
+,,Kelantan
+,,Kelantan
+,,Kelantan
+,,Kelantan
+,,Kelantan
+,,Kelantan
+,,Kelantan
+,,Kelantan
+,,Sabah
+,,Sabah
+,,Sabah
+,,Sabah
+,,Sabah
+,,Sabah
+,,Sabah
+,,Sabah
+,,Sarawak
+,,Sarawak
+,,Sarawak
+,,Sarawak
+,,Sarawak
+,,Sarawak
+,,Sarawak
+,,Sarawak
+,,Wilayah Persekutuan Kuala Lumpur
+,,Wilayah Persekutuan Kuala Lumpur
+,,Wilayah Persekutuan Kuala Lumpur
+,,Wilayah Persekutuan Kuala Lumpur
+,,Wilayah Persekutuan Kuala Lumpur
+,,Wilayah Persekutuan Kuala Lumpur
+,,Wilayah Persekutuan Kuala Lumpur
+,,Wilayah Persekutuan Kuala Lumpur
+,,Wilayah Persekutuan Putrajaya
+,,Wilayah Persekutuan Putrajaya
+,,Wilayah Persekutuan Putrajaya
+,,Wilayah Persekutuan Putrajaya
+,,Wilayah Persekutuan Putrajaya
+,,Wilayah Persekutuan Putrajaya
+,,Wilayah Persekutuan Putrajaya
+,,Wilayah Persekutuan Putrajaya
+,,Wilayah Persekutuan Labuan
+,,Wilayah Persekutuan Labuan
+,,Wilayah Persekutuan Labuan
+,,Wilayah Persekutuan Labuan
+,,Wilayah Persekutuan Labuan
+,,Wilayah Persekutuan Labuan
+,,Wilayah Persekutuan Labuan
+,,Wilayah Persekutuan Labuan
