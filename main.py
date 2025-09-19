@@ -1,47 +1,57 @@
+# main.py
 from fastapi import FastAPI, Query
 import pandas as pd
-import glob
 import os
 
 app = FastAPI()
 
-# Helper: cari fail terbaru ikut prefix
-def get_latest_csv(prefix):
-    files = glob.glob(f"data/{prefix}_*.csv")
-    if not files:
-        return None
-    return max(files, key=os.path.getmtime)
+DATA_DIR = "data"
 
-@app.get("/")
-def home():
-    return {"message": "Banjir API (FastAPI) running 🚀"}
+def load_csv(filename):
+    path = os.path.join(DATA_DIR, filename)
+    if os.path.exists(path):
+        df = pd.read_csv(path)
+        return df
+    return pd.DataFrame()
 
 @app.get("/alert")
-def get_alert(state: str = Query(None)):
-    paras_file = get_latest_csv("paras_air")
-    if not paras_file:
-        return {"error": "No paras_air data found"}
-
+def get_alert(state: str = None):
     try:
-        df = pd.read_csv(paras_file)
-        df = df.dropna()
-        df.columns = [c.strip() for c in df.columns]  # normalize header
+        df = load_csv("paras_air.csv")
+        if df.empty:
+            return {"error": "Tiada data paras_air.csv"}
 
-        # Cuba detect kolum paras & threshold
-        possible_level_cols = [c for c in df.columns if "Level" in c and "(m)" in c]
-        if len(possible_level_cols) < 2:
+        # cari kolum threshold yang wujud
+        threshold_cols = [c for c in df.columns if "Danger" in c or "Bahaya" in c]
+        if not threshold_cols:
             return {"error": f"Kolum threshold tak jumpa. Header: {list(df.columns)}"}
 
-        # Biasanya: Level (m), Alert Level (m), Warning Level (m), Danger Level (m)
-        level_col = "Level (m)"
-        danger_col = "Danger Level (m)" if "Danger Level (m)" in df.columns else possible_level_cols[-1]
+        danger_col = threshold_cols[0]
 
-        alerts = df[df[level_col] >= df[danger_col]]
+        # filter ikut threshold "Danger"
+        alerts = df[df[danger_col].notna()]
 
+        # ikut state kalau diberi
         if state:
             alerts = alerts[alerts["state"].str.lower() == state.lower()]
 
-        return alerts.to_dict(orient="records") if not alerts.empty else {"message": "tiada alert"}
+        return alerts.to_dict(orient="records")
+
+    except Exception as e:
+        return {"error": str(e)}
+
+@app.get("/rain")
+def get_rain(state: str = None):
+    try:
+        df = load_csv("hujan.csv")
+        if df.empty:
+            return {"error": "Tiada data hujan.csv"}
+
+        # kalau ada state filter
+        if state:
+            df = df[df["state"].str.lower() == state.lower()]
+
+        return df.to_dict(orient="records")
 
     except Exception as e:
         return {"error": str(e)}
