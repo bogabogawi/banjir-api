@@ -1,89 +1,104 @@
-# scrape_banjir.py
-import pandas as pd
-import datetime
-import subprocess
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Scraper paras air Malaysia (JPS)
+- Support JSON + HTML table
+- Simpan semua dalam data/{state}.json
+"""
+
 import os
+import json
+import requests
+from bs4 import BeautifulSoup
 
-# =======================
-# Config
-# =======================
-today = datetime.datetime.now().strftime("%Y%m%d")
+# Senarai negeri & URL
+URLS = {
+    "PLS": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air/aras-air-data/?state=PLS&district=ALL&station=ALL&lang=en",
+    "KDH": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air/aras-air-data/?state=KDH&district=ALL&station=ALL&lang=en",
+    "PNG": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air/aras-air-data/?state=PNG&district=ALL&station=ALL&lang=en",
+    "PRK": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air/aras-air-data/?state=PRK&district=ALL&station=ALL&lang=en",
+    "SGR": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air/aras-air-data/?state=SGR&district=ALL&station=ALL&lang=en",
 
-paras_air_urls = {
-    "Perlis": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air/aras-air-data/?state=PLS&district=ALL&station=ALL&lang=en",
-    "Kedah": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air/aras-air-data/?state=KDH&district=ALL&station=ALL&lang=en",
-    "Pulau Pinang": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air/aras-air-data/?state=PNG&district=ALL&station=ALL&lang=en",
-    "Perak": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air/aras-air-data/?state=PRK&district=ALL&station=ALL&lang=en",
-    "Selangor": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air/aras-air-data/?state=SEL&district=ALL&station=ALL&lang=en",
-    "Wilayah Persekutuan Kuala Lumpur": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air/aras-air-data/?state=WLH&district=ALL&station=ALL&lang=en",
-    "Negeri Sembilan": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air/aras-air-data/?state=NSN&district=ALL&station=ALL&lang=en",
-    "Melaka": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air/aras-air-data/?state=MLK&district=ALL&station=ALL&lang=en",
-    "Johor": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air/aras-air-data/?state=JHR&district=ALL&station=ALL&lang=en",
-    "Pahang": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air/aras-air-data/?state=PHG&district=ALL&station=ALL&lang=en",
-    "Terengganu": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air/aras-air-data/?state=TRG&district=ALL&station=ALL&lang=en",
-    "Kelantan": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air/aras-air-data/?state=KEL&district=ALL&station=ALL&lang=en",
-    "Sarawak": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air/aras-air-data/?state=SRK&district=ALL&station=ALL&lang=en",
-    "Sabah": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air/aras-air-data/?state=SAB&district=ALL&station=ALL&lang=en",
-    "Wilayah Persekutuan Labuan": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air/aras-air-data/?state=WLP&district=ALL&station=ALL&lang=en",
+    "MLK": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air-data/?state=MLK&district=ALL&station=ALL&lang=en",
+    "JHR": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air-data/?state=JHR&district=ALL&station=ALL&lang=en",
+    "PHG": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air-data/?state=PHG&district=ALL&station=ALL&lang=en",
+    "TRG": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air-data/?state=TRG&district=ALL&station=ALL&lang=en",
+    "KTN": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air-data/?state=KTN&district=ALL&station=ALL&lang=en",
+    "SWK": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air-data/?state=SWK&district=ALL&station=ALL&lang=en",
+    "SBH": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air-data/?state=SBH&district=ALL&station=ALL&lang=en",
+    "LBN": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air-data/?state=LBN&district=ALL&station=ALL&lang=en",
 }
 
-# pastikan folder data wujud
-os.makedirs("data", exist_ok=True)
 
-# =======================
-# Scraper
-# =======================
-def scrape_table(state, url, retries=3):
-    for attempt in range(1, retries + 1):
-        try:
-            tmpfile = f"data/tmp_{state}.html"
-            cmd = ["wget", "--no-check-certificate", "-q", "-O", tmpfile, url]
-            result = subprocess.run(cmd, capture_output=True)
+def parse_html_table(html: str, state: str):
+    """Parse HTML table → list of dict"""
+    soup = BeautifulSoup(html, "html.parser")
+    rows = soup.find_all("tr")
+    data = []
 
-            if result.returncode != 0:
-                raise Exception(f"wget gagal (exit {result.returncode})")
+    for row in rows[1:]:  # skip header
+        cols = [c.get_text(strip=True) for c in row.find_all("td")]
+        if len(cols) >= 11:
+            data.append({
+                "station_id": cols[0],
+                "name": cols[1],
+                "district": cols[2],
+                "river": cols[3],
+                "sub_river": cols[4],
+                "last_updated": cols[5],
+                "level": cols[6],
+                "thresholds": {
+                    "normal": cols[7],
+                    "alert": cols[8],
+                    "warning": cols[9],
+                    "danger": cols[10],
+                },
+                "source_state": state
+            })
+    return data
 
-            # baca HTML ke DataFrame
-            dfs = pd.read_html(tmpfile)
-            if not dfs:
-                raise Exception("Tiada table dalam HTML")
-            df = dfs[0]
-            df["state"] = state
-            print(f"[OK] {state} ({len(df)} rows)")
-            return df
-        except Exception as e:
-            print(f"[Retry {attempt}] {state} gagal | {e}")
-    print(f"[X] {state} | Gagal selepas {retries} cubaan")
-    return pd.DataFrame()
 
-# =======================
-# Main
-# =======================
-paras_air_data = []
-for state, url in paras_air_urls.items():
-    df = scrape_table(state, url)
-    if not df.empty:
-        paras_air_data.append(df)
-
-if paras_air_data:
-    df_air = pd.concat(paras_air_data, ignore_index=True)
-    df_air.to_csv("data/paras_air.csv", index=False)
-    df_air.to_csv(f"data/paras_air_{today}.csv", index=False)
-
-    # buat alert check
+def fetch_state(state: str, url: str):
+    """Fetch satu negeri, detect JSON / HTML"""
+    print(f"📡 Fetch {state} ...", end=" ")
     try:
-        alert_rows = df_air[
-            pd.to_numeric(df_air["Water Level (m) (Graph)"], errors="coerce")
-            > pd.to_numeric(df_air["Threshold.3"], errors="coerce")
-        ]
-        if len(alert_rows) > 0:
-            alert_rows.to_csv(f"data/alert_{today}.csv", index=False)
-            print(f"🚨 {len(alert_rows)} stesen melebihi paras bahaya!")
-        else:
-            print("✅ Tiada stesen melebihi paras bahaya")
-    except Exception as e:
-        print(f"⚠️ Error check alert: {e}")
-else:
-    print("⚠️ Tiada data Paras Air")
+        r = requests.get(url, timeout=20, verify=False)
+        text = r.text
 
-print("🎉 Semua data berjaya diproses & disimpan dalam folder /data/")
+        # Cuba JSON dulu
+        try:
+            j = r.json()
+            data = j.get("data", [])
+            print(f"✅ JSON ({len(data)} rekod)")
+            return data
+        except Exception:
+            parsed = parse_html_table(text, state)
+            print(f"✅ HTML ({len(parsed)} rekod)")
+            return parsed
+
+    except Exception as e:
+        print(f"❌ Error: {e}")
+        return []
+
+
+def main():
+    os.makedirs("data", exist_ok=True)
+    all_data = {}
+
+    for state, url in URLS.items():
+        data = fetch_state(state, url)
+        all_data[state] = data
+
+        out_file = os.path.join("data", f"{state}.json")
+        with open(out_file, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+
+    # Simpan gabungan semua
+    with open("data/all_states.json", "w", encoding="utf-8") as f:
+        json.dump(all_data, f, ensure_ascii=False, indent=2)
+
+    print("🎉 Semua negeri siap! Data disimpan dalam folder /data/")
+
+
+if __name__ == "__main__":
+    main()
