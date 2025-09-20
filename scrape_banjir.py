@@ -3,7 +3,7 @@
 """
 Scraper paras air Malaysia (JPS)
 - Support JSON + HTML table
-- Bypass legacy SSL renegotiation (fix untuk GitHub Actions)
+- Bypass legacy SSL renegotiation (fix untuk GitHub Actions / server baru)
 - Simpan semua dalam data/{state}.json
 """
 
@@ -29,10 +29,13 @@ class SSLAdapter(HTTPAdapter):
         ctx = ssl_.create_urllib3_context()
         if self.ssl_options:
             ctx.options |= self.ssl_options
+        # disable hostname check bila kita skip verify
+        ctx.check_hostname = False
+        ctx.verify_mode = ssl.CERT_NONE
         kwargs["ssl_context"] = ctx
         return super().init_poolmanager(*args, **kwargs)
 
-# Session with legacy SSL enabled if available
+# Session dengan legacy SSL
 session = requests.Session()
 session.mount("https://", SSLAdapter(LEGACY_CONNECT))
 
@@ -91,7 +94,7 @@ def parse_html_table(html: str, state: str):
 def fetch_state(state: str, url: str):
     print(f"📡 Fetch {state} ...", end=" ")
     try:
-        r = session.get(url, timeout=30, verify=False)
+        r = session.get(url, timeout=30)  # tak perlu verify=False lagi
         text = r.text
 
         # Cuba JSON dulu
