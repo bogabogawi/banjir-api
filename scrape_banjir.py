@@ -3,15 +3,39 @@
 """
 Scraper paras air Malaysia (JPS)
 - Support JSON + HTML table
+- Bypass legacy SSL renegotiation (untuk GitHub Actions / OpenSSL baru)
 - Simpan semua dalam data/{state}.json
 """
 
 import os
 import json
+import ssl
 import requests
 from bs4 import BeautifulSoup
+from requests.adapters import HTTPAdapter
+from urllib3.util import ssl_
 
+# =========================
+# SSL Adapter Fix
+# =========================
+class SSLAdapter(HTTPAdapter):
+    def __init__(self, ssl_options=0, **kwargs):
+        self.ssl_options = ssl_options
+        super().__init__(**kwargs)
+
+    def init_poolmanager(self, *args, **kwargs):
+        ctx = ssl_.create_urllib3_context()
+        ctx.options |= self.ssl_options
+        kwargs["ssl_context"] = ctx
+        return super().init_poolmanager(*args, **kwargs)
+
+# Session with legacy SSL enabled
+session = requests.Session()
+session.mount("https://", SSLAdapter(ssl.OP_LEGACY_SERVER_CONNECT))
+
+# =========================
 # Senarai negeri & URL
+# =========================
 URLS = {
     "PLS": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air/aras-air-data/?state=PLS&district=ALL&station=ALL&lang=en",
     "KDH": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air/aras-air-data/?state=KDH&district=ALL&station=ALL&lang=en",
@@ -29,9 +53,10 @@ URLS = {
     "LBN": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air-data/?state=LBN&district=ALL&station=ALL&lang=en",
 }
 
-
+# =========================
+# Parser HTML table
+# =========================
 def parse_html_table(html: str, state: str):
-    """Parse HTML table → list of dict"""
     soup = BeautifulSoup(html, "html.parser")
     rows = soup.find_all("tr")
     data = []
@@ -57,12 +82,13 @@ def parse_html_table(html: str, state: str):
             })
     return data
 
-
+# =========================
+# Fetch satu negeri
+# =========================
 def fetch_state(state: str, url: str):
-    """Fetch satu negeri, detect JSON / HTML"""
     print(f"📡 Fetch {state} ...", end=" ")
     try:
-        r = requests.get(url, timeout=20, verify=False)
+        r = session.get(url, timeout=30, verify=False)
         text = r.text
 
         # Cuba JSON dulu
@@ -80,7 +106,9 @@ def fetch_state(state: str, url: str):
         print(f"❌ Error: {e}")
         return []
 
-
+# =========================
+# Main
+# =========================
 def main():
     os.makedirs("data", exist_ok=True)
     all_data = {}
