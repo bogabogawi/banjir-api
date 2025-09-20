@@ -1,12 +1,9 @@
 # scrape_banjir.py
 import pandas as pd
-import requests
 import datetime
 import time
-import urllib3
-
-# Matikan warning SSL Insecure
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+import httpx
+import subprocess
 
 today = datetime.datetime.now().strftime("%Y%m%d")
 
@@ -28,11 +25,33 @@ paras_air_urls = {
     "Wilayah Persekutuan Labuan": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air/aras-air-data/?state=WLP&district=ALL&station=ALL&lang=en",
 }
 
+def fetch_html(url):
+    """Cuba fetch dengan httpx dulu, fallback ke curl kalau gagal"""
+    try:
+        with httpx.Client(verify=False, timeout=30) as client:
+            r = client.get(url)
+            r.raise_for_status()
+            return r.text
+    except Exception as e:
+        print(f"⚠️ httpx gagal: {e}, fallback curl...")
+        try:
+            result = subprocess.run(
+                ["curl", "-k", "-s", url],
+                capture_output=True, text=True, check=True
+            )
+            return result.stdout
+        except Exception as e2:
+            print(f"❌ curl pun gagal: {e2}")
+            return None
+
 def scrape_table(state, url, max_retries=3):
     for attempt in range(1, max_retries+1):
         try:
-            r = requests.get(url, timeout=30, verify=False)  # bypass SSL verify
-            dfs = pd.read_html(r.text)
+            html = fetch_html(url)
+            if not html:
+                raise Exception("Tiada respon HTML")
+
+            dfs = pd.read_html(html)
             if not dfs:
                 raise Exception("Tiada jadual ditemui")
 
