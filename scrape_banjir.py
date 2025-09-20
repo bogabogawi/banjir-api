@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Parser untuk fail HTML (download via curl) → JSON
+Parser untuk fail HTML (download via wget) → JSON
 """
 
 import os
