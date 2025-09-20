@@ -1,25 +1,21 @@
 # scrape_banjir.py
 import pandas as pd
-import datetime
 import requests
-import urllib3
 import ssl
+import datetime
+import time
 from requests.adapters import HTTPAdapter
-from requests.packages.urllib3.poolmanager import PoolManager
+from urllib3.poolmanager import PoolManager
 
-# Disable SSL warning
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-
-# Custom adapter untuk legacy SSL
+# =======================
+# Custom SSL Adapter
+# =======================
 class SSLAdapter(HTTPAdapter):
     def init_poolmanager(self, *args, **kwargs):
         ctx = ssl.create_default_context()
-        ctx.options |= ssl.OP_LEGACY_SERVER_CONNECT  # allow legacy renegotiation
-        kwargs["ssl_context"] = ctx
+        ctx.options |= ssl.OP_LEGACY_SERVER_CONNECT   # allow legacy renegotiation
+        kwargs['ssl_context'] = ctx
         return super().init_poolmanager(*args, **kwargs)
-
-session = requests.Session()
-session.mount("https://", SSLAdapter())
 
 # =======================
 # Config
@@ -47,38 +43,47 @@ paras_air_urls = {
 # =======================
 # Scraper function
 # =======================
+session = requests.Session()
+session.mount("https://", SSLAdapter())
+
 def scrape_table(state, url, max_retries=3):
-    for attempt in range(1, max_retries + 1):
+    for attempt in range(1, max_retries+1):
         try:
-            r = session.get(url, timeout=30, verify=False)
+            r = session.get(url, timeout=30)
             r.raise_for_status()
+
             dfs = pd.read_html(r.text)
-            if len(dfs) == 0 or dfs[0].empty:
-                raise Exception("Tiada table")
+            if len(dfs) == 0:
+                raise Exception("Tiada jadual ditemui")
+
             df = dfs[0]
             df["state"] = state
             print(f"[OK] {state} ({len(df)} rows)")
             return df
         except Exception as e:
             print(f"[Retry {attempt}] {state} gagal | {e}")
+            time.sleep(3)
     print(f"[X] {state} | Gagal selepas {max_retries} cubaan")
     return pd.DataFrame()
 
 # =======================
 # Main process
 # =======================
-paras_air_data = []
+all_data = []
 for state, url in paras_air_urls.items():
     df = scrape_table(state, url)
     if not df.empty:
-        paras_air_data.append(df)
+        all_data.append(df)
 
-if paras_air_data:
-    df_air = pd.concat(paras_air_data, ignore_index=True)
+if all_data:
+    df_air = pd.concat(all_data, ignore_index=True)
     df_air.to_csv("data/paras_air.csv", index=False)
     df_air.to_csv(f"data/paras_air_{today}.csv", index=False)
     print("✅ Paras Air saved")
 
+    # =======================
+    # Alert check
+    # =======================
     try:
         alert_rows = df_air[
             pd.to_numeric(df_air["Water Level (m) (Graph)"], errors="coerce")
@@ -86,9 +91,9 @@ if paras_air_data:
         ]
         if len(alert_rows) > 0:
             alert_rows.to_csv(f"data/alert_{today}.csv", index=False)
-            print(f"🚨 {len(alert_rows)} stesen melebihi paras bahaya.")
+            print(f"🚨 {len(alert_rows)} stesen melebihi paras bahaya!")
         else:
-            print("☑️ Tiada stesen melebihi paras bahaya")
+            print("✅ Tiada stesen melebihi paras bahaya")
     except Exception as e:
         print(f"⚠️ Error check alert: {e}")
 
