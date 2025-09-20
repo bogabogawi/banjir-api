@@ -3,7 +3,7 @@
 """
 Scraper paras air Malaysia (JPS)
 - Support JSON + HTML table
-- Bypass legacy SSL renegotiation (untuk GitHub Actions / OpenSSL baru)
+- Bypass legacy SSL renegotiation (fix untuk GitHub Actions)
 - Simpan semua dalam data/{state}.json
 """
 
@@ -18,6 +18,8 @@ from urllib3.util import ssl_
 # =========================
 # SSL Adapter Fix
 # =========================
+LEGACY_CONNECT = getattr(ssl, "OP_LEGACY_SERVER_CONNECT", 0)
+
 class SSLAdapter(HTTPAdapter):
     def __init__(self, ssl_options=0, **kwargs):
         self.ssl_options = ssl_options
@@ -25,13 +27,14 @@ class SSLAdapter(HTTPAdapter):
 
     def init_poolmanager(self, *args, **kwargs):
         ctx = ssl_.create_urllib3_context()
-        ctx.options |= self.ssl_options
+        if self.ssl_options:
+            ctx.options |= self.ssl_options
         kwargs["ssl_context"] = ctx
         return super().init_poolmanager(*args, **kwargs)
 
-# Session with legacy SSL enabled
+# Session with legacy SSL enabled if available
 session = requests.Session()
-session.mount("https://", SSLAdapter(ssl.OP_LEGACY_SERVER_CONNECT))
+session.mount("https://", SSLAdapter(LEGACY_CONNECT))
 
 # =========================
 # Senarai negeri & URL
