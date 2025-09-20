@@ -3,6 +3,15 @@ import pandas as pd
 import datetime
 import requests
 import time
+import ssl
+import urllib3
+
+# =======================
+# SSL Fix
+# =======================
+urllib3.disable_warnings()
+urllib3.util.ssl_.DEFAULT_CIPHERS += 'HIGH:!DH:!aNULL'
+ssl._create_default_https_context = ssl._create_unverified_context
 
 # =======================
 # Config
@@ -34,7 +43,7 @@ paras_air_urls = {
 def scrape_table(state, url, max_retries=3):
     for attempt in range(1, max_retries + 1):
         try:
-            r = requests.get(url, timeout=30, verify=False)  # bypass SSL verify
+            r = requests.get(url, timeout=30, verify=False)  # SSL fix apply
             r.raise_for_status()
             dfs = pd.read_html(r.text)
             if not dfs:
