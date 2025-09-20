@@ -2,13 +2,13 @@
 import pandas as pd
 import datetime
 import requests
+import time
 
 # =======================
 # Config
 # =======================
 today = datetime.datetime.now().strftime("%Y%m%d")
 
-# Semua negeri
 paras_air_urls = {
     "Perlis": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air/aras-air-data/?state=PLS&district=ALL&station=ALL&lang=en",
     "Kedah": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air/aras-air-data/?state=KDH&district=ALL&station=ALL&lang=en",
@@ -31,22 +31,23 @@ paras_air_urls = {
 # =======================
 # Scraper function
 # =======================
-def scrape_table(state, url):
-    try:
-        r = requests.get(url, timeout=30)
-        r.raise_for_status()
-        dfs = pd.read_html(r.text)
-        if len(dfs) == 0:
-            print(f"[X] {state} | Tiada table")
-            return pd.DataFrame()
-
-        df = dfs[0]
-        df["state"] = state
-        print(f"[OK] {state} ({len(df)} rows)")
-        return df
-    except Exception as e:
-        print(f"[X] {state} | Error: {e}")
-        return pd.DataFrame()
+def scrape_table(state, url, max_retries=3):
+    for attempt in range(1, max_retries + 1):
+        try:
+            r = requests.get(url, timeout=30, verify=False)  # bypass SSL verify
+            r.raise_for_status()
+            dfs = pd.read_html(r.text)
+            if not dfs:
+                raise Exception("Tiada table")
+            df = dfs[0]
+            df["state"] = state
+            print(f"[OK] {state} ({len(df)} rows)")
+            return df
+        except Exception as e:
+            print(f"[Retry {attempt}] {state} gagal | {e}")
+            time.sleep(5)
+    print(f"[X] {state} | Gagal selepas {max_retries} cubaan")
+    return pd.DataFrame()
 
 # =======================
 # Main process
@@ -59,9 +60,28 @@ for state, url in paras_air_urls.items():
 
 if all_data:
     df_all = pd.concat(all_data, ignore_index=True)
+
+    # ============ ALERT CHECK ============
+    alert_rows = []
+    if "Water Level (m) (Graph)" in df_all.columns and "Danger" in df_all.columns:
+        try:
+            df_all["Water Level (m) (Graph)"] = pd.to_numeric(df_all["Water Level (m) (Graph)"], errors="coerce")
+            df_all["Danger"] = pd.to_numeric(df_all["Danger"], errors="coerce")
+            alert_rows = df_all[df_all["Water Level (m) (Graph)"] > df_all["Danger"]]
+        except Exception as e:
+            print("⚠️ Error semasa kira alert:", e)
+
+    # Simpan data
     df_all.to_csv("data/paras_air.csv", index=False)
     df_all.to_csv(f"data/paras_air_{today}.csv", index=False)
     print("✅ Paras Air saved")
+
+    # Papar alert
+    if len(alert_rows) > 0:
+        print("🚨 ALERT! Stesen melebihi paras bahaya:")
+        print(alert_rows[["Station ID", "Station Name", "state", "Water Level (m) (Graph)", "Danger"]])
+    else:
+        print("✅ Tiada stesen melebihi paras bahaya")
 else:
     print("⚠️ Tiada data Paras Air")
 
