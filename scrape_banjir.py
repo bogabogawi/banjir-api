@@ -1,10 +1,12 @@
 # scrape_banjir.py
 import pandas as pd
 import datetime
-import time
-import httpx
 import subprocess
+import os
 
+# =======================
+# Config
+# =======================
 today = datetime.datetime.now().strftime("%Y%m%d")
 
 paras_air_urls = {
@@ -25,60 +27,50 @@ paras_air_urls = {
     "Wilayah Persekutuan Labuan": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air/aras-air-data/?state=WLP&district=ALL&station=ALL&lang=en",
 }
 
-def fetch_html(url):
-    """Cuba fetch dengan httpx dulu, fallback ke curl kalau gagal"""
-    try:
-        with httpx.Client(verify=False, timeout=30) as client:
-            r = client.get(url)
-            r.raise_for_status()
-            return r.text
-    except Exception as e:
-        print(f"⚠️ httpx gagal: {e}, fallback curl...")
-        try:
-            result = subprocess.run(
-                ["curl", "-k", "-s", url],
-                capture_output=True, text=True, check=True
-            )
-            return result.stdout
-        except Exception as e2:
-            print(f"❌ curl pun gagal: {e2}")
-            return None
+# pastikan folder data wujud
+os.makedirs("data", exist_ok=True)
 
-def scrape_table(state, url, max_retries=3):
-    for attempt in range(1, max_retries+1):
+# =======================
+# Scraper
+# =======================
+def scrape_table(state, url, retries=3):
+    for attempt in range(1, retries + 1):
         try:
-            html = fetch_html(url)
-            if not html:
-                raise Exception("Tiada respon HTML")
+            tmpfile = f"data/tmp_{state}.html"
+            cmd = ["wget", "--no-check-certificate", "-q", "-O", tmpfile, url]
+            result = subprocess.run(cmd, capture_output=True)
 
-            dfs = pd.read_html(html)
+            if result.returncode != 0:
+                raise Exception(f"wget gagal (exit {result.returncode})")
+
+            # baca HTML ke DataFrame
+            dfs = pd.read_html(tmpfile)
             if not dfs:
-                raise Exception("Tiada jadual ditemui")
-
+                raise Exception("Tiada table dalam HTML")
             df = dfs[0]
             df["state"] = state
             print(f"[OK] {state} ({len(df)} rows)")
             return df
         except Exception as e:
             print(f"[Retry {attempt}] {state} gagal | {e}")
-            time.sleep(3)
-    print(f"[X] {state} | Gagal selepas {max_retries} cubaan")
+    print(f"[X] {state} | Gagal selepas {retries} cubaan")
     return pd.DataFrame()
 
+# =======================
 # Main
-all_data = []
+# =======================
+paras_air_data = []
 for state, url in paras_air_urls.items():
     df = scrape_table(state, url)
     if not df.empty:
-        all_data.append(df)
+        paras_air_data.append(df)
 
-if all_data:
-    df_air = pd.concat(all_data, ignore_index=True)
+if paras_air_data:
+    df_air = pd.concat(paras_air_data, ignore_index=True)
     df_air.to_csv("data/paras_air.csv", index=False)
     df_air.to_csv(f"data/paras_air_{today}.csv", index=False)
-    print("✅ Paras Air saved")
 
-    # Check Alert
+    # buat alert check
     try:
         alert_rows = df_air[
             pd.to_numeric(df_air["Water Level (m) (Graph)"], errors="coerce")
