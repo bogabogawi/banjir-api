@@ -3,10 +3,11 @@ import pandas as pd
 import requests
 import datetime
 import time
+import urllib3
 
-# =======================
-# Config
-# =======================
+# Matikan warning SSL Insecure
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
 today = datetime.datetime.now().strftime("%Y%m%d")
 
 paras_air_urls = {
@@ -27,17 +28,12 @@ paras_air_urls = {
     "Wilayah Persekutuan Labuan": "https://publicinfobanjir.water.gov.my/aras-air/data-paras-air/aras-air-data/?state=WLP&district=ALL&station=ALL&lang=en",
 }
 
-# =======================
-# Scraper function
-# =======================
 def scrape_table(state, url, max_retries=3):
     for attempt in range(1, max_retries+1):
         try:
-            r = requests.get(url, timeout=30, verify=False)  # disable SSL verify
-            r.raise_for_status()
-
+            r = requests.get(url, timeout=30, verify=False)  # bypass SSL verify
             dfs = pd.read_html(r.text)
-            if len(dfs) == 0:
+            if not dfs:
                 raise Exception("Tiada jadual ditemui")
 
             df = dfs[0]
@@ -50,9 +46,7 @@ def scrape_table(state, url, max_retries=3):
     print(f"[X] {state} | Gagal selepas {max_retries} cubaan")
     return pd.DataFrame()
 
-# =======================
-# Main process
-# =======================
+# Main
 all_data = []
 for state, url in paras_air_urls.items():
     df = scrape_table(state, url)
@@ -65,9 +59,7 @@ if all_data:
     df_air.to_csv(f"data/paras_air_{today}.csv", index=False)
     print("✅ Paras Air saved")
 
-    # =======================
-    # Alert check
-    # =======================
+    # Check Alert
     try:
         alert_rows = df_air[
             pd.to_numeric(df_air["Water Level (m) (Graph)"], errors="coerce")
@@ -80,7 +72,6 @@ if all_data:
             print("✅ Tiada stesen melebihi paras bahaya")
     except Exception as e:
         print(f"⚠️ Error check alert: {e}")
-
 else:
     print("⚠️ Tiada data Paras Air")
 
