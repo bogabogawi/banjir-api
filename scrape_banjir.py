@@ -4,18 +4,19 @@ import datetime
 import requests
 import time
 import ssl
-import urllib3
 
 # =======================
-# SSL Fix
+# Custom SSL context
 # =======================
-urllib3.disable_warnings()
-urllib3.util.ssl_.DEFAULT_CIPHERS += 'HIGH:!DH:!aNULL'
-ssl._create_default_https_context = ssl._create_unverified_context
+ssl_context = ssl.create_default_context()
+ssl_context.check_hostname = False
+ssl_context.verify_mode = ssl.CERT_NONE
+# 👇 benarkan legacy renegotiation
+try:
+    ssl_context.options |= 0x4  # SSL_OP_LEGACY_SERVER_CONNECT
+except Exception:
+    pass
 
-# =======================
-# Config
-# =======================
 today = datetime.datetime.now().strftime("%Y%m%d")
 
 paras_air_urls = {
@@ -43,7 +44,7 @@ paras_air_urls = {
 def scrape_table(state, url, max_retries=3):
     for attempt in range(1, max_retries + 1):
         try:
-            r = requests.get(url, timeout=30, verify=False)  # SSL fix apply
+            r = requests.get(url, timeout=30, verify=False)  # skip verify
             r.raise_for_status()
             dfs = pd.read_html(r.text)
             if not dfs:
@@ -89,6 +90,8 @@ if all_data:
     if len(alert_rows) > 0:
         print("🚨 ALERT! Stesen melebihi paras bahaya:")
         print(alert_rows[["Station ID", "Station Name", "state", "Water Level (m) (Graph)", "Danger"]])
+        # Simpan alert
+        alert_rows.to_csv(f"data/alert_{today}.csv", index=False)
     else:
         print("✅ Tiada stesen melebihi paras bahaya")
 else:
