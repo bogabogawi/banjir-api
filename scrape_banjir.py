@@ -1,21 +1,8 @@
 # scrape_banjir.py
 import pandas as pd
 import requests
-import ssl
 import datetime
 import time
-from requests.adapters import HTTPAdapter
-from urllib3.poolmanager import PoolManager
-
-# =======================
-# Custom SSL Adapter
-# =======================
-class SSLAdapter(HTTPAdapter):
-    def init_poolmanager(self, *args, **kwargs):
-        ctx = ssl.create_default_context()
-        ctx.options |= ssl.OP_LEGACY_SERVER_CONNECT   # allow legacy renegotiation
-        kwargs['ssl_context'] = ctx
-        return super().init_poolmanager(*args, **kwargs)
 
 # =======================
 # Config
@@ -43,13 +30,10 @@ paras_air_urls = {
 # =======================
 # Scraper function
 # =======================
-session = requests.Session()
-session.mount("https://", SSLAdapter())
-
 def scrape_table(state, url, max_retries=3):
     for attempt in range(1, max_retries+1):
         try:
-            r = session.get(url, timeout=30)
+            r = requests.get(url, timeout=30, verify=False)  # disable SSL verify
             r.raise_for_status()
 
             dfs = pd.read_html(r.text)
